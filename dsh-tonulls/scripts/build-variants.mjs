@@ -119,7 +119,7 @@ async function hideBundledSkillsFromUser(directory) {
   }
 }
 
-async function adaptComponent(component, vendorRoot) {
+async function adaptComponent(component, vendorRoot, locale) {
   const base = path.join(vendorRoot, component.key)
   const entry = path.join(base, component.entry)
   const providerPath = (subpath) => path.join(base, subpath)
@@ -173,6 +173,27 @@ async function adaptComponent(component, vendorRoot) {
     ), 'ECC internal command routing')
   }
 
+  if (component.key === 'emilKowalskiSkills') {
+    const descriptions = {
+      ru: 'Только по явной просьбе запомнить правки по дизайну как правила проекта. Предложи правила и дождись подтверждения перед записью.',
+      en: 'Use only when the user explicitly asks to save design corrections as project rules. Propose rules and wait for approval before writing.',
+      zh: '仅在用户明确要求将设计修改保存为项目规则时使用。先提出规则，获得用户确认后再写入。',
+    }
+    const description = descriptions[locale]
+    await replaceProvider('src/provider.js', (source) => source
+      .replace("const invocationFor = (entry) => ({ modelInvocable: options.modelInvocable === true && entry.name !== 'learn-taste', userInvocable: true })",
+        'const invocation = { modelInvocable: options.modelInvocable === true, userInvocable: true }')
+      .replaceAll('invocation: invocationFor(entry)', 'invocation')
+      .replace('stripFrontmatter(source, entry.file),',
+        `(entry.name === 'learn-taste' ? ${JSON.stringify(description + '\n\n')} : '') + stripFrontmatter(source, entry.file),`), 'learn-taste model selection')
+    const catalogPath = path.join(base, 'assets/skills/catalog.json')
+    const catalog = JSON.parse(await readFile(catalogPath, 'utf8'))
+    const skill = catalog.entries.find(({ name }) => name === 'learn-taste')
+    if (!skill) throw new Error(`Missing learn-taste entry: ${catalogPath}`)
+    skill.description = description
+    await writeFile(catalogPath, JSON.stringify(catalog, null, 2) + '\n')
+  }
+
   if (component.key === 'impeccable') {
     await replaceProvider('index.js', (source) => source.replaceAll('invocation: { modelInvocable: true, userInvocable: true }', 'invocation: { modelInvocable: true, userInvocable: false }'), 'Impeccable direct invocation')
     return
@@ -196,7 +217,7 @@ for (const variant of variants) {
 
   for (const component of componentSources) {
     await copySourcePackage(variant, component, vendorRoot)
-    await adaptComponent(component, vendorRoot)
+    await adaptComponent(component, vendorRoot, variant.locale)
     await hideBundledSkillsFromUser(path.join(vendorRoot, component.key))
   }
   for (const [sourceFile, targetFile] of [
@@ -211,7 +232,7 @@ for (const variant of variants) {
     await cp(source, destination, { recursive: true, force: true })
   }
 
-  const manifest = { ...template, name, version: '0.1.0', description: variant.description }
+  const manifest = { ...template, name, description: variant.description }
   await writeFile(path.join(target, 'package.json'), `${JSON.stringify(manifest, null, 2)}\n`)
 
   const patch = (await readFile(path.join(root, 'cordis.patch.yml'), 'utf8')).replaceAll('dsh-tonulls-ru', name)

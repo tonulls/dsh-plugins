@@ -39,12 +39,12 @@ function resourceBase(entry) {
 }
 
 export function createEmilSkillsProvider(options = {}) {
-  const invocationFor = (entry) => ({ modelInvocable: options.modelInvocable === true && entry.name !== 'learn-taste', userInvocable: false })
+  const invocation = { modelInvocable: options.modelInvocable === true, userInvocable: false }
   return {
     name: PROVIDER_NAME,
     async list({ signal } = {}) {
       return (await readCatalog(signal)).map((entry) => ({
-        name: entry.name, description: entry.description, invocation: invocationFor(entry),
+        name: entry.name, description: entry.description, invocation,
         provider: PROVIDER_NAME, source: 'bundled', resourceBase: resourceBase(entry), rank: 600, locator: entry.file,
       }))
     },
@@ -55,9 +55,9 @@ export function createEmilSkillsProvider(options = {}) {
       if (!entry) return undefined
       const source = await readFile(new URL(entry.file, ASSET_BASE_URL), { encoding: 'utf8', signal })
       return {
-        name: entry.name, description: entry.description, invocation: invocationFor(entry),
+        name: entry.name, description: entry.description, invocation,
         provider: PROVIDER_NAME, source: 'bundled', resourceBase: resourceBase(entry),
-        content: DSH_NOTES + '\n\n' + stripFrontmatter(source, entry.file),
+        content: DSH_NOTES + '\n\n' + (entry.name === 'learn-taste' ? "仅在用户明确要求将设计修改保存为项目规则时使用。先提出规则，获得用户确认后再写入。\n\n" : '') + stripFrontmatter(source, entry.file),
       }
     },
   }

@@ -93,7 +93,7 @@
     },
     {
       "name": "learn-taste",
-      "description": "将用户确认的反馈整理为设计规则。",
+      "description": "仅在用户明确要求将设计修改保存为项目规则时使用。先提出规则，获得用户确认后再写入。",
       "file": "learn-taste/SKILL.md",
       "resourceDir": "learn-taste/"
     }

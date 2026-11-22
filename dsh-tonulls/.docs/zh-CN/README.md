@@ -33,6 +33,8 @@ dsh plugin --profile web list
 
 `on` 开启技能自动选择，`off` 关闭。系统会根据当前 Agent 的任务自动选择技能。斜杠命令菜单中只显示此技能包的 `/dsh-tonulls` 命令。
 
+如需将设计修改保存为项目规则，请明确提出请求。开启自动选择后，Agent 可以选用 `learn-taste`，先提出规则，再等待确认后写入。
+
 ## 更新
 
 ```sh

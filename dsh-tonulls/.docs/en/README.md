@@ -33,6 +33,8 @@ dsh plugin --profile web list
 
 `on` enables automatic skill selection and `off` disables it. Skills are selected based on the current Agent’s task. The only bundle command in the slash menu is `/dsh-tonulls`.
 
+To save design corrections as project rules, ask explicitly. With automatic selection enabled, the Agent can select `learn-taste`, propose rules, and wait for approval before writing.
+
 ## Update
 
 ```sh

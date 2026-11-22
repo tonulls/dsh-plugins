@@ -93,7 +93,7 @@
     },
     {
       "name": "learn-taste",
-      "description": "Turns confirmed user feedback into design rules.",
+      "description": "Use only when the user explicitly asks to save design corrections as project rules. Propose rules and wait for approval before writing.",
       "file": "learn-taste/SKILL.md",
       "resourceDir": "learn-taste/"
     }

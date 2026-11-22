@@ -285,6 +285,22 @@ test('generated locales suppress direct ECC component text shortcuts', async () 
   }
 })
 
+test('bundled learn-taste is selectable only with automatic selection enabled', async () => {
+  for (const name of packageNames) {
+    const file = path.join(root, 'packages', name, 'vendor/emilKowalskiSkills/src/provider.js')
+    const { createEmilSkillsProvider } = await import(pathToFileURL(file))
+    for (const modelInvocable of [false, true]) {
+      const provider = createEmilSkillsProvider({ modelInvocable })
+      const skill = (await provider.list()).find(({ name }) => name === 'learn-taste')
+      assert.ok(skill, name)
+      assert.deepEqual(skill.invocation, { modelInvocable, userInvocable: false }, name)
+      const loaded = await provider.get(skill)
+      assert.deepEqual(loaded.invocation, skill.invocation, name)
+      assert.ok(loaded.content.includes(skill.description), name)
+    }
+  }
+})
+
 test('each generated locale contains all configured components and valid package links', async () => {
   const collectionRoot = path.resolve(root, '..')
   for (const name of packageNames) {
