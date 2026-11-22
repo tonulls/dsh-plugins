@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "867085ccdf4adb7166bdac207b82f117bb418eb0",
+  "entries": [
+    {
+      "name": "public-api-selection",
+      "description": "Помогает проверять конкретные API, их условия, стоимость, приватность и доступность.",
+      "file": "public-api-selection.md"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pluginName": "caveman-tonulls",
+  "upstreamName": "Caveman",
+  "upstreamUrl": "https://github.com/JuliusBrussee/caveman",
+  "upstreamCommit": "a192894723a8f47e7f504c7b5041967ff1f18e55",
+  "sourceLicense": "Apache-2.0",
+  "sourceCopyright": "Copyright 2026 Julius Brussee; historical contributions credited in upstream NOTICE and LICENSE-MIT.",
+  "titles": {
+    "ru": "Caveman — краткий стиль для DSH",
+    "en": "Caveman voice for DSH",
+    "zh-CN": "DSH 简洁表达风格"
+  },
+  "descriptions": {
+    "ru": "Сокращает лишние слова, сохраняя технические факты и точность.",
+    "en": "Removes fluff while preserving technical facts and precision.",
+    "zh-CN": "删去冗余表达，同时保留技术事实和准确性。"
+  }
+}

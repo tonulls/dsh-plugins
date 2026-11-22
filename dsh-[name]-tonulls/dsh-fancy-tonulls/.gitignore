@@ -1,0 +1,7 @@
+node_modules/
+AGENTS.md
+*.tgz
+npm-debug.log*
+.env
+.env.*
+!.env.example

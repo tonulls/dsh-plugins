@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "94e4be4102452119008fe47199f3cb915abe0c50",
+  "entries": [
+    {
+      "name": "build-your-own-x",
+      "description": "When explicitly invoked, selects a current GitHub tutorial for a from-scratch learning project and checks its constraints.",
+      "file": "build-your-own-x.md"
+    }
+  ]
+}

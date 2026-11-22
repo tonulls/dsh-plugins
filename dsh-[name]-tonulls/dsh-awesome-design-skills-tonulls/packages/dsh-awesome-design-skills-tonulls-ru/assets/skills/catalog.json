@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "f631a09b4fcc0166f2e2c1a8c81906ef680c57e8",
+  "entries": [
+    {
+      "name": "awesome-design-skills",
+      "description": "Находит и безопасно оценивает инструкции по дизайну из GitHub-каталога по явному запросу пользователя.",
+      "file": "awesome-design-skills.md"
+    }
+  ]
+}

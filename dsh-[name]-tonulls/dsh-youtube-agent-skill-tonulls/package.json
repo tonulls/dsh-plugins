@@ -1,0 +1,9 @@
+{
+  "name": "dsh-youtube-agent-skill-tonulls-workspace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:variants": "node scripts/build-variants.mjs",
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "upstream": "https://github.com/Leonxlnx/taste-skill",
+  "revision": "12af471f627f866411b4bd785b19646d3672784c",
+  "reviewedHead": "f6b76575f949707b4e3c37cd86cb44b0b98643e8",
+  "entries": [
+    {
+      "name": "design-taste-frontend",
+      "description": "Apply researched art direction and a rigorous visual-quality workflow when building, redesigning, polishing or reviewing websites and app screens. Includes direction-drawing, references, and optional browser-based inspection scripts.",
+      "file": "skills/design-taste-frontend/SKILL.md"
+    }
+  ]
+}

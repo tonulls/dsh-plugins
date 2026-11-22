@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Проверка Motion for React",
+    "description": "Помогает проверить Motion API, совместимость, reduced motion и SSR."
+  }
+}

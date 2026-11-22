@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "5e6c35ff8eedea12d4f229129def635277d8b0f2",
+  "entries": [
+    {
+      "name": "gsap-integration-review",
+      "description": "评估 GSAP，并检查许可证、无障碍和生命周期。",
+      "file": "gsap-integration-review.md"
+    }
+  ]
+}

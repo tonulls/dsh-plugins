@@ -1,0 +1,3 @@
+- insert:
+    - id: ecc-commands
+      name: dsh-ecc-commands

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "786ed4a9225476e834825c4cc81aab41aca6df84",
+  "entries": [
+    {
+      "name": "lenis-integration",
+      "description": "По явному запросу помогает безопасно спланировать или проверить интеграцию Lenis.",
+      "file": "lenis-integration.md"
+    }
+  ]
+}

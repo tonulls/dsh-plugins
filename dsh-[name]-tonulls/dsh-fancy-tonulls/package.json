@@ -1,0 +1,7 @@
+{
+  "name": "dsh-fancy-tonulls-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": { "test": "node --test", "check:variants": "node scripts/check-variants.mjs" }
+}

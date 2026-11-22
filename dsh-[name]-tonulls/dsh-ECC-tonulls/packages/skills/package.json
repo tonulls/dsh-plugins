@@ -1,0 +1,32 @@
+{
+  "name": "dsh-ecc-skills",
+  "description": "Явно вызываемые адаптированные ECC Skills для DeepSeek Harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./provider": "./src/provider.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "README.md",
+    "src/*.js",
+    "assets/catalog.json",
+    "assets/locales",
+    "assets/skills",
+    "cordis.patch.yml",
+    "LICENSES.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-skill": "*"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Vanta integration review",
+    "description": "Checks Vanta freshness, WebGL, fallback, motion, and performance."
+  }
+}

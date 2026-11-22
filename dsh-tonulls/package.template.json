@@ -1,0 +1,37 @@
+{
+  "name": "dsh-tonulls-ru",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unified toggle for DSH plugins for the current Agent",
+  "license": "SEE LICENSE IN LICENSES.md",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "LICENSES.md",
+    "NOTICE.md",
+    "src/*.js",
+    "vendor/**",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-agent": "*",
+    "@deepseek-ai/dsh-commands": "*",
+    "@deepseek-ai/dsh-skill": "*"
+  }
+}

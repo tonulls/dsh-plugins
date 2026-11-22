@@ -1,0 +1,12 @@
+{
+  "name": "dsh-emil-kowalski-skills-tonulls-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:variants": "node scripts/build-variants.mjs",
+    "test": "node --test"
+  }
+}

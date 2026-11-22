@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "yt-plan",
+      "description": "Plans a realistic upload week or month around available time and existing material.",
+      "file": "yt-plan.md"
+    },
+    {
+      "name": "yt-comment",
+      "description": "Triage user-provided comments and draft replies.",
+      "file": "yt-comment.md"
+    },
+    {
+      "name": "yt-shorts",
+      "description": "Finds self-contained Shorts candidates in a user-provided transcript.",
+      "file": "yt-shorts.md"
+    },
+    {
+      "name": "yt-seo",
+      "description": "Drafts descriptions and tags from user-provided topics and queries.",
+      "file": "yt-seo.md"
+    },
+    {
+      "name": "yt-audit",
+      "description": "Identify one priority improvement from channel data supplied by the user.",
+      "file": "yt-audit.md"
+    },
+    {
+      "name": "yt-script",
+      "description": "Drafts a YouTube script with multiple opening options, without automated scoring.",
+      "file": "yt-script.md"
+    },
+    {
+      "name": "yt-package",
+      "description": "Pair title and thumbnail options using qualitative review, without automated scores.",
+      "file": "yt-package.md"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Fancy component reference">
+  <rect width="64" height="64" rx="14" fill="#241d33"/>
+  <path d="M32 10 37 24 52 20 43 32 54 42 39 40 32 55 25 40 10 42 21 32 12 20 27 24z" fill="#f0a8ff"/>
+  <circle cx="32" cy="32" r="5" fill="#fff4ff"/>
+</svg>

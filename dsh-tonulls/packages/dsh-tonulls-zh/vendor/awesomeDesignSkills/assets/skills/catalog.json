@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "f631a09b4fcc0166f2e2c1a8c81906ef680c57e8",
+  "entries": [
+    {
+      "name": "awesome-design-skills",
+      "description": "仅在用户明确请求时，查找并安全评估 GitHub 目录链接的设计指令。",
+      "file": "awesome-design-skills.md"
+    }
+  ]
+}

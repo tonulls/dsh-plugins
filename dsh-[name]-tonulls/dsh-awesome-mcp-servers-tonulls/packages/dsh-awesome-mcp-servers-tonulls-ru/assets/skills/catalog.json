@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "5fb385c3c56a004eacad6a21cb446205c787926b",
+  "entries": [
+    {
+      "name": "mcp-server-selection",
+      "description": "Помогает оценить кандидатов MCP с проверкой источника, лицензии и полномочий.",
+      "file": "mcp-server-selection.md"
+    }
+  ]
+}

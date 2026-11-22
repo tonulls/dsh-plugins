@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "animation-performance",
+      "description": "Диагностирует и устраняет потерю кадров и проблемы производительности анимации.",
+      "file": "animation-performance/SKILL.md",
+      "resourceDir": "animation-performance/"
+    },
+    {
+      "name": "animation-vocabulary",
+      "description": "Находит точные термины для описания эффекта движения.",
+      "file": "animation-vocabulary/SKILL.md",
+      "resourceDir": "animation-vocabulary/"
+    },
+    {
+      "name": "animate-expo",
+      "description": "Проектирует анимации React Native и Expo с учётом UI-потока.",
+      "file": "animate-expo/SKILL.md",
+      "resourceDir": "animate-expo/"
+    },
+    {
+      "name": "animate",
+      "description": "Создаёт анимацию с подходящей кривой, длительностью и свойствами.",
+      "file": "animate/SKILL.md",
+      "resourceDir": "animate/"
+    },
+    {
+      "name": "apple-design",
+      "description": "Переносит принципы дизайна Apple и fluid motion в веб-интерфейсы.",
+      "file": "apple-design/SKILL.md",
+      "resourceDir": "apple-design/"
+    },
+    {
+      "name": "mobile-native",
+      "description": "Улучшает мобильный веб-интерфейс: touch, viewport, safe areas и scroll.",
+      "file": "mobile-native/SKILL.md",
+      "resourceDir": "mobile-native/"
+    },
+    {
+      "name": "improve-animations",
+      "description": "Аудирует анимации и формирует приоритетный самостоятельный план улучшений.",
+      "file": "improve-animations/SKILL.md",
+      "resourceDir": "improve-animations/"
+    },
+    {
+      "name": "ask-sonner",
+      "description": "Справка по Sonner, тостам React, стилям и API.",
+      "file": "ask-sonner/SKILL.md",
+      "resourceDir": "ask-sonner/"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "description": "Находит оправданные случаи для движения и предлагает точные варианты.",
+      "file": "find-animation-opportunities/SKILL.md",
+      "resourceDir": "find-animation-opportunities/"
+    },
+    {
+      "name": "emil-design-eng",
+      "description": "Полное руководство по craft интерфейсов и анимации.",
+      "file": "emil-design-eng/SKILL.md",
+      "resourceDir": "emil-design-eng/"
+    },
+    {
+      "name": "review-animations",
+      "description": "Проверяет код анимации по строгим критериям качества.",
+      "file": "review-animations/SKILL.md",
+      "resourceDir": "review-animations/"
+    },
+    {
+      "name": "remove-animations",
+      "description": "Находит анимации без пользы и планирует их безопасное сокращение.",
+      "file": "remove-animations/SKILL.md",
+      "resourceDir": "remove-animations/"
+    },
+    {
+      "name": "ask-emil",
+      "description": "Выбирает подходящий навык для задачи по интерфейсу и анимации.",
+      "file": "ask-emil/SKILL.md",
+      "resourceDir": "ask-emil/"
+    },
+    {
+      "name": "choreograph",
+      "description": "Координирует порядок, задержки и перекрытие анимаций в группе.",
+      "file": "choreograph/SKILL.md",
+      "resourceDir": "choreograph/"
+    },
+    {
+      "name": "gestures",
+      "description": "Проектирует перетаскивание, свайпы и жесты закрытия.",
+      "file": "gestures/SKILL.md",
+      "resourceDir": "gestures/"
+    },
+    {
+      "name": "learn-taste",
+      "description": "Формулирует правила дизайна из подтверждённых правок пользователя.",
+      "file": "learn-taste/SKILL.md",
+      "resourceDir": "learn-taste/"
+    }
+  ]
+}

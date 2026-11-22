@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "ref": "main",
+  "commit": "f76d1653d7467fc11fb9d9d79295a421c92ab958",
+  "snapshotDate": "2026-11-21",
+  "latestCommitEvidence": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/commits/main.atom",
+  "latestCommitAt": "2026-11-21T13:12:18Z",
+  "licenseAssessment": "GitHub API repository metadata reports MIT; this bundle includes no CLI, skill corpus, data, prompts, or assets.",
+  "licenseEvidence": "https://api.github.com/repos/nextlevelbuilder/ui-ux-pro-max-skill",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/nextlevelbuilder/ui-ux-pro-max-skill",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

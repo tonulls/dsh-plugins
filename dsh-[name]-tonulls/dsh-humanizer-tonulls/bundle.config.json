@@ -1,0 +1,21 @@
+{
+  "pluginName": "humanizer-tonulls",
+  "skillName": "humanizer",
+  "upstreamName": "Humanizer",
+  "upstreamUrl": "https://github.com/blader/humanizer",
+  "upstreamCommit": "a32f24407364c74c812b43c15926d638bee1e072",
+  "sourceFile": "upstream/SKILL.md",
+  "sourceLicense": "MIT",
+  "sourceLicenseFile": "upstream/LICENSE",
+  "sourceCopyright": "Copyright (c) 2025 Siqi Chen",
+  "descriptions": {
+    "ru": "Редактирование текста с сохранением смысла и фактов, без типичных шаблонов машинного письма.",
+    "en": "Rewrite text to sound natural while preserving its meaning and factual claims.",
+    "zh-CN": "在保留原意和事实的前提下，润色文字并减少常见的机器写作痕迹。"
+  },
+  "titles": {
+    "ru": "Humanizer для DSH",
+    "en": "Humanizer for DSH",
+    "zh-CN": "DSH 文本人性化技能"
+  }
+}

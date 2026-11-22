@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "grill-me",
+      "description": "User-invoked structured interview to stress-test a plan or decision.",
+      "file": "grill-me.md"
+    },
+    {
+      "name": "grilling",
+      "description": "Progressively surfaces and tests decisions whose prerequisites are settled.",
+      "file": "grilling.md"
+    }
+  ]
+}

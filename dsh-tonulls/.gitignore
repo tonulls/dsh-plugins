@@ -1,0 +1,23 @@
+# Локальные зависимости и окружения
+**/node_modules/
+**/.pnpm-store/
+**/.env
+**/.env.*
+**/.dsh-home/
+**/coverage/
+**/.nyc_output/
+**/test-results/
+**/playwright-report/
+**/tmp/
+**/temp/
+**/*.log
+
+# Локальные тестовые данные и фикстуры
+**/fixtures/
+**/test-data/
+**/testdata/
+
+# Локальные артефакты
+**/*.tgz
+**/.DS_Store
+AGENTS.md

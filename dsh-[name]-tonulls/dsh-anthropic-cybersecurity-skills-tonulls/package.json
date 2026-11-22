@@ -1,0 +1,9 @@
+{
+  "name": "dsh-anthropic-cybersecurity-skills-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/greensock/GSAP",
+  "ref": "main",
+  "commit": "5e6c35ff8eedea12d4f229129def635277d8b0f2",
+  "snapshotDate": "2026-11-17",
+  "latestCommitEvidence": "https://github.com/greensock/GSAP/commits/main.atom",
+  "latestCommitAt": "2026-11-04",
+  "licenseAssessment": "GitHub API license metadata is null; no root license file was confirmed in this check. The source README refers to GreenSock terms; no code is copied.",
+  "licenseEvidence": "https://api.github.com/repos/greensock/GSAP",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/greensock/GSAP",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

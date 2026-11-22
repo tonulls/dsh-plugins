@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Last 30 days (web only)",
+    "description": "User-invoked, read-only research using the current DSH session's public web search and fetch tools."
+  }
+}

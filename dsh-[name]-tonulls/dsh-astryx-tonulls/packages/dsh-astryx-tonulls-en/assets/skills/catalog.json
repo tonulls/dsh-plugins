@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "upstreamCliVersion": "0.7.17",
+  "skillCount": 1,
+  "entries": [
+    {
+      "name": "astryx",
+      "title": "Astryx",
+      "description": "DSH agent skill for Astryx reference lookups in a project that has selected the design system.",
+      "file": "astryx.md"
+    }
+  ]
+}

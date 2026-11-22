@@ -1,0 +1,36 @@
+{
+  "pluginName": "emil-kowalski-skills-tonulls",
+  "upstreamName": "Emil Kowalski’s Skills",
+  "upstreamUrl": "https://github.com/emilkowalski/skills",
+  "upstreamCommit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+  "sourceLicense": "MIT",
+  "sourceCopyright": "Copyright (c) 2026 Emil Kowalski",
+  "titles": {
+    "ru": "Навыки дизайна и анимации от Emil Kowalski",
+    "en": "Emil Kowalski’s design and motion skills",
+    "zh-CN": "Emil Kowalski 设计与动效技能"
+  },
+  "descriptions": {
+    "ru": "16 пользовательски вызываемых инструкций по интерфейсам, анимации и motion.",
+    "en": "Sixteen user-invoked guides for interface design, animation, and motion.",
+    "zh-CN": "16 项用户主动调用的界面设计、动画和动效指南。"
+  },
+  "skills": [
+    { "name": "animation-performance", "path": "animation-performance/SKILL.md", "resourceDir": "animation-performance/", "descriptions": { "ru": "Диагностирует и устраняет потерю кадров и проблемы производительности анимации.", "en": "Diagnose and improve animation performance and dropped frames.", "zh-CN": "诊断并改善动画性能与掉帧问题。" } },
+    { "name": "animation-vocabulary", "path": "animation-vocabulary/SKILL.md", "resourceDir": "animation-vocabulary/", "descriptions": { "ru": "Находит точные термины для описания эффекта движения.", "en": "Find precise terminology for describing a motion effect.", "zh-CN": "为动效描述查找准确术语。" } },
+    { "name": "animate-expo", "path": "animate-expo/SKILL.md", "resourceDir": "animate-expo/", "references": ["RECIPES.md"], "descriptions": { "ru": "Проектирует анимации React Native и Expo с учётом UI-потока.", "en": "Design React Native and Expo animations mindful of the UI thread.", "zh-CN": "设计兼顾 UI 线程的 React Native 与 Expo 动画。" } },
+    { "name": "animate", "path": "animate/SKILL.md", "resourceDir": "animate/", "references": ["RECIPES.md"], "descriptions": { "ru": "Создаёт анимацию с подходящей кривой, длительностью и свойствами.", "en": "Design an animation with suitable easing, duration, and properties.", "zh-CN": "设计具有合适缓动、时长和属性的动画。" } },
+    { "name": "apple-design", "path": "apple-design/SKILL.md", "resourceDir": "apple-design/", "descriptions": { "ru": "Переносит принципы дизайна Apple и fluid motion в веб-интерфейсы.", "en": "Apply Apple-inspired interface design and fluid motion to the web.", "zh-CN": "将 Apple 风格的界面设计与流畅动效应用于 Web。" } },
+    { "name": "mobile-native", "path": "mobile-native/SKILL.md", "resourceDir": "mobile-native/", "descriptions": { "ru": "Улучшает мобильный веб-интерфейс: touch, viewport, safe areas и scroll.", "en": "Improve mobile web touch, viewport, safe-area, and scrolling behavior.", "zh-CN": "改善移动 Web 的触控、视口、安全区域和滚动行为。" } },
+    { "name": "improve-animations", "path": "improve-animations/SKILL.md", "resourceDir": "improve-animations/", "references": ["AUDIT.md", "PLAN-TEMPLATE.md"], "descriptions": { "ru": "Аудирует анимации и формирует приоритетный самостоятельный план улучшений.", "en": "Audit animations and create a prioritized, self-contained improvement plan.", "zh-CN": "审查动画并制定优先级明确、可独立执行的改进计划。" } },
+    { "name": "ask-sonner", "path": "ask-sonner/SKILL.md", "resourceDir": "ask-sonner/", "references": ["API.md"], "descriptions": { "ru": "Справка по Sonner, тостам React, стилям и API.", "en": "Guidance for Sonner React toasts, styling, and API.", "zh-CN": "提供 Sonner React toast、样式和 API 指南。" } },
+    { "name": "find-animation-opportunities", "path": "find-animation-opportunities/SKILL.md", "resourceDir": "find-animation-opportunities/", "descriptions": { "ru": "Находит оправданные случаи для движения и предлагает точные варианты.", "en": "Find justified opportunities for motion and propose concrete treatments.", "zh-CN": "寻找合理的动效机会并提出具体方案。" } },
+    { "name": "emil-design-eng", "path": "emil-design-eng/SKILL.md", "resourceDir": "emil-design-eng/", "descriptions": { "ru": "Полное руководство по craft интерфейсов и анимации.", "en": "Comprehensive guidance for interface and animation craft.", "zh-CN": "全面的界面与动画设计实践指南。" } },
+    { "name": "review-animations", "path": "review-animations/SKILL.md", "resourceDir": "review-animations/", "references": ["STANDARDS.md"], "descriptions": { "ru": "Проверяет код анимации по строгим критериям качества.", "en": "Review animation code against a strict quality bar.", "zh-CN": "按严格质量标准审查动画代码。" } },
+    { "name": "remove-animations", "path": "remove-animations/SKILL.md", "resourceDir": "remove-animations/", "descriptions": { "ru": "Находит анимации без пользы и планирует их безопасное сокращение.", "en": "Identify unnecessary animations and plan how to reduce them safely.", "zh-CN": "识别无必要的动画并规划安全精简方案。" } },
+    {"name": "ask-emil", "path": "ask-emil/SKILL.md", "resourceDir": "ask-emil/", "descriptions": {"ru": "Выбирает подходящий навык для задачи по интерфейсу и анимации.", "en": "Selects an available skill for a UI or motion task.", "zh-CN": "为界面和动效任务选择可用技能。"}},
+    {"name": "choreograph", "path": "choreograph/SKILL.md", "resourceDir": "choreograph/", "references": ["RECIPES.md"], "descriptions": {"ru": "Координирует порядок, задержки и перекрытие анимаций в группе.", "en": "Coordinates the order, delays, and overlap of group animations.", "zh-CN": "协调成组动画的顺序、延迟与重叠。"}},
+    {"name": "gestures", "path": "gestures/SKILL.md", "resourceDir": "gestures/", "descriptions": {"ru": "Проектирует перетаскивание, свайпы и жесты закрытия.", "en": "Designs drag, swipe, and dismiss gestures.", "zh-CN": "设计拖动、滑动与关闭手势。"}},
+    {"name": "learn-taste", "path": "learn-taste/SKILL.md", "resourceDir": "learn-taste/", "descriptions": {"ru": "Формулирует правила дизайна из подтверждённых правок пользователя.", "en": "Turns confirmed user feedback into design rules.", "zh-CN": "将用户确认的反馈整理为设计规则。"}}
+  ]
+}

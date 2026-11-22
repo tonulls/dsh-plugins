@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "浏览器自动化审查",
+    "description": "评估浏览器/Playwright 集成，不访问浏览器或配置。"
+  }
+}

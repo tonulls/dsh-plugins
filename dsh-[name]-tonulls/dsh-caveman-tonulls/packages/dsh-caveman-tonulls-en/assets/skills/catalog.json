@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "caveman",
+      "description": "Removes fluff while preserving technical facts and precision.",
+      "file": "caveman.md"
+    }
+  ]
+}

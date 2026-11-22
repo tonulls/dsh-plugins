@@ -1,0 +1,17 @@
+# Локальные зависимости и окружения
+**/node_modules/
+**/.env
+**/.env.*
+**/.dsh-home/
+**/coverage/
+**/.nyc_output/
+**/test-results/
+**/playwright-report/
+**/tmp/
+**/temp/
+**/*.log
+
+# Исходные тесты проекта можно включать после проверки; исключаем только данные/фикстуры
+**/fixtures/
+**/test-data/
+**/testdata/

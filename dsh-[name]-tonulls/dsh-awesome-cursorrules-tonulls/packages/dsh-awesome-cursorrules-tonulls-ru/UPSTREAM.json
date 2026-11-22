@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/PatrickJS/awesome-cursorrules",
+  "ref": "main",
+  "commit": "b044f956f021b6e8877f16781bcfc466a6a120e9",
+  "snapshotDate": "2026-11-17",
+  "latestCommitEvidence": "https://github.com/PatrickJS/awesome-cursorrules/commits/main.atom",
+  "latestCommitAt": "2026-05-30",
+  "licenseAssessment": "GitHub API repository metadata reports CC0-1.0 for the catalog repository; that does not establish licenses for individual linked rules. No rules are copied.",
+  "licenseEvidence": "https://api.github.com/repos/PatrickJS/awesome-cursorrules",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/PatrickJS/awesome-cursorrules",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "f8b351906688b56f0fc744e53bde81fc3c56f150",
+  "entries": [
+    {
+      "name": "vanta-integration-review",
+      "description": "Помогает проверить возраст Vanta, WebGL, fallback, motion и производительность.",
+      "file": "vanta-integration-review.md"
+    }
+  ]
+}

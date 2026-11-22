@@ -1,0 +1,19 @@
+{
+  "name": "dsh-ecc-tonulls",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "sync:ecc:check": "node scripts/sync-ecc-upstream.mjs --check",
+    "sync:ecc:snapshot": "node scripts/sync-ecc-upstream.mjs --sync",
+    "build:agents": "node scripts/build-agents-catalog.mjs",
+    "build:skills": "node scripts/build-skills-catalog.mjs",
+    "build:commands": "node scripts/build-commands-catalog.mjs",
+    "build:umbrella": "node scripts/build-umbrella-vendor.mjs && node scripts/build-umbrella-variants.mjs",
+    "build:umbrella-variants": "node scripts/build-umbrella-variants.mjs",
+    "check:umbrella": "node scripts/build-umbrella-vendor.mjs --check && node scripts/build-umbrella-variants.mjs --check"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "de85557ca220332586d070d8788c0e1d6e877a0d",
+  "entries": [
+    {
+      "name": "thinking-orbs-integration",
+      "description": "Помогает оценить интеграцию Thinking Orbs в приложение с проверкой доступности и motion.",
+      "file": "thinking-orbs-integration.md"
+    }
+  ]
+}

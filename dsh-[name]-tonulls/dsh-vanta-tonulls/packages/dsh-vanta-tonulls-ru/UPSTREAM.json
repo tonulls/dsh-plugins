@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/tengbao/vanta",
+  "ref": "main",
+  "commit": "f8b351906688b56f0fc744e53bde81fc3c56f150",
+  "snapshotDate": "2026-11-17",
+  "latestCommitEvidence": "https://github.com/tengbao/vanta/commits/main.atom",
+  "latestCommitAt": "2023-01-12T02:31:31Z",
+  "licenseAssessment": "GitHub API metadata reports MIT; a root license file was not independently confirmed. The observed commit is old; no code or assets are copied.",
+  "licenseEvidence": "https://api.github.com/repos/tengbao/vanta",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/tengbao/vanta",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

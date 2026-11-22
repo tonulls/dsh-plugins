@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "humanizer",
+      "description": "Редактирование текста с сохранением смысла и фактов, без типичных шаблонов машинного письма.",
+      "file": "humanizer.md"
+    }
+  ]
+}

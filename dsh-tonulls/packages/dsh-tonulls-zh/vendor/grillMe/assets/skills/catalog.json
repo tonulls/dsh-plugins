@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "grill-me",
+      "description": "由用户主动调用的结构化访谈，用于检验计划或决策。",
+      "file": "grill-me.md"
+    },
+    {
+      "name": "grilling",
+      "description": "逐步提出前置条件已明确的决策问题并进行检验。",
+      "file": "grilling.md"
+    }
+  ]
+}

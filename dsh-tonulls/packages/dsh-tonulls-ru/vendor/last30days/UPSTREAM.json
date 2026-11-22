@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/mvanhorn/last30days-skill",
+  "reviewedMainHead": {
+    "commit": "8ede659374b298ffb0529e13b802c0bd9637f769",
+    "date": "2026-11-21T15:48:47Z",
+    "signatureVerifiedByGitHub": true
+  },
+  "latestReleaseAtReview": {
+    "tag": "v4.5.0",
+    "publishedAt": "2026-11-21T15:49:48Z",
+    "immutable": false
+  },
+  "upstreamLicense": "MIT",
+  "upstreamCodeOrTextCopied": false,
+  "adaptationScope": "user-invoked, read-only public-web research through existing DSH search/fetch tools; no upstream engine, API clients, credentials, scripts, or persistence",
+  "adaptationRuntimeTested": false
+}

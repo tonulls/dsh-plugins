@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/Jakubantalik/thinking-orbs",
+  "ref": "main",
+  "commit": "de85557ca220332586d070d8788c0e1d6e877a0d",
+  "snapshotDate": "2026-11-17",
+  "latestCommitEvidence": "https://github.com/Jakubantalik/thinking-orbs/commits/main.atom",
+  "latestCommitAt": "2026-08-16T08:19:05Z",
+  "licenseAssessment": "GitHub API metadata reports MIT; an exact license file was not independently confirmed. No component or asset is included.",
+  "licenseEvidence": "https://api.github.com/repos/Jakubantalik/thinking-orbs",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/Jakubantalik/thinking-orbs",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

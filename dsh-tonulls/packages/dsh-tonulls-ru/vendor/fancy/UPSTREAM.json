@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/danielpetho/fancy",
+  "ref": "main",
+  "commit": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+  "snapshotDate": "2026-11-17",
+  "latestCommitEvidence": "https://github.com/danielpetho/fancy/commits/main.atom",
+  "latestCommitAt": "2026-03-14T10:34:10Z",
+  "license": "MIT (root LICENSE at pinned commit)",
+  "licenseEvidence": "https://github.com/danielpetho/fancy/blob/f9f62c61207b2dd3210476dd98af3c9a5be24094/LICENSE",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original component-selection and safety guidance only; no upstream component code, documentation, examples, images, or registry entries are copied."
+}

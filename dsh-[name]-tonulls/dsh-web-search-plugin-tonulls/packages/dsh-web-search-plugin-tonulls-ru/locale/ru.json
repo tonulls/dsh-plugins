@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Проверка web search для DSH",
+    "description": "Помогает оценить DSH web-search plugin без сетевых запросов и настройки backend."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "dsh-last30days-tonulls-workspace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

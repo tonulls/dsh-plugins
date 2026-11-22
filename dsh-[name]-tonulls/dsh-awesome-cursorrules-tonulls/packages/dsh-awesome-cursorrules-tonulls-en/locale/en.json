@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cursor rules selector",
+    "description": "On explicit request, selects rules while checking each original source and license."
+  }
+}

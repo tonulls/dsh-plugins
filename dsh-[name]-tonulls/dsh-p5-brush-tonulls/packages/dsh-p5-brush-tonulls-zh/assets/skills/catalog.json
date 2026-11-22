@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "7a65597703df2863d8442208791e093ddeab3a35",
+  "entries": [
+    {
+      "name": "p5-brush-integration",
+      "description": "评估 p5.brush，不复制代码或示例。",
+      "file": "p5-brush-integration.md"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "22f0b463e7a5e579904dd6211a520321035526f7",
+  "entries": [
+    {
+      "name": "superpowers-reference",
+      "description": "仅在明确请求时评估 Superpowers 是否适用，不复制其指令。",
+      "file": "superpowers-reference.md"
+    }
+  ]
+}

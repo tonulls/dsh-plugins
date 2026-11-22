@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Browser automation review",
+    "description": "Assesses browser/Playwright integration without browser or profile access."
+  }
+}

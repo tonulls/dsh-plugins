@@ -1,0 +1,27 @@
+{
+  "name": "The YouTube agent skill",
+  "url": "https://github.com/Jakeschincariol/youtube-agent-skill",
+  "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+  "includedSkills": [
+    "yt-plan",
+    "yt-comment",
+    "yt-shorts",
+    "yt-seo",
+    "yt-audit",
+    "yt-script",
+    "yt-package"
+  ],
+  "omittedSkills": [
+    "yt-edit",
+    "yt-chapters",
+    "yt-retention",
+    "yt-viral"
+  ],
+  "omittedRuntimeFiles": [
+    "six upstream Python tools",
+    "Claude plugin manifests and hooks"
+  ],
+  "sourceLicense": "MIT",
+  "sourceCopyright": "Copyright (c) 2026 Jake Schincariol",
+  "adaptation": "Prompt-only, user-invoked DSH skills; no YouTube integration, credentials, automated scores, or publishing."
+}

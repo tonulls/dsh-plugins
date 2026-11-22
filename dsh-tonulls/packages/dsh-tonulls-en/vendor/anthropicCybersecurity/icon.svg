@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Defensive log triage shield">
+  <rect width="96" height="96" rx="20" fill="#102a43"/>
+  <path d="M48 13 75 23v21c0 18-11 31-27 39C32 75 21 62 21 44V23l27-10Z" fill="#1d9bf0" stroke="#d9f0ff" stroke-width="3"/>
+  <path d="M32 39h32M32 49h24M32 59h18" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="65" cy="62" r="9" fill="#27c99a" stroke="#102a43" stroke-width="3"/>
+  <path d="m61 62 3 3 5-6" fill="none" stroke="#102a43" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+</svg>

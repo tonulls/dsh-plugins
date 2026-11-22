@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Astryx integration">
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#171717"/>
+  <path d="M32 10 53 49H11L32 10Z" fill="none" stroke="#f5f5f5" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="32" cy="37" r="5" fill="#8b5cf6"/>
+  <path d="M22 49 32 31l10 18" fill="none" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round"/>
+</svg>

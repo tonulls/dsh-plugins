@@ -1,0 +1,37 @@
+{
+  "name": "dsh-impeccable-tonulls",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Impeccable design skill bundled for DeepSeek Harness",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "README.md",
+    ".docs",
+    "LICENSE",
+    "NOTICE.md",
+    "index.js",
+    "cordis.patch.yml",
+    "skills"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-agent": "*",
+    "@deepseek-ai/dsh-commands": "*",
+    "@deepseek-ai/dsh-skill": "*"
+  }
+}

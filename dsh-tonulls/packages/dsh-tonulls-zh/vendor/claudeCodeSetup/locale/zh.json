@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Claude Code 配置审查",
+    "description": "仅在明确请求时帮助安全评估第三方 Claude Code 配置。"
+  }
+}

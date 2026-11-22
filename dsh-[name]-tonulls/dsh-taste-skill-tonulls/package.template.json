@@ -1,0 +1,37 @@
+{
+  "name": "dsh-taste-skill-tonulls",
+  "description": "Taste Skill for DeepSeek Harness: frontend art direction and visual-quality workflow",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./provider": "./src/provider.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "README.md",
+    "src/*.js",
+    "assets/catalog.json",
+    "packages/skills/assets/skills",
+    "cordis.patch.yml",
+    "LICENSES.md",
+    "packages/skills/LICENSE.upstream"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-agent": "*",
+    "@deepseek-ai/dsh-commands": "*",
+    "@deepseek-ai/dsh-skill": "*"
+  }
+}

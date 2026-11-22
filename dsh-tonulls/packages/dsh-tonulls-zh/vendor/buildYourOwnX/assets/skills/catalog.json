@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "94e4be4102452119008fe47199f3cb915abe0c50",
+  "entries": [
+    {
+      "name": "build-your-own-x",
+      "description": "仅在用户明确调用时，为从零实现项目的学习目标选择当前 GitHub 教程并核对其限制。",
+      "file": "build-your-own-x.md"
+    }
+  ]
+}

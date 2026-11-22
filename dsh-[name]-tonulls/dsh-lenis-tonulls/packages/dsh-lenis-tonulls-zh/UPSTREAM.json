@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/darkroomengineering/lenis",
+  "ref": "main",
+  "commit": "786ed4a9225476e834825c4cc81aab41aca6df84",
+  "snapshotDate": "2026-11-20",
+  "latestCommitEvidence": "https://github.com/darkroomengineering/lenis/commits/main.atom",
+  "latestCommitAt": "2026-11-19T09:42:03Z",
+  "license": "MIT (root LICENSE)",
+  "licenseEvidence": "https://github.com/darkroomengineering/lenis/blob/786ed4a9225476e834825c4cc81aab41aca6df84/LICENSE",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original integration and safety guidance only; no Lenis source, documentation, examples, images, or code are copied."
+}

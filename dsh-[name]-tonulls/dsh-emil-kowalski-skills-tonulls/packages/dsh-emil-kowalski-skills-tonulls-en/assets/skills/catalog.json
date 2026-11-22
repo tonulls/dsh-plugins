@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "animation-performance",
+      "description": "Diagnose and improve animation performance and dropped frames.",
+      "file": "animation-performance/SKILL.md",
+      "resourceDir": "animation-performance/"
+    },
+    {
+      "name": "animation-vocabulary",
+      "description": "Find precise terminology for describing a motion effect.",
+      "file": "animation-vocabulary/SKILL.md",
+      "resourceDir": "animation-vocabulary/"
+    },
+    {
+      "name": "animate-expo",
+      "description": "Design React Native and Expo animations mindful of the UI thread.",
+      "file": "animate-expo/SKILL.md",
+      "resourceDir": "animate-expo/"
+    },
+    {
+      "name": "animate",
+      "description": "Design an animation with suitable easing, duration, and properties.",
+      "file": "animate/SKILL.md",
+      "resourceDir": "animate/"
+    },
+    {
+      "name": "apple-design",
+      "description": "Apply Apple-inspired interface design and fluid motion to the web.",
+      "file": "apple-design/SKILL.md",
+      "resourceDir": "apple-design/"
+    },
+    {
+      "name": "mobile-native",
+      "description": "Improve mobile web touch, viewport, safe-area, and scrolling behavior.",
+      "file": "mobile-native/SKILL.md",
+      "resourceDir": "mobile-native/"
+    },
+    {
+      "name": "improve-animations",
+      "description": "Audit animations and create a prioritized, self-contained improvement plan.",
+      "file": "improve-animations/SKILL.md",
+      "resourceDir": "improve-animations/"
+    },
+    {
+      "name": "ask-sonner",
+      "description": "Guidance for Sonner React toasts, styling, and API.",
+      "file": "ask-sonner/SKILL.md",
+      "resourceDir": "ask-sonner/"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "description": "Find justified opportunities for motion and propose concrete treatments.",
+      "file": "find-animation-opportunities/SKILL.md",
+      "resourceDir": "find-animation-opportunities/"
+    },
+    {
+      "name": "emil-design-eng",
+      "description": "Comprehensive guidance for interface and animation craft.",
+      "file": "emil-design-eng/SKILL.md",
+      "resourceDir": "emil-design-eng/"
+    },
+    {
+      "name": "review-animations",
+      "description": "Review animation code against a strict quality bar.",
+      "file": "review-animations/SKILL.md",
+      "resourceDir": "review-animations/"
+    },
+    {
+      "name": "remove-animations",
+      "description": "Identify unnecessary animations and plan how to reduce them safely.",
+      "file": "remove-animations/SKILL.md",
+      "resourceDir": "remove-animations/"
+    },
+    {
+      "name": "ask-emil",
+      "description": "Selects an available skill for a UI or motion task.",
+      "file": "ask-emil/SKILL.md",
+      "resourceDir": "ask-emil/"
+    },
+    {
+      "name": "choreograph",
+      "description": "Coordinates the order, delays, and overlap of group animations.",
+      "file": "choreograph/SKILL.md",
+      "resourceDir": "choreograph/"
+    },
+    {
+      "name": "gestures",
+      "description": "Designs drag, swipe, and dismiss gestures.",
+      "file": "gestures/SKILL.md",
+      "resourceDir": "gestures/"
+    },
+    {
+      "name": "learn-taste",
+      "description": "Turns confirmed user feedback into design rules.",
+      "file": "learn-taste/SKILL.md",
+      "resourceDir": "learn-taste/"
+    }
+  ]
+}

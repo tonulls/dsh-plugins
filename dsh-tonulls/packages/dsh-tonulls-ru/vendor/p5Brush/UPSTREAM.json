@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/acamposuribe/p5.brush",
+  "ref": "main",
+  "commit": "7a65597703df2863d8442208791e093ddeab3a35",
+  "snapshotDate": "2026-11-21",
+  "latestCommitEvidence": "https://github.com/acamposuribe/p5.brush/commits/main.atom",
+  "latestCommitAt": "2026-11-21T10:22:42Z",
+  "licenseAssessment": "MIT verified in upstream LICENSE.md at the reviewed revision.",
+  "licenseEvidence": "https://github.com/acamposuribe/p5.brush/blob/7a65597703df2863d8442208791e093ddeab3a35/LICENSE.md",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/acamposuribe/p5.brush",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

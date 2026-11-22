@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "de85557ca220332586d070d8788c0e1d6e877a0d",
+  "entries": [
+    {
+      "name": "thinking-orbs-integration",
+      "description": "评估 Thinking Orbs 集成，并检查无障碍和动画。",
+      "file": "thinking-orbs-integration.md"
+    }
+  ]
+}

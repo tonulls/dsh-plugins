@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+  "entries": [
+    {
+      "name": "fancy-components",
+      "description": "Помогает оценить конкретный React-компонент Fancy для выбранного проекта.",
+      "file": "fancy-components.md"
+    }
+  ]
+}

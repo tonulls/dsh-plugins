@@ -1,0 +1,33 @@
+{
+  "repository": "https://github.com/tt-a1i/archify",
+  "reviewedMainHead": {
+    "commit": "8509a3d63e763b4d454ea9aafa1f939545fcb1ea",
+    "date": "2026-11-21T00:50:00Z",
+    "verified": true
+  },
+  "adapterRelease": {
+    "tag": "archify-dsh-v1.1.0",
+    "version": "1.1.0",
+    "nodeRange": "^22.19.0 || >=24.0.0",
+    "publishedAt": "2026-11-08T16:38:47Z",
+    "asset": "https://github.com/tt-a1i/archify/releases/download/archify-dsh-v1.1.0/archify-dsh-1.1.0-official.tgz",
+    "assetBytes": 4481707,
+    "assetSha256": "e65d77e4d7ca34562d33f22480b0b4eae2b1e51ef13cd542c2618b228830b20d",
+    "releaseImmutable": true
+  },
+  "skill": {
+    "version": "3.2.0",
+    "sourceCommit": "edf158c4e7a1d18d20cc329840f864289634c090",
+    "license": "Apache-2.0",
+    "asset": "https://github.com/tt-a1i/archify/releases/download/v3.2.0/archify.zip",
+    "assetSha256": "70e210265c59f24dcbdf2a502ff671104b5454e7ee7d3554aecd86bad32384f5"
+  },
+  "adapterLicense": "MIT",
+  "upstreamAcceptedHost": "@deepseek-ai/dsh@0.2.1-rc.2",
+  "adaptationRuntimeTested": false,
+  "adaptations": [
+    "Skill invocation is user-only",
+    "Automatic delivery update checks are opt-in",
+    "The Skill must not edit global agent rules"
+  ]
+}

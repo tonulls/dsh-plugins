@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Fancy Components 参考",
+    "description": "仅在用户明确调用时，协助评估 React 组件及集成风险。"
+  }
+}

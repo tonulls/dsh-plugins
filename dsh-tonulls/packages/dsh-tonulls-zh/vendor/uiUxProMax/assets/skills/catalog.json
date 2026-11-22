@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "f76d1653d7467fc11fb9d9d79295a421c92ab958",
+  "entries": [
+    {
+      "name": "ui-ux-pro-max-review",
+      "description": "评估 UI UX Pro Max，不移植其 CLI、提示词、样式或数据。",
+      "file": "ui-ux-pro-max-review.md"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH web search review",
+    "description": "Assesses the DSH web-search plugin without network requests or backend configuration."
+  }
+}

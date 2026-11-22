@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/codecrafters-io/build-your-own-x",
+  "ref": "master",
+  "commit": "94e4be4102452119008fe47199f3cb915abe0c50",
+  "snapshotDate": "2026-11-20",
+  "latestCommitEvidence": "https://github.com/codecrafters-io/build-your-own-x/commits/master.atom",
+  "latestCommitAt": "2026-11-19T05:32:02Z",
+  "license": "CC0-1.0 (README: Origins & License)",
+  "licenseEvidence": "https://github.com/codecrafters-io/build-your-own-x/blob/94e4be4102452119008fe47199f3cb915abe0c50/README.md#origins--license",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original guidance and links only; no upstream entries or tutorial text are copied."
+}

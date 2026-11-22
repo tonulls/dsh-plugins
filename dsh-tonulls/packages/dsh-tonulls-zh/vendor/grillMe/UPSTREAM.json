@@ -1,0 +1,21 @@
+{
+  "name": "Matt Pocock skills",
+  "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me",
+  "commit": "abeeaf95660ba9e8b7c753eb38f441ca707a8823",
+  "sourceSkills": [
+    {
+      "name": "grill-me",
+      "source": "upstream/skills/productivity/grill-me/SKILL.md"
+    },
+    {
+      "name": "grilling",
+      "source": "upstream/skills/productivity/grilling/SKILL.md"
+    }
+  ],
+  "sourceLicense": "MIT",
+  "sourceCopyright": "Copyright (c) 2026 Matt Pocock",
+  "adaptations": [
+    "The grill-me entry no longer calls the host-specific Skill tool; it points to the bundled grilling skill.",
+    "Both skills are user-invoked by default; per-Agent automatic selection is controlled with `/dsh-grill-me-tonulls on` and `/dsh-grill-me-tonulls off`."
+  ]
+}

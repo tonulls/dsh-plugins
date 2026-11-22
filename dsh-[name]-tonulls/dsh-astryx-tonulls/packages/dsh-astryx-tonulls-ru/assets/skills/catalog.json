@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "upstreamCliVersion": "0.7.17",
+  "skillCount": 1,
+  "entries": [
+    {
+      "name": "astryx",
+      "title": "Astryx",
+      "description": "Навык DSH-агента для справочной работы с Astryx в выбранном React-проекте.",
+      "file": "astryx.md"
+    }
+  ]
+}

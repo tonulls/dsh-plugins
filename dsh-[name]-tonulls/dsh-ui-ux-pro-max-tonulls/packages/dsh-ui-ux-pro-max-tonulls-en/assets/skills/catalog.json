@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "f76d1653d7467fc11fb9d9d79295a421c92ab958",
+  "entries": [
+    {
+      "name": "ui-ux-pro-max-review",
+      "description": "Assesses UI UX Pro Max without porting its CLI, prompts, styles, or data.",
+      "file": "ui-ux-pro-max-review.md"
+    }
+  ]
+}

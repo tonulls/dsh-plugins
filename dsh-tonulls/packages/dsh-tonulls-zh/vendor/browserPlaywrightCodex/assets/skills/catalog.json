@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "82a57bba982f3526a3277bb5168ef09bd309e85f",
+  "entries": [
+    {
+      "name": "browser-automation-review",
+      "description": "评估浏览器/Playwright 集成，不访问浏览器或配置。",
+      "file": "browser-automation-review.md"
+    }
+  ]
+}

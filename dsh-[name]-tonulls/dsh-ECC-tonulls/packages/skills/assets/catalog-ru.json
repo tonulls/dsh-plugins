@@ -1,0 +1,2784 @@
+{
+  "upstreamCommit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+  "upstreamTree": "794b1fe2343e67aab32e751ded09abf1a4d06dd0",
+  "releaseStatus": "inventory-only-not-approved",
+  "entries": [
+    {
+      "name": "ecc-accessibility",
+      "description": "Проектирование, реализация и аудит доступного пользовательского интерфейса по WCAG 2.2 уровня AA для веб-приложений, iOS и Android: семантические роли и метки ARIA, характеристики доступности и подсказки, управление фокусом, контрастность, размер интерактивных целей и поддержка экранных дикторов. Используйте при разработке или аудите интерфейсов, проверке клавиатурной навигации и поддержки экранных дикторов.",
+      "file": "skills/accessibility/SKILL.md",
+      "resourceDirectory": "skills/accessibility",
+      "sourcePath": "skills/accessibility/SKILL.md",
+      "sourceSha": "0685394eef10a1bf1e5c02f67a3a8b06ae210cc4"
+    },
+    {
+      "name": "ecc-agent-architecture-audit",
+      "description": "Комплексная диагностика приложений с агентами и LLM: аудит 12-слойного стека на регрессии обёрток, загрязнение памяти, ошибки работы с инструментами, скрытые циклы исправления и сбои отображения. Выдаёт выводы по степени серьёзности и исправления с приоритетом кода. Для разработчиков агентных приложений, автономных циклов и функций на базе LLM. Используйте при неизвестном источнике сбоя агента/LLM или перед выпуском стека.",
+      "file": "skills/agent-architecture-audit/SKILL.md",
+      "resourceDirectory": "skills/agent-architecture-audit",
+      "sourcePath": "skills/agent-architecture-audit/SKILL.md",
+      "sourceSha": "a3c2caa67b0ca7e5323d4e853d898f599694ff10"
+    },
+    {
+      "name": "ecc-agent-eval",
+      "description": "Сравнение агентов для разработки (Claude Code, Aider, Codex и др.) на пользовательских задачах по доле успешного выполнения, стоимости, времени и стабильности. Используйте при выборе агента или оценке изменений его конфигурации по измеримым метрикам.",
+      "file": "skills/agent-eval/SKILL.md",
+      "resourceDirectory": "skills/agent-eval",
+      "sourcePath": "skills/agent-eval/SKILL.md",
+      "sourceSha": "c082704f19ad58e8f0aa986a25f1da0b29809922"
+    },
+    {
+      "name": "ecc-agent-harness-construction",
+      "description": "Проектирование и оптимизация пространства действий ИИ-агента, определений инструментов и формата наблюдений для повышения успешности. Используйте при настройке набора инструментов, пространства действий или формата наблюдений агента.",
+      "file": "skills/agent-harness-construction/SKILL.md",
+      "resourceDirectory": "skills/agent-harness-construction",
+      "sourcePath": "skills/agent-harness-construction/SKILL.md",
+      "sourceSha": "6f828f92298e9c534c9af1e7f0e9832ef7443a2d"
+    },
+    {
+      "name": "ecc-agent-introspection-debugging",
+      "description": "Структурированный процесс самодиагностики сбоев ИИ-агента: фиксация, анализ, контролируемое восстановление и отчёт самоанализа. Используйте, когда запуск агента завершился ошибкой и нужен воспроизводимый диагноз вместо повтора.",
+      "file": "skills/agent-introspection-debugging/SKILL.md",
+      "resourceDirectory": "skills/agent-introspection-debugging",
+      "sourcePath": "skills/agent-introspection-debugging/SKILL.md",
+      "sourceSha": "7f40c4579f09b15884e7e4e22635ccd41e1ba1a7"
+    },
+    {
+      "name": "ecc-agent-runtime-gateway-smoke-test",
+      "description": "Проверьте локальный API агента, временный туннель шлюза и обратный вызов удалённой песочницы задачей без инструментов, затем восстановите исходное подключение приложения.",
+      "file": "skills/agent-runtime-gateway-smoke-test/SKILL.md",
+      "resourceDirectory": "skills/agent-runtime-gateway-smoke-test",
+      "sourcePath": "skills/agent-runtime-gateway-smoke-test/SKILL.md",
+      "sourceSha": "d2ed4dd6e10bea3e179607f4f39b3384ebb487dc"
+    },
+    {
+      "name": "ecc-agent-security-hardening",
+      "description": "Рекомендации по защите систем агентов на основе ИИ, которые обрабатывают недоверенные данные, вызывают инструменты, записывают файлы рабочей области и управляют идентификаторами среды выполнения или учётными данными. Используйте для создания и проверки агентных систем, автономных исполнителей, шлюзов инструментов, сервисов памяти и многопользовательских развёртываний. Не предназначено для общей защиты веб-приложений или тестирования на проникновение.",
+      "file": "skills/agent-security-hardening/SKILL.md",
+      "resourceDirectory": "skills/agent-security-hardening",
+      "sourcePath": "skills/agent-security-hardening/SKILL.md",
+      "sourceSha": "726cd3e2e01e7b03103c98639585868dd3afc392"
+    },
+    {
+      "name": "ecc-agent-sort",
+      "description": "Составьте обоснованный данными план установки ECC для конкретного репозитория: распределите навыки, команды, правила, хуки и дополнения по категориям DAILY («ежедневные») и LIBRARY («библиотека») на основе параллельного анализа репозитория. Используйте, чтобы оставить только необходимое проекту, а не загружать весь набор.",
+      "file": "skills/agent-sort/SKILL.md",
+      "resourceDirectory": "skills/agent-sort",
+      "sourcePath": "skills/agent-sort/SKILL.md",
+      "sourceSha": "f07eb28ba7aaefe346c6688799143988b28aa950"
+    },
+    {
+      "name": "ecc-agentic-engineering",
+      "description": "Инженерная работа с автономными агентами: предварительная оценка задачи, декомпозиция и распределение между моделями с учётом стоимости. Используйте при планировании или выполнении задач, которые агенты должны реализовать от начала до конца.",
+      "file": "skills/agentic-engineering/SKILL.md",
+      "resourceDirectory": "skills/agentic-engineering",
+      "sourcePath": "skills/agentic-engineering/SKILL.md",
+      "sourceSha": "c4b2428c1d2edd0a8431700fcb6617c10d3aff8c"
+    },
+    {
+      "name": "ecc-ai-first-engineering",
+      "description": "Модель инженерной работы для команд, где ИИ-агенты создают значительную часть кода. Используйте при настройке процессов команды, этапов проверки кода и правил ответственности для кодовой базы, написанной преимущественно агентами.",
+      "file": "skills/ai-first-engineering/SKILL.md",
+      "resourceDirectory": "skills/ai-first-engineering",
+      "sourcePath": "skills/ai-first-engineering/SKILL.md",
+      "sourceSha": "9e49702f31fafaddf36a76e890b4aa411bf6c5cc"
+    },
+    {
+      "name": "ecc-ai-regression-testing",
+      "description": "Стратегии регрессионного тестирования при разработке с ИИ: проверка API в изолированной среде без БД, автоматизированная проверка ошибок и выявление слепых зон, когда одна модель пишет и проверяет код. Используйте для добавления регрессионных тестов или если код одновременно пишет и проверяет одна модель.",
+      "file": "skills/ai-regression-testing/SKILL.md",
+      "resourceDirectory": "skills/ai-regression-testing",
+      "sourcePath": "skills/ai-regression-testing/SKILL.md",
+      "sourceSha": "e8dac65b1792ead1289090e3db0326ec00c26fbf"
+    },
+    {
+      "name": "ecc-android-clean-architecture",
+      "description": "Шаблоны чистой архитектуры для Android и Kotlin Multiplatform: структура модулей, правила зависимостей, сценарии использования, репозитории и слой данных. Используйте при структурировании модулей, слоёв или потока данных в Android/KMP-проектах.",
+      "file": "skills/android-clean-architecture/SKILL.md",
+      "resourceDirectory": "skills/android-clean-architecture",
+      "sourcePath": "skills/android-clean-architecture/SKILL.md",
+      "sourceSha": "268cfbd78573348bda6df8466f92095d7b9a18b8"
+    },
+    {
+      "name": "ecc-api-connector-builder",
+      "description": "Создайте новый API-коннектор или провайдера, точно следуя существующему в репозитории шаблону интеграции. Используйте для добавления интеграции без создания второй архитектуры.",
+      "file": "skills/api-connector-builder/SKILL.md",
+      "resourceDirectory": "skills/api-connector-builder",
+      "sourcePath": "skills/api-connector-builder/SKILL.md",
+      "sourceSha": "52029f27565b1743b36582de0db7648261b463a5"
+    },
+    {
+      "name": "ecc-api-design",
+      "description": "Шаблоны проектирования REST API: именование ресурсов, коды состояния, пагинация, фильтрация, ошибки, версионирование и ограничение частоты запросов для боевых API. Используйте при проектировании или проверке REST-точек доступа, ресурсов, кодов состояния, пагинации или версий.",
+      "file": "skills/api-design/SKILL.md",
+      "resourceDirectory": "skills/api-design",
+      "sourcePath": "skills/api-design/SKILL.md",
+      "sourceSha": "655d730e64492b997bded91038c52f75398c5563"
+    },
+    {
+      "name": "ecc-architecture-decision-records",
+      "description": "Фиксируйте архитектурные решения в нумерованных ADR-файлах Markdown в docs/adr/: контекст, рассмотренные альтернативы, последствия и индекс README. Используйте, когда просят «зафиксировать решение» или «оформить ADR», выбирают фреймворк/БД, обсуждают компромиссы или спрашивают о структуре кодовой базы.",
+      "file": "skills/architecture-decision-records/SKILL.md",
+      "resourceDirectory": "skills/architecture-decision-records",
+      "sourcePath": "skills/architecture-decision-records/SKILL.md",
+      "sourceSha": "84f2dd608b4589f7e74e876927ddce866e12a3d1"
+    },
+    {
+      "name": "ecc-article-writing",
+      "description": "Пишите статьи, руководства, посты, туториалы, выпуски рассылок и другие длинные материалы в характерном стиле на основе примеров или бренд-гайдов. Используйте для качественного текста длиннее абзаца, особенно когда важны единый голос, структура и достоверность.",
+      "file": "skills/article-writing/SKILL.md",
+      "resourceDirectory": "skills/article-writing",
+      "sourcePath": "skills/article-writing/SKILL.md",
+      "sourceSha": "9dfa979ca56940e731ebede2c46ec2dca688818e"
+    },
+    {
+      "name": "ecc-automation-audit-ops",
+      "description": "Аудит автоматизации ECC на основе фактов: инвентаризация и поиск пересечений. Используйте, чтобы выяснить, какие задачи, хуки, коннекторы, MCP-серверы и обёртки работают, сломаны, дублируются или отсутствуют, прежде чем что-либо исправлять.",
+      "file": "skills/automation-audit-ops/SKILL.md",
+      "resourceDirectory": "skills/automation-audit-ops",
+      "sourcePath": "skills/automation-audit-ops/SKILL.md",
+      "sourceSha": "595a2217c5be1d1e3f4b23f67ae37f84f7844f88"
+    },
+    {
+      "name": "ecc-backend-patterns",
+      "description": "Шаблоны архитектуры серверной части, проектирования API, оптимизации БД и разработки на Node.js, Express и серверных маршрутах Next.js. Используйте при создании или проверке этих маршрутов и доступа к данным.",
+      "file": "skills/backend-patterns/SKILL.md",
+      "resourceDirectory": "skills/backend-patterns",
+      "sourcePath": "skills/backend-patterns/SKILL.md",
+      "sourceSha": "1142d0a51de34808f8493bac40b68aa745dcd80e"
+    },
+    {
+      "name": "ecc-benchmark",
+      "description": "Измеряйте исходную производительность и регрессии по Core Web Vitals в браузере (LCP, INP, CLS, вес страницы), перцентилям задержки API и времени сборки/тестов; сохраняйте сравнения до и после в JSON `.ecc/benchmarks`, отслеживаемом Git. Используйте для проверки скорости страниц, разбора жалоб на медленную работу, контроля целевых показателей перед запуском или сравнения стеков.",
+      "file": "skills/benchmark/SKILL.md",
+      "resourceDirectory": "skills/benchmark",
+      "sourcePath": "skills/benchmark/SKILL.md",
+      "sourceSha": "3020088b5932d0db9275e19c7c0047c92abf84d3"
+    },
+    {
+      "name": "ecc-benchmark-methodology",
+      "description": "Оцените выбранных конкурентов по сопоставимым профилям: девять взвешенных параметров (позиционирование, стиль, визуальное исполнение, предложение, доказательства, готовность к работе с крупными компаниями, экспертный контент, цены и неудовлетворённые потребности клиентов), шкалы 1–5 с опорой на данные и диаграмма 2×2. Используйте для сравнительного анализа, матрицы или оценки позиционирования; этап после `competitive-platform-analysis` и перед `competitive-report-structure`.",
+      "file": "skills/benchmark-methodology/SKILL.md",
+      "resourceDirectory": "skills/benchmark-methodology",
+      "sourcePath": "skills/benchmark-methodology/SKILL.md",
+      "sourceSha": "18722edceb629773fb88ee6c0888dfe1a52950d5"
+    },
+    {
+      "name": "ecc-benchmark-optimization-loop",
+      "description": "Превратите запрос «ускорить» в ограниченный измеряемый цикл оптимизации: сначала базовый замер, затем варианты по одной гипотезе, бенчмарк каждого с проверкой корректности и выбор самого быстрого безопасного варианта с воспроизводимыми командами. Используйте для ускорения, перебора вариантов, рекурсивной оптимизации и сравнения задержки, пропускной способности или стоимости.",
+      "file": "skills/benchmark-optimization-loop/SKILL.md",
+      "resourceDirectory": "skills/benchmark-optimization-loop",
+      "sourcePath": "skills/benchmark-optimization-loop/SKILL.md",
+      "sourceSha": "f76d0d54efdd46bd817220f9ded410d7ab733e62"
+    },
+    {
+      "name": "ecc-bengali-nlp",
+      "description": "Методы обработки текста на бенгальском языке (Bangla): нормализация Unicode, распознавание письменности, токенизация, обработка лигатур и методы NLP для приложений с ИИ.",
+      "file": "skills/bengali-nlp/SKILL.md",
+      "resourceDirectory": "skills/bengali-nlp",
+      "sourcePath": "skills/bengali-nlp/SKILL.md",
+      "sourceSha": "74a81067fc16e01e92846b5741e5fd60fe361135"
+    },
+    {
+      "name": "ecc-blender-motion-state-inspection",
+      "description": "Используйте при проверке персонажей, ригов, поз, переноса анимации, контакта с землёй, направления взгляда или соответствия модели движению в Blender, когда скриншотов недостаточно.",
+      "file": "skills/blender-motion-state-inspection/SKILL.md",
+      "resourceDirectory": "skills/blender-motion-state-inspection",
+      "sourcePath": "skills/blender-motion-state-inspection/SKILL.md",
+      "sourceSha": "5ececd7185da91c64607cc5469a145cdedcf831f"
+    },
+    {
+      "name": "ecc-brand-discovery",
+      "description": "Проведите структурированное интервью о бренде с возможностью продолжения между сессиями: 8 модулей (цель, позиционирование, аудитория, характер, голос, история, противоречия основателя), метод «лестницы», техника «5 почему» и проективные техники. Сохраняйте ответы и создайте итоговый брендбук (90_SYNTHESIS.md). Используйте при создании или перепозиционировании бренда, подготовке задания дизайнерам/авторам или фиксации неявных знаний основателя.",
+      "file": "skills/brand-discovery/SKILL.md",
+      "resourceDirectory": "skills/brand-discovery",
+      "sourcePath": "skills/brand-discovery/SKILL.md",
+      "sourceSha": "b5872f48a9310fdd233344557e2ce52c5d307f22"
+    },
+    {
+      "name": "ecc-brand-voice",
+      "description": "Создайте профиль стиля на основе реальных публикаций, эссе, анонсов, документации или текста сайта и применяйте его в материалах, коммуникации и социальных сетях. Используйте для единообразного голоса без шаблонных оборотов, характерных для текстов ИИ.",
+      "file": "skills/brand-voice/SKILL.md",
+      "resourceDirectory": "skills/brand-voice",
+      "sourcePath": "skills/brand-voice/SKILL.md",
+      "sourceSha": "a70421076f3aba4f2d1a0886888b839095b50380"
+    },
+    {
+      "name": "ecc-brownfield-retrospective",
+      "description": "Ретроспективно примените инженерный процесс ECC к существующей части проекта: проверьте текущее состояние, восстановите прежние решения, составьте реестр пробелов по четырём направлениям (мышление, практика разработки, недостающие функции, выбор технологий) и устраните их циклом «планирование — TDD — проверка». Используйте при внедрении ECC в текущий проект, принятии унаследованной кодовой базы или анализе упущений.",
+      "file": "skills/brownfield-retrospective/SKILL.md",
+      "resourceDirectory": "skills/brownfield-retrospective",
+      "sourcePath": "skills/brownfield-retrospective/SKILL.md",
+      "sourceSha": "a7975931a97e6764789a552124f36f20cb52c7e5"
+    },
+    {
+      "name": "ecc-browser-qa",
+      "description": "Автоматическая проверка пользовательского интерфейса после развёртывания через MCP браузера (claude-in-chrome, Playwright или Puppeteer): ошибки консоли и Core Web Vitals, формы и сценарии аутентификации, визуальная регрессия на трёх размерах экрана и аудит доступности axe-core с итогом «ВЫПУСКАТЬ / НЕ ВЫПУСКАТЬ». Используйте для проверки тестовой или предварительной среды, перед выпуском изменений клиентской части, проверки запроса на слияние (PR) и оценки адаптивности и доступности.",
+      "file": "skills/browser-qa/SKILL.md",
+      "resourceDirectory": "skills/browser-qa",
+      "sourcePath": "skills/browser-qa/SKILL.md",
+      "sourceSha": "f6358d6ac8b43edb7cb894481de56c53e19b3cf2"
+    },
+    {
+      "name": "ecc-bun-runtime",
+      "description": "Bun как среда выполнения, менеджер пакетов, сборщик и исполнитель тестов: когда выбрать Bun или Node, заметки по миграции и поддержка Vercel.",
+      "file": "skills/bun-runtime/SKILL.md",
+      "resourceDirectory": "skills/bun-runtime",
+      "sourcePath": "skills/bun-runtime/SKILL.md",
+      "sourceSha": "999f71dfed6d2155daddbfdaece4a2fa412c8329"
+    },
+    {
+      "name": "ecc-carrier-relationship-management",
+      "description": "Управление портфелем перевозчиков для полных и сборных (LTL), а также интермодальных перевозок: поиск и проверка FMCSA, переговоры о тарифах и топливных надбавках, RFP и маршрутизация, оценка перевозчиков, распределение и продление контрактов. Используйте при подключении перевозчиков, проведении RFP, переговорах, оценке результатов и планировании грузоперевозок.",
+      "file": "skills/carrier-relationship-management/SKILL.md",
+      "resourceDirectory": "skills/carrier-relationship-management",
+      "sourcePath": "skills/carrier-relationship-management/SKILL.md",
+      "sourceSha": "f5d1bad7743ae2a56b51af7567becde9317f5f05"
+    },
+    {
+      "name": "ecc-change-impact",
+      "description": "Проведите основанный на данных анализ последствий до изменения кода, данных, интерфейсов или документов управления проектом, а после реализации сопоставьте план с фактическими изменениями. Охватывает цепочки вызовов, данные и схемы, контракты API, тесты, документацию, ADR, развёртывание, миграцию и откат. Используйте для межмодульных и рискованных изменений, миграций БД, аутентификации, публичных интерфейсов и оценки масштаба воздействия.",
+      "file": "skills/change-impact/SKILL.md",
+      "resourceDirectory": "skills/change-impact",
+      "sourcePath": "skills/change-impact/SKILL.md",
+      "sourceSha": "b220205a5cb783df3acd5bddba46624ada473637"
+    },
+    {
+      "name": "ecc-cisco-ios-patterns",
+      "description": "Практики проверки Cisco IOS и IOS-XE: команды просмотра состояния, иерархия конфигурации, wildcard-маски, размещение ACL, состояние интерфейсов и безопасная проверка в окне изменений. Используйте при чтении, написании и проверке конфигураций или планировании окна изменений.",
+      "file": "skills/cisco-ios-patterns/SKILL.md",
+      "resourceDirectory": "skills/cisco-ios-patterns",
+      "sourcePath": "skills/cisco-ios-patterns/SKILL.md",
+      "sourceSha": "fc935921263f19540d73d0e9967bb7b6425289f7"
+    },
+    {
+      "name": "ecc-click-path-audit",
+      "description": "Проследите полный цикл изменения состояния для каждой кнопки или точки взаимодействия. Найдите ошибки, когда функции по отдельности работают, но взаимно отменяются, дают неверный результат или оставляют пользовательский интерфейс в несогласованном состоянии. Используйте, если систематическая отладка не выявила причину жалоб на кнопки, или после крупного рефакторинга общих хранилищ состояния.",
+      "file": "skills/click-path-audit/SKILL.md",
+      "resourceDirectory": "skills/click-path-audit",
+      "sourcePath": "skills/click-path-audit/SKILL.md",
+      "sourceSha": "ffc469829b6c4bf893c4f6212d4110e87e9568d6"
+    },
+    {
+      "name": "ecc-clickhouse-io",
+      "description": "Практики ClickHouse: схемы БД, оптимизация запросов, аналитика и обработка данных для высокопроизводительных аналитических задач. Используйте при написании схем и запросов ClickHouse или при медленных аналитических запросах.",
+      "file": "skills/clickhouse-io/SKILL.md",
+      "resourceDirectory": "skills/clickhouse-io",
+      "sourcePath": "skills/clickhouse-io/SKILL.md",
+      "sourceSha": "5a97ddc66b31ebd715a07a87a7e60dc5fbff580e"
+    },
+    {
+      "name": "ecc-code-tour",
+      "description": "Создавайте файлы CodeTour `.tour` — пошаговые обзоры с реальными привязками к файлам и строкам, адаптированные для целевой аудитории. Для адаптации новых участников, обзора архитектуры, PR и RCA, а также структурированных объяснений работы кода.",
+      "file": "skills/code-tour/SKILL.md",
+      "resourceDirectory": "skills/code-tour",
+      "sourcePath": "skills/code-tour/SKILL.md",
+      "sourceSha": "d66b7e008287833ac592550f9b0941feaea52443"
+    },
+    {
+      "name": "ecc-codebase-onboarding",
+      "description": "Изучите незнакомую кодовую базу и создайте структурированный вводный документ: карту архитектуры, ключевые точки входа, соглашения и стартовый CLAUDE.md. Используйте при подключении к новому проекту или первой настройке Claude Code в репозитории.",
+      "file": "skills/codebase-onboarding/SKILL.md",
+      "resourceDirectory": "skills/codebase-onboarding",
+      "sourcePath": "skills/codebase-onboarding/SKILL.md",
+      "sourceSha": "ac70816c9edac808100df8e980dfd15ebd166cee"
+    },
+    {
+      "name": "ecc-coding-standards",
+      "description": "Базовые соглашения о коде для разных проектов: именование, читаемость, неизменяемость и проверка качества. Для специфичных практик используйте подробные навыки клиентской и серверной частей. Применяйте при оценке качества или именования, если подходящего навыка для конкретного фреймворка нет.",
+      "file": "skills/coding-standards/SKILL.md",
+      "resourceDirectory": "skills/coding-standards",
+      "sourcePath": "skills/coding-standards/SKILL.md",
+      "sourceSha": "051cccec47d1191129207aeadaf2a749c0b7c4e4"
+    },
+    {
+      "name": "ecc-competitive-platform-analysis",
+      "description": "Определите конкурентную среду: выявите, классифицируйте и отберите конкурентов до начала сравнительного анализа. Установите, кого считать конкурентом, к какому уровню он относится и какие источники изучить. Первый этап трёхчастного процесса анализа конкурентов; предшествует навыку `benchmark-methodology`.",
+      "file": "skills/competitive-platform-analysis/SKILL.md",
+      "resourceDirectory": "skills/competitive-platform-analysis",
+      "sourcePath": "skills/competitive-platform-analysis/SKILL.md",
+      "sourceSha": "f57364b84d08372805bb450319b4a2b30efe5716"
+    },
+    {
+      "name": "ecc-competitive-report-structure",
+      "description": "Соберите оценённые профили конкурентов из навыка `benchmark-methodology` в аналитический отчёт для принятия решений: карта рынка, уровни конкурентов, матрица сравнения, свободные ниши, стратегические рекомендации и вопросы для согласования команды. Используйте для представления выводов руководству или совету, подготовки отчёта либо завершающего этапа анализа конкурентов.",
+      "file": "skills/competitive-report-structure/SKILL.md",
+      "resourceDirectory": "skills/competitive-report-structure",
+      "sourcePath": "skills/competitive-report-structure/SKILL.md",
+      "sourceSha": "37264b3cda37894c9ce1ff574a8e77f0320db354"
+    },
+    {
+      "name": "ecc-compose-multiplatform-patterns",
+      "description": "Шаблоны Compose Multiplatform и Jetpack Compose для KMP: управление состоянием, навигация, темы, производительность и платформенный пользовательский интерфейс. Используйте при разработке интерфейса, состояния, навигации или тем в проектах KMP.",
+      "file": "skills/compose-multiplatform-patterns/SKILL.md",
+      "resourceDirectory": "skills/compose-multiplatform-patterns",
+      "sourcePath": "skills/compose-multiplatform-patterns/SKILL.md",
+      "sourceSha": "585b70f65d3fb38728b987c75a9b3da601aa997c"
+    },
+    {
+      "name": "ecc-config-health",
+      "description": "Проверка целостности локальной конфигурации проекта.",
+      "file": "skills/config-health/SKILL.md",
+      "resourceDirectory": "skills/config-health",
+      "sourcePath": "skills/config-health/SKILL.md",
+      "sourceSha": "6f4b89cb63450e29597a98886bf0444ec14a176e",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-connections-optimizer",
+      "description": "Оптимизируйте сеть контактов в X и LinkedIn: сначала проверка предложений по удалению, затем рекомендации подписок/добавлений и персонализированные сообщения в голосе пользователя для каждого канала. Используйте для очистки списка подписок, развития сети под текущие цели или усиления ценных связей.",
+      "file": "skills/connections-optimizer/SKILL.md",
+      "resourceDirectory": "skills/connections-optimizer",
+      "sourcePath": "skills/connections-optimizer/SKILL.md",
+      "sourceSha": "2fde485abe725c1edf4179492e0cf77ec0a036f1"
+    },
+    {
+      "name": "ecc-content-engine",
+      "description": "Создавайте нативные для платформ контент-системы для X, LinkedIn, TikTok, YouTube, рассылок и переиспользуемых кампаний. Используйте для постов, тредов, сценариев, контент-планов или адаптации одного материала под разные платформы.",
+      "file": "skills/content-engine/SKILL.md",
+      "resourceDirectory": "skills/content-engine",
+      "sourcePath": "skills/content-engine/SKILL.md",
+      "sourceSha": "28ddd4e1676f4ea67d34a9d244a94164e088b80e"
+    },
+    {
+      "name": "ecc-content-hash-cache-pattern",
+      "description": "Кэшируйте результаты ресурсоёмкой обработки файлов по SHA-256 содержимого: независимо от пути, с автоматической инвалидацией и разделением сервисного слоя. Используйте, если повторная обработка медленная и кэш следует сбрасывать по содержимому, а не пути.",
+      "file": "skills/content-hash-cache-pattern/SKILL.md",
+      "resourceDirectory": "skills/content-hash-cache-pattern",
+      "sourcePath": "skills/content-hash-cache-pattern/SKILL.md",
+      "sourceSha": "fe4ef6f2dd7034aa0ef6caf67600d8bef2e815c5"
+    },
+    {
+      "name": "ecc-context-and-decisions",
+      "description": "При необходимости фиксируйте стабильный доменный контекст в узконаправленном CONTEXT.md, а труднообратимые решения записывайте с помощью существующего навыка ECC `architecture-decision-records`. Используйте, когда термины требуют повторных пояснений, имеют несколько значений, неясность приводит к ошибкам границ модулей или семантику домена нужно отделить от архитектурных решений.",
+      "file": "skills/context-and-decisions/SKILL.md",
+      "resourceDirectory": "skills/context-and-decisions",
+      "sourcePath": "skills/context-and-decisions/SKILL.md",
+      "sourceSha": "23d5cad6023b741cb17485da4233dde2c7a0a218"
+    },
+    {
+      "name": "ecc-context-budget",
+      "description": "Направляет проверку текущего контекста к встроенному счётчику Codex или Claude Code без сканирования файлов; ограниченный статический аудит компонентов проводится только по прямому запросу. Используйте для оценки остатка контекста или накладных расходов установленного контекста.",
+      "file": "skills/context-budget/SKILL.md",
+      "resourceDirectory": "skills/context-budget",
+      "sourcePath": "skills/context-budget/SKILL.md",
+      "sourceSha": "063e29a464e1f7461517569061d14bc31596f10d"
+    },
+    {
+      "name": "ecc-contract-first",
+      "description": "Координируйте работу над клиентской и серверной частями или между сервисами через единый проверяемый машиной контракт (OpenAPI, AsyncAPI, Protocol Buffers или JSON Schema), генерируемые типы потребителей и интеграцию, проверяемую этим контрактом. Используйте для параллельной разработки API или схемы событий, чтобы избежать расхождений полей, отличий между заглушками и боевым окружением и односторонних изменений интерфейса.",
+      "file": "skills/contract-first/SKILL.md",
+      "resourceDirectory": "skills/contract-first",
+      "sourcePath": "skills/contract-first/SKILL.md",
+      "sourceSha": "a828bd60db452daa6b4edaf4e6cc02d192b99071"
+    },
+    {
+      "name": "ecc-conventional-commit-review",
+      "description": "Проверьте подготовленные к коммиту изменения и составьте сообщение в формате Conventional Commits с корректными типом, областью и длиной. Используйте перед коммитом или по просьбе написать, исправить либо проверить сообщение.",
+      "file": "skills/conventional-commit-review/SKILL.md",
+      "resourceDirectory": "skills/conventional-commit-review",
+      "sourcePath": "skills/conventional-commit-review/SKILL.md",
+      "sourceSha": "a53c70f6b153c6204ee31bb26b6ee0bc3efb5851"
+    },
+    {
+      "name": "ecc-cost-aware-llm-pipeline",
+      "description": "Снижает расходы на API больших языковых моделей (LLM): выбирает модель по сложности задачи, учитывает бюджет, повторы и кэширование промптов. Используйте для оптимизации затрат или распределения задач между уровнями моделей и бюджетами.",
+      "file": "skills/cost-aware-llm-pipeline/SKILL.md",
+      "resourceDirectory": "skills/cost-aware-llm-pipeline",
+      "sourcePath": "skills/cost-aware-llm-pipeline/SKILL.md",
+      "sourceSha": "e38c15c6d355dfb97c44b9de40f7cb235bfd3f9f"
+    },
+    {
+      "name": "ecc-council",
+      "description": "Соберите совет из четырёх точек зрения для неоднозначных решений, компромиссов и выбора «за/против». Используйте, когда есть несколько обоснованных вариантов и перед выбором нужно структурированно рассмотреть разногласия.",
+      "file": "skills/council/SKILL.md",
+      "resourceDirectory": "skills/council",
+      "sourcePath": "skills/council/SKILL.md",
+      "sourceSha": "89cbd962863623354742a9b176be1aaa976936f3"
+    },
+    {
+      "name": "ecc-cpp-coding-standards",
+      "description": "Стандарты C++ на основе C++ Core Guidelines (isocpp.github.io). Используйте при написании, проверке или рефакторинге кода C++ для соблюдения современных, безопасных и идиоматичных практик.",
+      "file": "skills/cpp-coding-standards/SKILL.md",
+      "resourceDirectory": "skills/cpp-coding-standards",
+      "sourcePath": "skills/cpp-coding-standards/SKILL.md",
+      "sourceSha": "c74c928252aafdef6810471d8171877bc971caf8"
+    },
+    {
+      "name": "ecc-cpp-testing",
+      "description": "Используйте только при написании, обновлении или исправлении тестов C++, настройке GoogleTest/CTest, диагностике падающих или нестабильных тестов, добавлении покрытия или санитайзеров.",
+      "file": "skills/cpp-testing/SKILL.md",
+      "resourceDirectory": "skills/cpp-testing",
+      "sourcePath": "skills/cpp-testing/SKILL.md",
+      "sourceSha": "a996a23059b5d055964ec7877167812b8fb6f20d"
+    },
+    {
+      "name": "ecc-csharp-testing",
+      "description": "Практики тестирования C# и .NET: xUnit, FluentAssertions, моки, интеграционные тесты и организация тестового набора. Используйте при написании или проверке xUnit-тестов, моков и интеграционных тестов в проекте C#/.NET.",
+      "file": "skills/csharp-testing/SKILL.md",
+      "resourceDirectory": "skills/csharp-testing",
+      "sourcePath": "skills/csharp-testing/SKILL.md",
+      "sourceSha": "e307bbe36e0ae176b7fa1559c690b23bad945e36"
+    },
+    {
+      "name": "ecc-customer-billing-ops",
+      "description": "Выполняйте расчёты с клиентами: подписки, возвраты, анализ оттока, восстановление доступа к платёжному порталу и анализ тарифов с помощью подключённых инструментов, например Stripe. Используйте для поддержки клиентов, проверки подписки или операций, влияющих на выручку.",
+      "file": "skills/customer-billing-ops/SKILL.md",
+      "resourceDirectory": "skills/customer-billing-ops",
+      "sourcePath": "skills/customer-billing-ops/SKILL.md",
+      "sourceSha": "d421a386deb2989e48edb434874939a90b3eb8f6"
+    },
+    {
+      "name": "ecc-customs-trade-compliance",
+      "description": "Практики соблюдения таможенных и торговых требований: классификация тарифов HS/HTS по правилам GRI, коммерческие счета и импортная документация, Incoterms 2020, льготы и оптимизация пошлин (USMCA, RCEP, FTZs, drawback), проверка запрещённых контрагентов и снижение штрафов в США, ЕС, Великобритании и APAC. Используйте при классификации товаров, подготовке документов, проверке ограниченных лиц, таможенных аудитах и оптимизации пошлин.",
+      "file": "skills/customs-trade-compliance/SKILL.md",
+      "resourceDirectory": "skills/customs-trade-compliance",
+      "sourcePath": "skills/customs-trade-compliance/SKILL.md",
+      "sourceSha": "d27e2a80786e769f95bea8f0d4c49fa125309574"
+    },
+    {
+      "name": "ecc-dart-flutter-patterns",
+      "description": "Практики Dart и Flutter для боевых приложений: безопасность null, неизменяемое состояние с Freezed, асинхронная композиция, архитектура виджетов, управление состоянием (BLoC, Riverpod, Provider), навигация GoRouter с проверками аутентификации, Dio, обработка ошибок и тестирование. Используйте при написании и проверке кода, состояния, виджетов, навигации, сетевого взаимодействия или архитектуры Dart/Flutter.",
+      "file": "skills/dart-flutter-patterns/SKILL.md",
+      "resourceDirectory": "skills/dart-flutter-patterns",
+      "sourcePath": "skills/dart-flutter-patterns/SKILL.md",
+      "sourceSha": "f9835833d3adfe930689b270cd0b55be413c5e07"
+    },
+    {
+      "name": "ecc-dashboard-builder",
+      "description": "Создавайте панели мониторинга, отвечающие на реальные вопросы операторов, для Grafana, SigNoz и аналогичных платформ. Используйте, чтобы превратить метрики в рабочую панель, а не декоративную витрину.",
+      "file": "skills/dashboard-builder/SKILL.md",
+      "resourceDirectory": "skills/dashboard-builder",
+      "sourcePath": "skills/dashboard-builder/SKILL.md",
+      "sourceSha": "ba3d7c064b4d8c5739004cf6838eb16b7413a596"
+    },
+    {
+      "name": "ecc-data-throughput-accelerator",
+      "description": "Диагностируйте и ускоряйте массовое перемещение данных: загрузку, заполнение пропусков и исторических данных, экспорт, ETL, передачу в хранилище, обновление манифеста и синхронизацию таблиц. Найдите узкое место, сравните варианты и зафиксируйте самый быстрый способ с проверкой согласованности строк и временных меток. Используйте, когда конвейер передачи или заполнение данных нужно ускорить без ущерба корректности.",
+      "file": "skills/data-throughput-accelerator/SKILL.md",
+      "resourceDirectory": "skills/data-throughput-accelerator",
+      "sourcePath": "skills/data-throughput-accelerator/SKILL.md",
+      "sourceSha": "440c3bf412a8b869690617d46bb81601c95ce15a"
+    },
+    {
+      "name": "ecc-database-migrations",
+      "description": "Безопасные обратимые миграции БД: только поступательные изменения рабочей среды, переименование по схеме expand-contract без простоя, конкурентное создание индексов, пакетное заполнение данных и процессы для PostgreSQL, Prisma, Drizzle, Kysely, Django и golang-migrate. Используйте при миграции схемы или данных, добавлении столбца или индекса в большую таблицу, планировании отката либо развёртывания без простоя.",
+      "file": "skills/database-migrations/SKILL.md",
+      "resourceDirectory": "skills/database-migrations",
+      "sourcePath": "skills/database-migrations/SKILL.md",
+      "sourceSha": "92d6d693066783cb00c225244a690e851fdab8c1"
+    },
+    {
+      "name": "ecc-defi-amm-security",
+      "description": "Чек-лист безопасности Solidity AMM-контрактов, пулов ликвидности и обменов: reentrancy, порядок CEI, атаки пожертвованием или инфляцией, манипуляция oracle, slippage, админ-контроль и целочисленная арифметика. Используйте при аудите или написании кода AMM, пулов ликвидности или обмена.",
+      "file": "skills/defi-amm-security/SKILL.md",
+      "resourceDirectory": "skills/defi-amm-security",
+      "sourcePath": "skills/defi-amm-security/SKILL.md",
+      "sourceSha": "18c75aba53b000b99ebd241fd60975d506708ede"
+    },
+    {
+      "name": "ecc-deployment-patterns",
+      "description": "Процессы развёртывания, шаблоны CI/CD, контейнеризация Docker, проверки работоспособности, стратегии отката и списки готовности веб-приложений к рабочей среде. Используйте при настройке CI/CD, контейнеризации приложения или проверке готовности к выпуску.",
+      "file": "skills/deployment-patterns/SKILL.md",
+      "resourceDirectory": "skills/deployment-patterns",
+      "sourcePath": "skills/deployment-patterns/SKILL.md",
+      "sourceSha": "b9d279f8a99889b6f36db99b17b762374474dc99"
+    },
+    {
+      "name": "ecc-design-system",
+      "description": "Создайте дизайн-систему по существующей кодовой базе или проверьте визуальную согласованность: извлеките токены (цвета, типографику, отступы, тени) в `design-tokens.json` и пользовательские свойства CSS, добавьте обоснование в `DESIGN.md` и интерактивный предварительный просмотр в HTML. Оцените интерфейс по десяти параметрам и отметьте шаблонные штампы, характерные для текстов ИИ. Используйте при создании дизайн-системы, аудите перед редизайном или проверке запроса на слияние со стилями.",
+      "file": "skills/design-system/SKILL.md",
+      "resourceDirectory": "skills/design-system",
+      "sourcePath": "skills/design-system/SKILL.md",
+      "sourceSha": "c041ed8ab627ebad68c00d062603963fc179fae9"
+    },
+    {
+      "name": "ecc-django-celery",
+      "description": "Шаблоны асинхронных задач Django + Celery: конфигурация, проектирование задач, расписание beat, повторы, canvas-процессы, мониторинг и тестирование. Используйте при добавлении фоновых задач, расписаний или асинхронной обработки в Django.",
+      "file": "skills/django-celery/SKILL.md",
+      "resourceDirectory": "skills/django-celery",
+      "sourcePath": "skills/django-celery/SKILL.md",
+      "sourceSha": "0ae9877559d4c4b64ad124621f33480e2abb2e12"
+    },
+    {
+      "name": "ecc-django-patterns",
+      "description": "Шаблоны архитектуры Django, проектирования REST API с DRF, практики ORM, кэширования, сигналов и middleware для приложений в рабочей среде. Используйте при создании или проверке Django-приложений, API DRF, ORM-запросов или кэширования.",
+      "file": "skills/django-patterns/SKILL.md",
+      "resourceDirectory": "skills/django-patterns",
+      "sourcePath": "skills/django-patterns/SKILL.md",
+      "sourceSha": "9d30f4ea76c88646adf4eaed3924ccb9d52fc3aa"
+    },
+    {
+      "name": "ecc-django-security",
+      "description": "Практики безопасности Django: аутентификация, авторизация, защита от CSRF, SQL-инъекций и XSS, безопасная конфигурация развёртывания. Используйте при проверке аутентификации, авторизации, обработки ввода или настроек развёртывания.",
+      "file": "skills/django-security/SKILL.md",
+      "resourceDirectory": "skills/django-security",
+      "sourcePath": "skills/django-security/SKILL.md",
+      "sourceSha": "9f25cc764248536fcb4d8240053f3e9540afda90"
+    },
+    {
+      "name": "ecc-django-tdd",
+      "description": "Стратегии тестирования Django с pytest-django, TDD, factory_boy, моками, покрытием и тестированием API Django REST Framework. Используйте при написании тестов Django/DRF с pytest-django или разработке функции через тесты.",
+      "file": "skills/django-tdd/SKILL.md",
+      "resourceDirectory": "skills/django-tdd",
+      "sourcePath": "skills/django-tdd/SKILL.md",
+      "sourceSha": "aaa2cd87ff9f74203f3dc97353019cf270bf83c0"
+    },
+    {
+      "name": "ecc-django-verification",
+      "description": "Полный цикл проверки Django: проверка окружения, статический анализ mypy/ruff/black, безопасность миграций, pytest с целевым покрытием, сканирование pip-audit и bandit, проверка настроек, журналов и изменений. Формирует поэтапный отчёт «ПРОЙДЕНО/НЕ ПРОЙДЕНО» перед выпуском или запросом на слияние. Используйте при подготовке запроса, проверке миграций и покрытия либо готовности к развёртыванию.",
+      "file": "skills/django-verification/SKILL.md",
+      "resourceDirectory": "skills/django-verification",
+      "sourcePath": "skills/django-verification/SKILL.md",
+      "sourceSha": "2c5062f025a99753f822dc5e2bb5674eb130049d"
+    },
+    {
+      "name": "ecc-docker-patterns",
+      "description": "Шаблоны Docker и Docker Compose для локальной разработки, защищённых CLI-установщиков, безопасности контейнеров, сети, томов и оркестрации нескольких сервисов. Используйте при создании или проверке Dockerfile и Compose, тестировании установщиков в Linux-дистрибутивах или планировании точной нативной проверки macOS и Windows.",
+      "file": "skills/docker-patterns/SKILL.md",
+      "resourceDirectory": "skills/docker-patterns",
+      "sourcePath": "skills/docker-patterns/SKILL.md",
+      "sourceSha": "36e792966e771f84ea0f2ebf48dc9577b05a07a9"
+    },
+    {
+      "name": "ecc-docs-governance",
+      "description": "Сверка документации с кодом, командами и локальными ссылками.",
+      "file": "skills/docs-governance/SKILL.md",
+      "resourceDirectory": "skills/docs-governance",
+      "sourcePath": "skills/docs-governance/SKILL.md",
+      "sourceSha": "ae00cf8b3f96dcca17f6c53176afccd669150157"
+    },
+    {
+      "name": "ecc-dotnet-patterns",
+      "description": "Идиоматичные практики C# и .NET: соглашения, внедрение зависимостей, async/await и разработка надёжных сопровождаемых приложений. Используйте при написании или проверке кода C#/.NET, DI, асинхронности и общих соглашений.",
+      "file": "skills/dotnet-patterns/SKILL.md",
+      "resourceDirectory": "skills/dotnet-patterns",
+      "sourcePath": "skills/dotnet-patterns/SKILL.md",
+      "sourceSha": "13669d523338e89ac82bea41370cae33b6308924"
+    },
+    {
+      "name": "ecc-dynamic-workflow-mode",
+      "description": "Проектируйте специфичные для задачи среды выполнения агентов, контрольные точки оценки результатов и выделение повторно используемых навыков для адаптивных рабочих процессов Claude Code и других систем управления агентами. Используйте при создании такой среды, добавлении контрольных точек оценки или выделении навыка из разовой работы.",
+      "file": "skills/dynamic-workflow-mode/SKILL.md",
+      "resourceDirectory": "skills/dynamic-workflow-mode",
+      "sourcePath": "skills/dynamic-workflow-mode/SKILL.md",
+      "sourceSha": "016bdaa9664c6927d9ac2ad4f0d8d59dfde58fdd"
+    },
+    {
+      "name": "ecc-ecc-contribution-review",
+      "description": "Проверка материалов перед предложением изменений в ECC.",
+      "file": "skills/ecc-contribution-review/SKILL.md",
+      "resourceDirectory": "skills/ecc-contribution-review",
+      "sourcePath": "skills/ecc-contribution-review/SKILL.md",
+      "sourceSha": "bb659d7cdf402ca340a4f37b320fe809903a7bff",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-ecc-recipes",
+      "description": "Подберите группу команд ECC для описанного процесса с порядком запуска и условием остановки либо покажите все семейства рецептов из каталога команд. Только рекомендации — команды не запускаются. Используйте для выбора команд и их последовательности, не для выполнения задачи; для документации одной команды — ecc-guide, для улучшения промпта — prompt-optimizer.",
+      "file": "skills/ecc-recipes/SKILL.md",
+      "resourceDirectory": "skills/ecc-recipes",
+      "sourcePath": "skills/ecc-recipes/SKILL.md",
+      "sourceSha": "e0e6cddef4cb3033f264f966a04267a1bf0731da"
+    },
+    {
+      "name": "ecc-email-ops",
+      "description": "Основанный на фактах процесс работы с почтой ECC: разбор входящих, подготовка черновиков, проверка отправки и безопасные последующие действия. Используйте для организации почты, подготовки или отправки через почтовый интерфейс и подтверждения письма в папке «Отправленные».",
+      "file": "skills/email-ops/SKILL.md",
+      "resourceDirectory": "skills/email-ops",
+      "sourcePath": "skills/email-ops/SKILL.md",
+      "sourceSha": "f0126efa6c79d0e56bac2049e47a9f062e9ae111"
+    },
+    {
+      "name": "ecc-energy-procurement",
+      "description": "Закупайте электроэнергию и природный газ для коммерческих и промышленных объектов: оптимизируйте тарифы и ставки, снижайте плату за пиковую нагрузку, проводите запросы предложений поставщикам, страхуйте ценовые риски по контрактам с фиксированной, индексной и смешанной ценой, оценивайте договоры покупки возобновляемой энергии (PPA) и сертификаты возобновляемой энергии (REC), готовьте отчётность по устойчивому развитию. Используйте для закупок, оптимизации тарифов и нагрузки, оценки PPA, бюджетов и страхования ценовых рисков.",
+      "file": "skills/energy-procurement/SKILL.md",
+      "resourceDirectory": "skills/energy-procurement",
+      "sourcePath": "skills/energy-procurement/SKILL.md",
+      "sourceSha": "cd8c2fa7b36bb8d20d2a9f8111d0d350a41a5577"
+    },
+    {
+      "name": "ecc-enterprise-agent-ops",
+      "description": "Операционный контроль долгоживущих и облачных систем агентов: жизненный цикл среды выполнения (запуск, пауза, остановка, перезапуск), наблюдаемость (журналы, метрики, трассировки), минимальные привилегии, аварийное отключение и управление выпуском/откатом с журналом аудита и метриками результата и стоимости. Используйте для боевых групп агентов на PM2, systemd или в контейнерах, которым нужны мониторинг, реагирование на инциденты и контроль развёртывания.",
+      "file": "skills/enterprise-agent-ops/SKILL.md",
+      "resourceDirectory": "skills/enterprise-agent-ops",
+      "sourcePath": "skills/enterprise-agent-ops/SKILL.md",
+      "sourceSha": "d7d56fc40dbf5470f415874fed433dc6ba39f81b"
+    },
+    {
+      "name": "ecc-error-handling",
+      "description": "Практики надёжной обработки ошибок в TypeScript, Python и Go: типизированные ошибки, границы обработки ошибок, повторы и автоматические выключатели (circuit breaker), понятные пользователю сообщения. Используйте при проектировании типов ошибок, повторов, автоматических выключателей или сообщений о сбоях.",
+      "file": "skills/error-handling/SKILL.md",
+      "resourceDirectory": "skills/error-handling",
+      "sourcePath": "skills/error-handling/SKILL.md",
+      "sourceSha": "add87f2cdb6f374781b08a0b1cf971eb9ec1915e"
+    },
+    {
+      "name": "ecc-esign-field-placement",
+      "description": "Точное размещение полей подписи, даты и текста в веб-редакторе электронных подписей с помощью автоматизации браузера: фиксированная страница подписи, ввод координат в панели «Расположение» вместо перетаскивания и сохранение черновика по умолчанию. Используйте для повторяемого размещения полей и назначения их получателям с обязательной проверкой до отправки или подписания.",
+      "file": "skills/esign-field-placement/SKILL.md",
+      "resourceDirectory": "skills/esign-field-placement",
+      "sourcePath": "skills/esign-field-placement/SKILL.md",
+      "sourceSha": "3a1f4abd7532860417d5211c0950238f7b708769"
+    },
+    {
+      "name": "ecc-evm-token-decimals",
+      "description": "Предотвращайте незаметные ошибки десятичных разрядов в EVM-сетях: получение decimals во время выполнения, кэширование с учётом сети, расхождение точности bridged-токенов и безопасная нормализация для ботов, панелей и DeFi-инструментов. Используйте при работе с суммами токенов в разных EVM-сетях или при ошибке на порядки величины в балансе, цене либо переводе.",
+      "file": "skills/evm-token-decimals/SKILL.md",
+      "resourceDirectory": "skills/evm-token-decimals",
+      "sourcePath": "skills/evm-token-decimals/SKILL.md",
+      "sourceSha": "a1519886b2ac67d2bdb2c5328abbbc38d966996b"
+    },
+    {
+      "name": "ecc-fastapi-patterns",
+      "description": "Практики FastAPI: структура проекта, схемы Pydantic v2, внедрение зависимостей, асинхронные обработчики, аутентификация и авторизация, транзакционные сервисные слои, тесты с httpx и pytest. Используйте при создании или проверке приложений FastAPI, схем, зависимостей, асинхронных обработчиков, аутентификации или тестов.",
+      "file": "skills/fastapi-patterns/SKILL.md",
+      "resourceDirectory": "skills/fastapi-patterns",
+      "sourcePath": "skills/fastapi-patterns/SKILL.md",
+      "sourceSha": "b4a0a5b5873d90d05797b830ab5966e4cb53ee9d"
+    },
+    {
+      "name": "ecc-finance-billing-ops",
+      "description": "Основанный на данных процесс ECC для выручки, цен, возвратов, командного биллинга и проверки реальной модели оплаты. Используйте для сводки продаж, сравнения тарифов, диагностики двойного списания или проверки биллинга по коду вместо общих советов об оплате.",
+      "file": "skills/finance-billing-ops/SKILL.md",
+      "resourceDirectory": "skills/finance-billing-ops",
+      "sourcePath": "skills/finance-billing-ops/SKILL.md",
+      "sourceSha": "bae0dc6ee1691b615722bc1785a82ace92d22d05"
+    },
+    {
+      "name": "ecc-flutter-dart-code-review",
+      "description": "Не зависящий от библиотек контрольный список проверки кода Flutter/Dart: практики виджетов, управление состоянием (BLoC, Riverpod, Provider, GetX, MobX, Signals), идиомы Dart, производительность, доступность, безопасность и чистая архитектура. Используйте при проверке кода Flutter/Dart независимо от выбранной библиотеки управления состоянием.",
+      "file": "skills/flutter-dart-code-review/SKILL.md",
+      "resourceDirectory": "skills/flutter-dart-code-review",
+      "sourcePath": "skills/flutter-dart-code-review/SKILL.md",
+      "sourceSha": "f8f902a86fe5360635db2eaab3fb791f9e7bbc52"
+    },
+    {
+      "name": "ecc-foundation-models-on-device",
+      "description": "Фреймворк Apple FoundationModels для запуска больших языковых моделей на устройстве: генерация текста, управляемая генерация с @Generable, вызов инструментов и потоковая передача снимков в iOS 26+. Используйте при добавлении таких возможностей в приложения для iOS 26+.",
+      "file": "skills/foundation-models-on-device/SKILL.md",
+      "resourceDirectory": "skills/foundation-models-on-device",
+      "sourcePath": "skills/foundation-models-on-device/SKILL.md",
+      "sourceSha": "1af35736875a3c802da544245bd95aa463ec4476"
+    },
+    {
+      "name": "ecc-frontend-a11y",
+      "description": "Практики доступности для React и Next.js: семантический HTML, атрибуты ARIA, подписи полей, клавиатурная навигация, управление фокусом и поддержка экранных дикторов. Используйте при создании и проверке форм, модальных окон, выпадающих списков, подсказок и вкладок, исправлении замечаний доступности или настройке клавиатуры и фокуса.",
+      "file": "skills/frontend-a11y/SKILL.md",
+      "resourceDirectory": "skills/frontend-a11y",
+      "sourcePath": "skills/frontend-a11y/SKILL.md",
+      "sourceSha": "a39419935900b1ac1003827d83c896610350b619"
+    },
+    {
+      "name": "ecc-frontend-patterns",
+      "description": "Практики разработки клиентской части для React и Next.js: управление состоянием, производительность и пользовательский интерфейс. Используйте при создании или проверке компонентов, состояния и скорости отрисовки React/Next.js.",
+      "file": "skills/frontend-patterns/SKILL.md",
+      "resourceDirectory": "skills/frontend-patterns",
+      "sourcePath": "skills/frontend-patterns/SKILL.md",
+      "sourceSha": "a63977a8b0a8896217a884cdf9e6d49fc8771be6"
+    },
+    {
+      "name": "ecc-frontend-slides",
+      "description": "Создавайте выразительные анимированные HTML-презентации с нуля или преобразуйте файлы PowerPoint. Используйте для подготовки презентации, конвертации PPT/PPTX в веб-формат или создания слайдов для выступления и презентации проекта. Помогает людям без дизайнерского опыта выбрать визуальный стиль на основе исследования, а не произвольного выбора.",
+      "file": "skills/frontend-slides/SKILL.md",
+      "resourceDirectory": "skills/frontend-slides",
+      "sourcePath": "skills/frontend-slides/SKILL.md",
+      "sourceSha": "0852122c39a98ae82b204f91cb70232fad56bfcf"
+    },
+    {
+      "name": "ecc-fsharp-testing",
+      "description": "Практики тестирования F#: xUnit, FsUnit, Unquote, проверка свойств с FsCheck и организация интеграционных тестов. Используйте при написании F#-тестов с xUnit, FsUnit, Unquote или FsCheck.",
+      "file": "skills/fsharp-testing/SKILL.md",
+      "resourceDirectory": "skills/fsharp-testing",
+      "sourcePath": "skills/fsharp-testing/SKILL.md",
+      "sourceSha": "9440ec6742c4ea3eeddc7530b29f7ca77b7f87cb"
+    },
+    {
+      "name": "ecc-generating-python-installer",
+      "description": "Создание коммерческих Python-установщиков для Windows: экстремальная компиляция Nuitka, уменьшение dist, анализ объёма DLL и упаковка Inno Setup для самых компактных и быстрых установщиков. Используйте, когда Python-приложение нужно выпустить как минимальный быстро запускающийся Windows-установщик; не для простой конвертации скрипта в exe. Триггеры: экстремальная оптимизация Nuitka, коммерческая упаковка Python, экстремальная компиляция Python, уменьшение dist, анализ DLL, минимальный установщик, быстрый запуск, коммерческий стиль упаковки.",
+      "file": "skills/generating-python-installer/SKILL.md",
+      "resourceDirectory": "skills/generating-python-installer",
+      "sourcePath": "skills/generating-python-installer/SKILL.md",
+      "sourceSha": "d1d061e2f61be2f3e7467748d347d4ca1773f14d"
+    },
+    {
+      "name": "ecc-godot-patterns",
+      "description": "Архитектура сцен, узлов, сигналов и ресурсов в Godot.",
+      "file": "skills/godot-patterns/SKILL.md",
+      "resourceDirectory": "skills/godot-patterns",
+      "sourcePath": "skills/godot-patterns/SKILL.md",
+      "sourceSha": "ffb38c39a7c8214844d91a4cf5da68eb075de6c9",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-godot-testing",
+      "description": "Локальное тестирование игр и сцен Godot.",
+      "file": "skills/godot-testing/SKILL.md",
+      "resourceDirectory": "skills/godot-testing",
+      "sourcePath": "skills/godot-testing/SKILL.md",
+      "sourceSha": "da5179d4ea2ca085ce72162545f9e983887ba451",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-golang-patterns",
+      "description": "Идиоматичные практики и соглашения Go для надёжных, эффективных и сопровождаемых приложений. Используйте при написании или проверке кода Go, когда важны идиоматичная структура и соглашения.",
+      "file": "skills/golang-patterns/SKILL.md",
+      "resourceDirectory": "skills/golang-patterns",
+      "sourcePath": "skills/golang-patterns/SKILL.md",
+      "sourceSha": "85e4b3f70bcf7186ab1070ca6108fdac6d7ee5a6"
+    },
+    {
+      "name": "ecc-golang-testing",
+      "description": "Практики тестирования Go: табличные тесты, под-тесты, замеры производительности, фаззинг и покрытие; TDD и идиоматичный Go. Используйте при написании Go-тестов, сравнительных замерах производительности, фаззинг-тестировании или проверке покрытия.",
+      "file": "skills/golang-testing/SKILL.md",
+      "resourceDirectory": "skills/golang-testing",
+      "sourcePath": "skills/golang-testing/SKILL.md",
+      "sourceSha": "45ca4871b2e5c46891bead7f23efd094a66cb6b7"
+    },
+    {
+      "name": "ecc-google-workspace-ops",
+      "description": "Работайте с Google Drive, Docs, Sheets и Slides как с единой средой для планов, трекеров, презентаций и общих документов. Используйте для поиска, обобщения, редактирования, переноса и очистки Google Workspace без низкоуровневых вызовов инструментов.",
+      "file": "skills/google-workspace-ops/SKILL.md",
+      "resourceDirectory": "skills/google-workspace-ops",
+      "sourcePath": "skills/google-workspace-ops/SKILL.md",
+      "sourceSha": "af26f80c3c5d55dc4cb36a861d5ca16d719c7b3a"
+    },
+    {
+      "name": "ecc-growth-log",
+      "description": "Ведите журнал роста, фиксируя повторно применимые выводы из завершённой работы — первопричину, переносимое правило и узнаваемый признак — вместо дневникового пересказа. Используйте шаблон на 4–8 предложений и объединяйте дубликаты. Применяйте после сложной задачи, отладки, сбоя или отката, при обзоре прогресса либо запросе о полученных уроках.",
+      "file": "skills/growth-log/SKILL.md",
+      "resourceDirectory": "skills/growth-log",
+      "sourcePath": "skills/growth-log/SKILL.md",
+      "sourceSha": "80c7d75a3b551eb3e723c6c71a4aa1cdfc1da589"
+    },
+    {
+      "name": "ecc-healthcare-cdss-patterns",
+      "description": "Практики разработки систем поддержки принятия клинических решений (CDSS): проверка взаимодействий лекарств и дозировок, клинические шкалы (NEWS2, qSOFA), классификация важности предупреждений и интеграция в процессы EMR. Используйте при создании таких систем.",
+      "file": "skills/healthcare-cdss-patterns/SKILL.md",
+      "resourceDirectory": "skills/healthcare-cdss-patterns",
+      "sourcePath": "skills/healthcare-cdss-patterns/SKILL.md",
+      "sourceSha": "f98314a5ef164e78f9f1a6826ea08297428d0183"
+    },
+    {
+      "name": "ecc-healthcare-emr-patterns",
+      "description": "Практики разработки EMR/EHR для медицинских приложений: клиническая безопасность, процессы приёма, формирование рецептов, интеграция CDSS и доступный пользовательский интерфейс для ввода медицинских данных. Используйте при создании функций EMR/EHR, например процессов приёма, рецептов и ввода клинических данных.",
+      "file": "skills/healthcare-emr-patterns/SKILL.md",
+      "resourceDirectory": "skills/healthcare-emr-patterns",
+      "sourcePath": "skills/healthcare-emr-patterns/SKILL.md",
+      "sourceSha": "86e8b8cbbb59d51b13a3e03c1fffb102258e6217"
+    },
+    {
+      "name": "ecc-healthcare-eval-harness",
+      "description": "Система оценки безопасности пациентов при выпуске медицинских приложений: автоматические проверки точности CDSS, утечек PHI, целостности клинических процессов и соответствия интеграций. Блокирует выпуск при нарушениях безопасности. Используйте, когда выпуск зависит от таких проверок.",
+      "file": "skills/healthcare-eval-harness/SKILL.md",
+      "resourceDirectory": "skills/healthcare-eval-harness",
+      "sourcePath": "skills/healthcare-eval-harness/SKILL.md",
+      "sourceSha": "43ce12ea5c7a602f1ff5544eed6183a95706bf8f"
+    },
+    {
+      "name": "ecc-healthcare-phi-compliance",
+      "description": "Практики защиты PHI и PII в медицинских приложениях: классификация данных, построчный контроль доступа, защищённые от подмены журналы аудита, маркировка схем и типичные каналы утечки — логи, URL и хранилище браузера. Используйте при работе с данными пациентов или врачей, внедрении контроля HIPAA/GDPR или аудите утечек.",
+      "file": "skills/healthcare-phi-compliance/SKILL.md",
+      "resourceDirectory": "skills/healthcare-phi-compliance",
+      "sourcePath": "skills/healthcare-phi-compliance/SKILL.md",
+      "sourceSha": "6b1b90821bd0f089b548131d04421275418e8f8c"
+    },
+    {
+      "name": "ecc-hermes-imports",
+      "description": "Преобразуйте локальные процессы оператора Hermes в проверенные навыки ECC и артефакты выпуска пакета. Используйте для подготовки процесса Hermes к открытому использованию без раскрытия личного содержимого рабочей области, учётных данных и локальных путей.",
+      "file": "skills/hermes-imports/SKILL.md",
+      "resourceDirectory": "skills/hermes-imports",
+      "sourcePath": "skills/hermes-imports/SKILL.md",
+      "sourceSha": "38c08ccc6ba4f36a6993908a955838feb0f7799c"
+    },
+    {
+      "name": "ecc-hexagonal-architecture",
+      "description": "Проектируйте, реализуйте и рефакторьте системы Ports & Adapters с чёткими границами домена, инверсией зависимостей и тестируемой оркестрацией сценариев для сервисов TypeScript, Java, Kotlin и Go. Используйте при внедрении или рефакторинге этой архитектуры либо когда доменная логика смешалась с вводом-выводом.",
+      "file": "skills/hexagonal-architecture/SKILL.md",
+      "resourceDirectory": "skills/hexagonal-architecture",
+      "sourcePath": "skills/hexagonal-architecture/SKILL.md",
+      "sourceSha": "54943754db2e7e993bb6428a789cbb3915322d7c"
+    },
+    {
+      "name": "ecc-hipaa-compliance",
+      "description": "Точка входа для задач конфиденциальности и безопасности в здравоохранении, связанных с HIPAA. Используйте, если задача явно касается HIPAA, обработки PHI, регулируемых организаций, BAA, готовности к утечке или требований здравоохранения США.",
+      "file": "skills/hipaa-compliance/SKILL.md",
+      "resourceDirectory": "skills/hipaa-compliance",
+      "sourcePath": "skills/hipaa-compliance/SKILL.md",
+      "sourceSha": "c1fa78e99fc1f962486b05ef8a5ec438ebc46d4a"
+    },
+    {
+      "name": "ecc-homelab-network-readiness",
+      "description": "Чек-лист готовности к сегментации VLAN в домашней лаборатории, локальной фильтрации DNS (Pi-hole, AdGuard Home) и удалённому доступу через WireGuard. Используйте при планировании или проверке изменений домашней сети — разделении на доверенные, IoT, гостевые и административные VLAN, переносе DHCP на локальный DNS-резолвер или добавлении VPN — до изменения маршрутизатора, межсетевого экрана, DHCP или VPN.",
+      "file": "skills/homelab-network-readiness/SKILL.md",
+      "resourceDirectory": "skills/homelab-network-readiness",
+      "sourcePath": "skills/homelab-network-readiness/SKILL.md",
+      "sourceSha": "8e41e52177231f6866eacb9c939ce202abe67e02"
+    },
+    {
+      "name": "ecc-homelab-network-setup",
+      "description": "Практическое планирование домашней сети и домашней лаборатории: шлюзы, коммутаторы, точки доступа, диапазоны IP, резервации DHCP, DNS, кабели и типичные ошибки новичков. Используйте при планировании или настройке домашней сети и лаборатории.",
+      "file": "skills/homelab-network-setup/SKILL.md",
+      "resourceDirectory": "skills/homelab-network-setup",
+      "sourcePath": "skills/homelab-network-setup/SKILL.md",
+      "sourceSha": "b4cbbef8272ca12aa3de0d27002f078ec43b66c8"
+    },
+    {
+      "name": "ecc-homelab-vlan-segmentation",
+      "description": "Разделяйте домашнюю сеть на VLAN для IoT, гостей, доверенных устройств и серверов с UniFi, pfSense/OPNsense и MikroTik: настройка транковых портов, правил межсетевого экрана и беспроводных сетей SSID. Используйте при сегментации сети на этих платформах.",
+      "file": "skills/homelab-vlan-segmentation/SKILL.md",
+      "resourceDirectory": "skills/homelab-vlan-segmentation",
+      "sourcePath": "skills/homelab-vlan-segmentation/SKILL.md",
+      "sourceSha": "bd1927bc5f8f072fcdd39f653722bc5be9c93c1c"
+    },
+    {
+      "name": "ecc-intent-driven-development",
+      "description": "Преобразуйте неоднозначные или значимые продуктовые и инженерные изменения в чёткие проверяемые критерии приёмки до или во время реализации. Используйте для уточнения функции, определения критериев, снижения рисков изменений безопасности, данных, миграций и интеграций, подготовки требований другому агенту или проверки сложного запроса. Не используйте для мелких правок, простых исправлений, активной отладки, проверки кода или реализации с уже ясными критериями, если навык не вызван явно.",
+      "file": "skills/intent-driven-development/SKILL.md",
+      "resourceDirectory": "skills/intent-driven-development",
+      "sourcePath": "skills/intent-driven-development/SKILL.md",
+      "sourceSha": "a5f0328996282ccb2a422f85798345f0b7eff570"
+    },
+    {
+      "name": "ecc-inventory-demand-planning",
+      "description": "Практики планирования спроса для розницы с несколькими точками: выбор метода прогноза, сегментация ABC/XYZ, оптимизация страхового запаса и точки заказа, оценка эффекта промо и спада после него, сезонных переходов и сроков уценки. Используйте для прогнозирования спроса, пополнения, промо и оптимизации запасов.",
+      "file": "skills/inventory-demand-planning/SKILL.md",
+      "resourceDirectory": "skills/inventory-demand-planning",
+      "sourcePath": "skills/inventory-demand-planning/SKILL.md",
+      "sourceSha": "48c8d44338d75ca743618f206d2e0ecf7cc88564"
+    },
+    {
+      "name": "ecc-investor-materials",
+      "description": "Создавайте и обновляйте pitch decks, одностраничные материалы, меморандумы инвесторам, заявки в акселераторы, финансовые модели и материалы для привлечения средств. Используйте для документов инвесторам, прогнозов, таблиц использования средств, планов этапов и согласованности материалов фандрайзинга.",
+      "file": "skills/investor-materials/SKILL.md",
+      "resourceDirectory": "skills/investor-materials",
+      "sourcePath": "skills/investor-materials/SKILL.md",
+      "sourceSha": "82eaba3a95a9d1eb79672addcffb17c1a18faead"
+    },
+    {
+      "name": "ecc-investor-outreach",
+      "description": "Подготовка холодных писем, текстов для тёплых рекомендаций, follow-up, обновлений и коммуникации с инвесторами при привлечении средств. Используйте для кратких персонализированных сообщений бизнес-ангелам, VC, стратегическим инвесторам и акселераторам.",
+      "file": "skills/investor-outreach/SKILL.md",
+      "resourceDirectory": "skills/investor-outreach",
+      "sourcePath": "skills/investor-outreach/SKILL.md",
+      "sourceSha": "01be7534bfd0ae457cb094c168826816a24cfdd8"
+    },
+    {
+      "name": "ecc-issue-review",
+      "description": "Проверка описания задачи по коду и результатам тестов.",
+      "file": "skills/issue-review/SKILL.md",
+      "resourceDirectory": "skills/issue-review",
+      "sourcePath": "skills/issue-review/SKILL.md",
+      "sourceSha": "8658cfbe379e898e23f2bbddcee53f8a341aed05",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-iterative-retrieval",
+      "description": "Шаблон последовательного уточнения поиска контекста для решения проблемы нехватки контекста у субагента. Используйте, когда контекст субагента нужно улучшать в несколько проходов.",
+      "file": "skills/iterative-retrieval/SKILL.md",
+      "resourceDirectory": "skills/iterative-retrieval",
+      "sourcePath": "skills/iterative-retrieval/SKILL.md",
+      "sourceSha": "5b4fbcd58c38701a8ef6a43f80b820f792716982"
+    },
+    {
+      "name": "ecc-java-coding-standards",
+      "description": "Стандарты Java для сервисов Spring Boot и Quarkus: именование, неизменяемость, Optional, Stream API, исключения, обобщённые типы, CDI, реактивные шаблоны и структура проекта. Автоматически учитывает соглашения фреймворка. Используйте при написании или проверке Java-сервиса Spring Boot или Quarkus.",
+      "file": "skills/java-coding-standards/SKILL.md",
+      "resourceDirectory": "skills/java-coding-standards",
+      "sourcePath": "skills/java-coding-standards/SKILL.md",
+      "sourceSha": "47b34a0f802f776fc84ee9c40eab786053aa47b8"
+    },
+    {
+      "name": "ecc-jpa-patterns",
+      "description": "Практики JPA/Hibernate для проектирования сущностей и связей, оптимизации запросов, транзакций, аудита, индексации, пагинации и пулов в Spring Boot. Используйте при проектировании сущностей/связей или устранении проблем запросов Hibernate, транзакций и N+1.",
+      "file": "skills/jpa-patterns/SKILL.md",
+      "resourceDirectory": "skills/jpa-patterns",
+      "sourcePath": "skills/jpa-patterns/SKILL.md",
+      "sourceSha": "5c2f6425dd6f299f6ceb918f56673ad9fbeee8a8"
+    },
+    {
+      "name": "ecc-kotlin-coroutines-flows",
+      "description": "Практики Kotlin Coroutines и Flow для Android и KMP: структурированная конкурентность, операторы Flow, StateFlow, обработка ошибок и тестирование. Используйте при написании корутин/Flow или отладке отмены и конкурентности.",
+      "file": "skills/kotlin-coroutines-flows/SKILL.md",
+      "resourceDirectory": "skills/kotlin-coroutines-flows",
+      "sourcePath": "skills/kotlin-coroutines-flows/SKILL.md",
+      "sourceSha": "7bbb13c9a62cfe630362b9d0a4779171ec5a342c"
+    },
+    {
+      "name": "ecc-kotlin-exposed-patterns",
+      "description": "Практики JetBrains Exposed ORM: DSL-запросы, DAO, транзакции, пулы соединений HikariCP, миграции Flyway и паттерн repository. Используйте при работе с Exposed — DSL/DAO-запросами, транзакциями, пулами или миграциями.",
+      "file": "skills/kotlin-exposed-patterns/SKILL.md",
+      "resourceDirectory": "skills/kotlin-exposed-patterns",
+      "sourcePath": "skills/kotlin-exposed-patterns/SKILL.md",
+      "sourceSha": "5f853d7bded06841e6e73ef53b4f7b530ccd3da7"
+    },
+    {
+      "name": "ecc-kotlin-ktor-patterns",
+      "description": "Практики серверов Ktor: DSL-маршрутизация, плагины, аутентификация, внедрение зависимостей Koin, kotlinx.serialization, WebSockets и тестирование через `testApplication`. Используйте при создании Ktor-сервера: маршрутизация, плагины, аутентификация, внедрение зависимостей, сериализация и тесты.",
+      "file": "skills/kotlin-ktor-patterns/SKILL.md",
+      "resourceDirectory": "skills/kotlin-ktor-patterns",
+      "sourcePath": "skills/kotlin-ktor-patterns/SKILL.md",
+      "sourceSha": "b36688570b9590aff40e1400621a5c6da13b965f"
+    },
+    {
+      "name": "ecc-kotlin-patterns",
+      "description": "Идиоматичные практики Kotlin, соглашения и рекомендации для надёжных, эффективных и удобных в сопровождении приложений с корутинами, null safety и DSL-билдерами. Используйте при написании или проверке кода Kotlin, если важны идиоматичная структура или обработка null.",
+      "file": "skills/kotlin-patterns/SKILL.md",
+      "resourceDirectory": "skills/kotlin-patterns",
+      "sourcePath": "skills/kotlin-patterns/SKILL.md",
+      "sourceSha": "7b6baba881698144a3af501b64445a3ce7079710"
+    },
+    {
+      "name": "ecc-kotlin-testing",
+      "description": "Практики тестирования Kotlin с Kotest, MockK, тестированием корутин, проверками свойств и покрытием Kover. Следует методологии TDD и идиомам Kotlin. Используйте при написании тестов Kotest или MockK, тестировании корутин и проверке покрытия.",
+      "file": "skills/kotlin-testing/SKILL.md",
+      "resourceDirectory": "skills/kotlin-testing",
+      "sourcePath": "skills/kotlin-testing/SKILL.md",
+      "sourceSha": "18df9b22c6d06f03af588c8a1e6515c9346b30c1"
+    },
+    {
+      "name": "ecc-kubernetes-patterns",
+      "description": "Практики Kubernetes для рабочих нагрузок, ресурсов, RBAC, проверок готовности, автомасштабирования, ConfigMap/Secret и отладки через kubectl в рабочей среде. Используйте при написании или проверке манифестов, а также диагностике проверок готовности, RBAC, автомасштабирования и лимитов ресурсов.",
+      "file": "skills/kubernetes-patterns/SKILL.md",
+      "resourceDirectory": "skills/kubernetes-patterns",
+      "sourcePath": "skills/kubernetes-patterns/SKILL.md",
+      "sourceSha": "fdd0eba6883e14a1f82688acf9ef5a96ddc6180f"
+    },
+    {
+      "name": "ecc-laravel-patterns",
+      "description": "Архитектурные практики Laravel: маршрутизация и контроллеры, Eloquent ORM, сервисные слои, очереди, события, кэширование и API-ресурсы для приложений в рабочей среде. Используйте при разработке или проверке приложений Laravel, контроллеров, Eloquent, сервисных слоёв, очередей и API-ресурсов.",
+      "file": "skills/laravel-patterns/SKILL.md",
+      "resourceDirectory": "skills/laravel-patterns",
+      "sourcePath": "skills/laravel-patterns/SKILL.md",
+      "sourceSha": "a3ce33fdfa0550f2ec9e5186d0924a2382e644bc"
+    },
+    {
+      "name": "ecc-laravel-security",
+      "description": "Практики безопасности Laravel: аутентификация, авторизация, безопасность Eloquent, CSRF, защита от XSS, безопасность API и настройки развёртывания. Используйте при проверке этих аспектов.",
+      "file": "skills/laravel-security/SKILL.md",
+      "resourceDirectory": "skills/laravel-security",
+      "sourcePath": "skills/laravel-security/SKILL.md",
+      "sourceSha": "dd65c7e1f913639018748d1282b11186e454b040"
+    },
+    {
+      "name": "ecc-laravel-tdd",
+      "description": "Практики тестирования Laravel с PHPUnit, Pest, фабриками моделей, HTTP-тестами, тестированием аутентификации Sanctum, моками и покрытием. Используйте при написании тестов PHPUnit или Pest либо разработке функциональности через тесты.",
+      "file": "skills/laravel-tdd/SKILL.md",
+      "resourceDirectory": "skills/laravel-tdd",
+      "sourcePath": "skills/laravel-tdd/SKILL.md",
+      "sourceSha": "15ccea11b7ef975901fa7816517261de75364ffb"
+    },
+    {
+      "name": "ecc-laravel-verification",
+      "description": "Цикл проверки проектов Laravel: окружение, линтинг, статический анализ, тесты и покрытие, проверки безопасности и готовность к развёртыванию. Используйте перед слиянием или развёртыванием для проверки линтинга, анализа, тестов, покрытия и безопасности.",
+      "file": "skills/laravel-verification/SKILL.md",
+      "resourceDirectory": "skills/laravel-verification",
+      "sourcePath": "skills/laravel-verification/SKILL.md",
+      "sourceSha": "26dd898660bbe8f1c7080b77ceb41eae4848ccf7"
+    },
+    {
+      "name": "ecc-latency-critical-systems",
+      "description": "Оптимизирует и проверяет системы, чувствительные к задержкам: панели реального времени, потоки рыночных данных, потоковые агенты, шлюзы исполнения, очереди и кэши. Отслеживает p50/p95/p99, давность данных и глубину очереди, анализирует горячие пути и проверяет результаты на работающей системе. Используйте, когда важны задержка p95, пропускная способность или актуальность данных.",
+      "file": "skills/latency-critical-systems/SKILL.md",
+      "resourceDirectory": "skills/latency-critical-systems",
+      "sourcePath": "skills/latency-critical-systems/SKILL.md",
+      "sourceSha": "cbcf27ca709bba4d6fd6b837f4b76156cf82461f"
+    },
+    {
+      "name": "ecc-lead-intelligence",
+      "description": "Система на основе ИИ для поиска потенциальных клиентов и подготовки обращений. Заменяет Apollo, Clay и ZoomInfo оценкой сигналов агентами, ранжированием взаимной ценности, поиском тёплых контактов, анализом стиля источников и сообщениями по электронной почте, LinkedIn и X. Используйте для поиска, оценки и привлечения ценных контактов.",
+      "file": "skills/lead-intelligence/SKILL.md",
+      "resourceDirectory": "skills/lead-intelligence",
+      "sourcePath": "skills/lead-intelligence/SKILL.md",
+      "sourceSha": "e29be63ed9cd4fbe0424e26a0ee43cf1e1697f4b"
+    },
+    {
+      "name": "ecc-liquid-glass-design",
+      "description": "Система дизайна Liquid Glass для iOS 26: динамический стеклянный материал с размытием, отражениями и интерактивными переходами для SwiftUI, UIKit и WidgetKit. Используйте при создании интерфейсов Liquid Glass для iOS 26.",
+      "file": "skills/liquid-glass-design/SKILL.md",
+      "resourceDirectory": "skills/liquid-glass-design",
+      "sourcePath": "skills/liquid-glass-design/SKILL.md",
+      "sourceSha": "495dd01a63bb523ad9b6d02f76fae2c4f2ab29e8"
+    },
+    {
+      "name": "ecc-living-docs-governance",
+      "description": "Помогает поддерживать документацию долгосрочного проекта в актуальном состоянии: назначает существующим документам роли основного устава, карты, статуса и истории, а действующую систему агентов связывает с этими источниками. Используйте на этапе сопровождения, если документация расходится с кодом, агенты теряют контекст между сессиями или намеренно удалённые материалы постоянно создаются заново. Предпочитайте существующую структуру документации репозитория новым файлам в корне. Триггеры: управление документацией, актуальные документы, отслеживание состояния проекта, предотвращение расхождения документации, карта проекта, панель состояния, зона удалённых материалов и сопровождение долгосрочного проекта.",
+      "file": "skills/living-docs-governance/SKILL.md",
+      "resourceDirectory": "skills/living-docs-governance",
+      "sourcePath": "skills/living-docs-governance/SKILL.md",
+      "sourceSha": "9e165da65cb92c478fed84dd6d4a531e395d92f5"
+    },
+    {
+      "name": "ecc-llm-trading-agent-security",
+      "description": "Практики безопасности автономных торговых агентов с полномочиями кошелька или транзакций: атаки через внедрение промптов, лимиты расходов, моделирование перед отправкой, автоматические выключатели, защита от MEV и работа с ключами. Используйте для проверки ограничений, моделирования операций и управления ключами такого агента.",
+      "file": "skills/llm-trading-agent-security/SKILL.md",
+      "resourceDirectory": "skills/llm-trading-agent-security",
+      "sourcePath": "skills/llm-trading-agent-security/SKILL.md",
+      "sourceSha": "5a6252a3d9f3f33cc6993b1e98a66c62b539f344"
+    },
+    {
+      "name": "ecc-logistics-exception-management",
+      "description": "Практики обработки исключений в грузоперевозках: задержки, повреждения, утраты, недостачи и споры с перевозчиками. Охватывает эскалацию, особенности перевозчиков и видов транспорта, претензии и выбор между компенсацией и оспариванием. Используйте при решении проблем доставки, претензий и споров с перевозчиками.",
+      "file": "skills/logistics-exception-management/SKILL.md",
+      "resourceDirectory": "skills/logistics-exception-management",
+      "sourcePath": "skills/logistics-exception-management/SKILL.md",
+      "sourceSha": "d94400f0e22cc712e378dd1251969788c9176baa"
+    },
+    {
+      "name": "ecc-loop-design-check",
+      "description": "Проектирует циклы выполнения агента и проверяет их на зацикливание, манипуляцию оценкой по закону Гудхарта и доведение неверного ответа до завершения. Охватывает проверяемые машиной цели, типы циклов, схему «планирование — выполнение — оценка» и предотвращение бесконтрольной работы; настройка механизма описана в навыке `autonomous-loops`. Триггеры: проектирование или проверка цикла агента, диагностика зацикливания, риск выхода из-под контроля, проверяемые цели и пять типов сбоев.",
+      "file": "skills/loop-design-check/SKILL.md",
+      "resourceDirectory": "skills/loop-design-check",
+      "sourcePath": "skills/loop-design-check/SKILL.md",
+      "sourceSha": "c54266211898024e69b141fd1993aa9a8e678c58"
+    },
+    {
+      "name": "ecc-make-interfaces-feel-better",
+      "description": "Применяет конкретные приёмы дизайн-инженерии для улучшения интерфейса: отступы, типографика, границы, тени, анимация, области нажатия, иконки, перенос текста и состояния взаимодействия. Используйте при проверке или доработке пользовательского интерфейса.",
+      "file": "skills/make-interfaces-feel-better/SKILL.md",
+      "resourceDirectory": "skills/make-interfaces-feel-better",
+      "sourcePath": "skills/make-interfaces-feel-better/SKILL.md",
+      "sourceSha": "e589f3f30312ac4e522dfbdd3e592862f69fd008"
+    },
+    {
+      "name": "ecc-manim-video",
+      "description": "Создание и локальный рендер объясняющих сцен Manim.",
+      "file": "skills/manim-video/SKILL.md",
+      "resourceDirectory": "skills/manim-video",
+      "sourcePath": "skills/manim-video/SKILL.md",
+      "sourceSha": "2e2121a14b513634fa2fde71aba48f614408ad82"
+    },
+    {
+      "name": "ecc-market-research",
+      "description": "Проводит исследование рынка, конкурентный анализ, проверку инвестиций и отраслевой анализ с указанием источников и выводами для принятия решений. Используйте для оценки объёма рынка, сравнения конкурентов, изучения фондов и технологий или исследований для бизнес-решений.",
+      "file": "skills/market-research/SKILL.md",
+      "resourceDirectory": "skills/market-research",
+      "sourcePath": "skills/market-research/SKILL.md",
+      "sourceSha": "b2ddc25b8cbd74056460a7b28e5628ceb9454ac0"
+    },
+    {
+      "name": "ecc-marketing-campaign",
+      "description": "Планирует и проводит маркетинговые кампании: изучение аудитории, позиционирование, идея кампании, тексты лендинга, письма, публикации, объявления, короткие видеосценарии и контент-планы. Используйте для координации запуска продукта на нескольких каналах или подготовки маркетинговых материалов.",
+      "file": "skills/marketing-campaign/SKILL.md",
+      "resourceDirectory": "skills/marketing-campaign",
+      "sourcePath": "skills/marketing-campaign/SKILL.md",
+      "sourceSha": "24389d77a508f00b647abcadd2293951b9ce4d55"
+    },
+    {
+      "name": "ecc-mcp-dependency-review",
+      "description": "Статически проверяет конфигурацию MCP на изменяемые ссылки на пакеты до одобрения или запуска CI, не запуская обнаруженные MCP-серверы. Используйте для проверки `.mcp.json` и настроек MCP репозитория в Cursor, VS Code, Claude, Windsurf и других средах.",
+      "file": "skills/mcp-dependency-review/SKILL.md",
+      "resourceDirectory": "skills/mcp-dependency-review",
+      "sourcePath": "skills/mcp-dependency-review/SKILL.md",
+      "sourceSha": "4b08af8b05d44a0301693fc025a60ca5f4e8ee6d"
+    },
+    {
+      "name": "ecc-messages-ops",
+      "description": "Проверяет сообщения на основе фактов: читает переписки и личные сообщения, помогает найти недавний одноразовый код, изучает ветку перед ответом и подтверждает, какой источник сообщений был проверен. Используйте для таких задач с сообщениями.",
+      "file": "skills/messages-ops/SKILL.md",
+      "resourceDirectory": "skills/messages-ops",
+      "sourcePath": "skills/messages-ops/SKILL.md",
+      "sourceSha": "65e59b1cc8c4c74386aafac1d8f95d2ab5d63448"
+    },
+    {
+      "name": "ecc-ml-adoption-playbook",
+      "description": "Методология внедрения машинного обучения в существующие проекты без ML для ИИ-агентов и инженеров: постановка задачи, готовность данных, архитектурное разделение и интеграция базовой модели. Используйте при добавлении ML-возможностей — от формулировки задачи до первой модели.",
+      "file": "skills/ml-adoption-playbook/SKILL.md",
+      "resourceDirectory": "skills/ml-adoption-playbook",
+      "sourcePath": "skills/ml-adoption-playbook/SKILL.md",
+      "sourceSha": "0b6d3a0b715e9bd8f9292cf45101feb65d196b15"
+    },
+    {
+      "name": "ecc-mle-workflow",
+      "description": "Процесс разработки и эксплуатации ML-систем: контракты данных, воспроизводимое обучение, оценка моделей, развёртывание, мониторинг и откат. Используйте при создании, проверке или усилении ML-систем, выходящих за рамки разовых ноутбуков.",
+      "file": "skills/mle-workflow/SKILL.md",
+      "resourceDirectory": "skills/mle-workflow",
+      "sourcePath": "skills/mle-workflow/SKILL.md",
+      "sourceSha": "b81aa08306c0cc451180418edf591ec507ac9d8d"
+    },
+    {
+      "name": "ecc-module-governance",
+      "description": "Сверка ответственности модулей и источников документации.",
+      "file": "skills/module-governance/SKILL.md",
+      "resourceDirectory": "skills/module-governance",
+      "sourcePath": "skills/module-governance/SKILL.md",
+      "sourceSha": "1093c13e3f6a3b6814a13b9590afe77167e1edda",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-module-regression",
+      "description": "Управляет регрессионными рисками между модулями крупных репозиториев с помощью `REGRESSION.md`, где указаны потребители каждого модуля и исполняемые команды приёмки. После изменений проверяет изменённый модуль и все затронутые команды; коды завершения служат доказательствами согласно правилам проекта. Используйте для анализа регрессий, зависимостей и изменений, где правка A может сломать B.",
+      "file": "skills/module-regression/SKILL.md",
+      "resourceDirectory": "skills/module-regression",
+      "sourcePath": "skills/module-regression/SKILL.md",
+      "sourceSha": "d8186cbfc4c481eb884a13c14b6f2a38aace0b7a"
+    },
+    {
+      "name": "ecc-motion-advanced",
+      "description": "Продвинутые приёмы Motion для React/Next.js: перетаскивание, жесты, анимация текста, рисование SVG-путей, пользовательские хуки, императивные последовательности (`useAnimate`), индикаторы загрузки и выбор API. Требует навык `motion-foundations`. Используйте для реализации таких анимаций.",
+      "file": "skills/motion-advanced/SKILL.md",
+      "resourceDirectory": "skills/motion-advanced",
+      "sourcePath": "skills/motion-advanced/SKILL.md",
+      "sourceSha": "607b2228cdabc87a18c06e28521a245c2f60c2c2"
+    },
+    {
+      "name": "ecc-motion-foundations",
+      "description": "Токены анимации, пресеты пружин, правила производительности, адаптация к устройствам, требования доступности и безопасность SSR для React / Next.js с motion/react. Базовый слой для остальных motion-навыков. Используйте при настройке анимаций, reduced motion или безопасной для SSR анимации.",
+      "file": "skills/motion-foundations/SKILL.md",
+      "resourceDirectory": "skills/motion-foundations",
+      "sourcePath": "skills/motion-foundations/SKILL.md",
+      "sourceSha": "63b866247e97f6d82eb421ed39b3e4f484b21101"
+    },
+    {
+      "name": "ecc-motion-patterns",
+      "description": "Готовые к выпуску анимации React/Next.js: кнопки, модальные окна, всплывающие уведомления, каскадные эффекты, переходы страниц, анимация выхода, прокрутка и компоновка. Используют токены и пружины навыка `motion-foundations`. Используйте для анимации конкретных элементов интерфейса.",
+      "file": "skills/motion-patterns/SKILL.md",
+      "resourceDirectory": "skills/motion-patterns",
+      "sourcePath": "skills/motion-patterns/SKILL.md",
+      "sourceSha": "d786e47adf4a8c9a1342f59383f8e7f963c61b1d"
+    },
+    {
+      "name": "ecc-mybatis-patterns",
+      "description": "Практики MyBatis и MyBatis-Spring: проектирование mapper, SQL в XML и аннотациях, сопоставление результатов, безопасность динамических запросов, транзакции, пакетная обработка, пагинация и производительность запросов. Используйте для разработки или проверки Java-доступа к данным с MyBatis, Spring Boot или унаследованными приложениями на MyBatis.",
+      "file": "skills/mybatis-patterns/SKILL.md",
+      "resourceDirectory": "skills/mybatis-patterns",
+      "sourcePath": "skills/mybatis-patterns/SKILL.md",
+      "sourceSha": "51cbbc256592cf9ba3c57dc5c7ff8729c8b6defc"
+    },
+    {
+      "name": "ecc-mysql-patterns",
+      "description": "Практики MySQL и MariaDB для серверных приложений в рабочей среде: схемы, запросы, индексы, транзакции, репликация и пулы подключений. Используйте при проектировании схем и индексов или диагностике задержек запросов, транзакций и реплик.",
+      "file": "skills/mysql-patterns/SKILL.md",
+      "resourceDirectory": "skills/mysql-patterns",
+      "sourcePath": "skills/mysql-patterns/SKILL.md",
+      "sourceSha": "d9043b49989034ac8d0a8f562d561a98452bfb38"
+    },
+    {
+      "name": "ecc-nasiko-control-plane",
+      "description": "Управляет жизненным циклом экспериментальной Nasiko CLI через ECC: только чтение статуса, установка закреплённой проверенной версии с предварительным dry-run и согласием пользователя, удаление с проверкой владельца, явные ограничения телеметрии и секретов. Используйте по запросам установить, проверить или удалить Nasiko CLI либо узнать, установлена ли она.",
+      "file": "skills/nasiko-control-plane/SKILL.md",
+      "resourceDirectory": "skills/nasiko-control-plane",
+      "sourcePath": "skills/nasiko-control-plane/SKILL.md",
+      "sourceSha": "014929ab0b9ff608881d6a64613f47f443c245b8"
+    },
+    {
+      "name": "ecc-nestjs-patterns",
+      "description": "Архитектурные практики NestJS: модули, контроллеры, провайдеры, валидация DTO, защитные механизмы, перехватчики, конфигурация и серверные приложения TypeScript для рабочей среды. Используйте при разработке или проверке серверной части NestJS.",
+      "file": "skills/nestjs-patterns/SKILL.md",
+      "resourceDirectory": "skills/nestjs-patterns",
+      "sourcePath": "skills/nestjs-patterns/SKILL.md",
+      "sourceSha": "067cb8994c1e2f8e8ca003820b732679e43f9543"
+    },
+    {
+      "name": "ecc-netmiko-ssh-automation",
+      "description": "Безопасные практики Python Netmiko: сбор данных только для чтения, ограниченные параллельные SSH-подключения, разбор TextFSM, контролируемые изменения конфигурации, тайм-ауты и обработка ошибок автоматизации сетей. Используйте для автоматизации доступа к сетевым устройствам — при сборе данных и изменении конфигурации.",
+      "file": "skills/netmiko-ssh-automation/SKILL.md",
+      "resourceDirectory": "skills/netmiko-ssh-automation",
+      "sourcePath": "skills/netmiko-ssh-automation/SKILL.md",
+      "sourceSha": "d0aea7db85f3cb2b0cec2675684a1ff984be2deb"
+    },
+    {
+      "name": "ecc-network-bgp-diagnostics",
+      "description": "Практики диагностики BGP без изменения конфигурации: состояние соседей, обмен маршрутами, политики префиксов, анализ AS path и безопасный сбор доказательств. Используйте при недоступности BGP-соседа, отсутствии маршрутов или проверке политик и AS path.",
+      "file": "skills/network-bgp-diagnostics/SKILL.md",
+      "resourceDirectory": "skills/network-bgp-diagnostics",
+      "sourcePath": "skills/network-bgp-diagnostics/SKILL.md",
+      "sourceSha": "f3e0fdbbfe219b7a00a92d400af0bf45bf8a3100"
+    },
+    {
+      "name": "ecc-network-config-validation",
+      "description": "Предварительная проверка конфигурации маршрутизаторов и коммутаторов: опасные команды, повторяющиеся адреса, пересечение подсетей, устаревшие ссылки, риски плоскости управления и требования безопасности в стиле IOS. Используйте перед развёртыванием сетевой конфигурации.",
+      "file": "skills/network-config-validation/SKILL.md",
+      "resourceDirectory": "skills/network-config-validation",
+      "sourcePath": "skills/network-config-validation/SKILL.md",
+      "sourceSha": "b3f059fac05165a23354b1a844f4bbe3e9a39889"
+    },
+    {
+      "name": "ecc-network-interface-health",
+      "description": "Диагностирует ошибки интерфейсов, потери пакетов, CRC, несовпадение дуплекса, нестабильную связь, проблемы согласования скорости и динамику счётчиков на маршрутизаторах, коммутаторах и хостах Linux. Используйте при таких симптомах интерфейса.",
+      "file": "skills/network-interface-health/SKILL.md",
+      "resourceDirectory": "skills/network-interface-health",
+      "sourcePath": "skills/network-interface-health/SKILL.md",
+      "sourceSha": "a4f41113a93f4b83bcbdb939c2aa78528a95366f"
+    },
+    {
+      "name": "ecc-nextjs-turbopack",
+      "description": "Рекомендации для Next.js 16+ и Turbopack: инкрементальная сборка Rust, кэширование файловой системы, ускорение запуска разработки и HMR, сравнение с webpack, переход с `middleware.ts` на `proxy.ts`. Используйте при разработке и отладке Next.js 16+, медленном старте или hot reload, выборе сборщика и проверке имён middleware/proxy.",
+      "file": "skills/nextjs-turbopack/SKILL.md",
+      "resourceDirectory": "skills/nextjs-turbopack",
+      "sourcePath": "skills/nextjs-turbopack/SKILL.md",
+      "sourceSha": "43e1e60ee22d274259d3f0e8f12afeaffc799bec"
+    },
+    {
+      "name": "ecc-nodejs-keccak256",
+      "description": "Предотвращает ошибки хеширования Ethereum в JavaScript и TypeScript: Node `sha3-256` использует NIST SHA3, а не Ethereum Keccak-256, что незаметно ломает селекторы, подписи, слоты хранилища и вычисление адресов. Используйте для хеширования Ethereum или диагностики неверного значения.",
+      "file": "skills/nodejs-keccak256/SKILL.md",
+      "resourceDirectory": "skills/nodejs-keccak256",
+      "sourcePath": "skills/nodejs-keccak256/SKILL.md",
+      "sourceSha": "c1b9712036d0153b404a6c56f26dfd4bf04c9e41"
+    },
+    {
+      "name": "ecc-nuxt4-patterns",
+      "description": "Практики разработки приложений Nuxt 4: безопасная гидратация, производительность, правила маршрутов, ленивая загрузка и безопасная для SSR загрузка данных через useFetch и useAsyncData. Используйте при разработке или проверке Nuxt 4 и отладке несовпадений гидратации или загрузки данных для SSR.",
+      "file": "skills/nuxt4-patterns/SKILL.md",
+      "resourceDirectory": "skills/nuxt4-patterns",
+      "sourcePath": "skills/nuxt4-patterns/SKILL.md",
+      "sourceSha": "bf7068766984f9f4121051260c04ddb282452635"
+    },
+    {
+      "name": "ecc-openclaw-persona-forge",
+      "description": "Создаёт индивидуальный образ агента OpenClaw — «лобстера»: идентичность, описание характера в `SOUL.md`, ролевые правила, имя и промпт для генерации аватара; персонажа можно выбрать по предпочтениям или случайно. При наличии проверенного навыка генерации изображений может создать аватар в едином стиле. Используйте для создания или настройки образа OpenClaw. Не подходит для изменения существующего `SOUL.md`, персонажей не для OpenClaw и сугубо утилитарных агентов без характера. Триггеры: образ OpenClaw, персонаж, роль, характер или предыстория лобстера, игровой/NPC-персонаж, случайный выбор или механика случайного выбора персонажа.",
+      "file": "skills/openclaw-persona-forge/SKILL.md",
+      "resourceDirectory": "skills/openclaw-persona-forge",
+      "sourcePath": "skills/openclaw-persona-forge/SKILL.md",
+      "sourceSha": "f09e76a728793d60ffd3abe926df0ad35c64ecbb"
+    },
+    {
+      "name": "ecc-orch-add-feature",
+      "description": "Координирует полный цикл разработки новой функции: исследование, планирование, реализация через TDD, проверка кода и коммит с подтверждением пользователя. Каждый этап поручается подходящему агенту ECC. Используйте для добавления отсутствующей возможности.",
+      "file": "skills/orch-add-feature/SKILL.md",
+      "resourceDirectory": "skills/orch-add-feature",
+      "sourcePath": "skills/orch-add-feature/SKILL.md",
+      "sourceSha": "e26285093ce99cd6f6ba6dcbbd84b03b1e4236ed"
+    },
+    {
+      "name": "ecc-orch-build-mvp",
+      "description": "Координирует создание работающего MVP по документу дизайна или спецификации: анализ SDD/PRD, планирование вертикальных срезов, создание первого сквозного среза и цикл реализации с оценкой, проверкой кода и коммитами типа `feat` с подтверждением пользователя. Используйте, когда спецификацию нужно превратить в работающий MVP.",
+      "file": "skills/orch-build-mvp/SKILL.md",
+      "resourceDirectory": "skills/orch-build-mvp",
+      "sourcePath": "skills/orch-build-mvp/SKILL.md",
+      "sourceSha": "10388aa2f0a50f819d851fbbc564515130b0d433"
+    },
+    {
+      "name": "ecc-orch-change-feature",
+      "description": "Координирует изменение поведения работающей функции: обновляет тесты по новой спецификации, меняет реализацию, проверяет код и создаёт коммит после подтверждения пользователя. Используйте, когда поведение не сломано, но должно измениться.",
+      "file": "skills/orch-change-feature/SKILL.md",
+      "resourceDirectory": "skills/orch-change-feature",
+      "sourcePath": "skills/orch-change-feature/SKILL.md",
+      "sourceSha": "972b0666b30666599ca517b29bd4dd0813653dae"
+    },
+    {
+      "name": "ecc-orch-fix-defect",
+      "description": "Координирует исправление ошибки: воспроизводит её падающим регрессионным тестом, добивается успешного прохождения, проверяет код и создаёт коммит с подтверждением, делегируя этапы подходящим ECC-агентам. Используйте, когда существующее поведение работает неверно.",
+      "file": "skills/orch-fix-defect/SKILL.md",
+      "resourceDirectory": "skills/orch-fix-defect",
+      "sourcePath": "skills/orch-fix-defect/SKILL.md",
+      "sourceSha": "69bfc986cf9637e6ffee1dd831ca2ab6d56ac9bf"
+    },
+    {
+      "name": "ecc-orch-pipeline",
+      "description": "Общий механизм оркестрации для семейства навыков `orch-*`: конвейер «исследование — план — TDD — проверка — коммит», классификатор масштаба, карта агентов и команд, а также два подтверждения пользователя — плана и коммита. Обычно применяется через `orch-add-feature`, `orch-fix-defect`, `orch-change-feature`, `orch-refine-code` или `orch-build-mvp`. Открывайте напрямую только при добавлении операции `orch` или настройке общих этапов.",
+      "file": "skills/orch-pipeline/SKILL.md",
+      "resourceDirectory": "skills/orch-pipeline",
+      "sourcePath": "skills/orch-pipeline/SKILL.md",
+      "sourceSha": "86dab2fdef704134d2d868949d235646cfa57a4f"
+    },
+    {
+      "name": "ecc-orch-refine-code",
+      "description": "Координирует рефакторинг без изменения поведения: проверяет прохождение тестов, перестраивает код, сохраняя поведение и успешные проверки, проводит проверку кода и создаёт коммит после подтверждения пользователя. Используйте, когда нужно улучшить структуру, не меняя поведение.",
+      "file": "skills/orch-refine-code/SKILL.md",
+      "resourceDirectory": "skills/orch-refine-code",
+      "sourcePath": "skills/orch-refine-code/SKILL.md",
+      "sourceSha": "a57ba5c897e250cc2d2b0c7d706a7caa934a36f7"
+    },
+    {
+      "name": "ecc-parallel-execution-optimizer",
+      "description": "Ускоряет выполнение задачи, разбивая её на граф зависимостей и параллельные потоки с матрицей потоков, пакетным чтением и проверками, изолированными областями изменений (файлы, рабочие деревья Git, ветки или сервисы) и итоговой таблицей проверок. Используйте для параллельной работы, нескольких агентов, пакетных вызовов инструментов или независимых проверок без потери корректности.",
+      "file": "skills/parallel-execution-optimizer/SKILL.md",
+      "resourceDirectory": "skills/parallel-execution-optimizer",
+      "sourcePath": "skills/parallel-execution-optimizer/SKILL.md",
+      "sourceSha": "e755960e4805cbfffb748803ad39c3b3fb1babaf"
+    },
+    {
+      "name": "ecc-perl-patterns",
+      "description": "Идиоматические практики и соглашения современного Perl 5.36+ для надёжных приложений, удобных в сопровождении. Используйте при написании или проверке современного кода Perl 5.36+.",
+      "file": "skills/perl-patterns/SKILL.md",
+      "resourceDirectory": "skills/perl-patterns",
+      "sourcePath": "skills/perl-patterns/SKILL.md",
+      "sourceSha": "a2aaa8621df3c175783ee49053f505d1e7fc8b92"
+    },
+    {
+      "name": "ecc-perl-security",
+      "description": "Комплексная безопасность Perl: taint mode, проверка входных данных, безопасный запуск процессов, параметризованные запросы DBI, веб-безопасность (XSS/SQLi/CSRF) и политики безопасности perlcritic. Используйте при проверке обработки ввода, запуска процессов, запросов DBI и веб-кода.",
+      "file": "skills/perl-security/SKILL.md",
+      "resourceDirectory": "skills/perl-security",
+      "sourcePath": "skills/perl-security/SKILL.md",
+      "sourceSha": "df4dddce54cc04234a72f3b5e705f30b958a1af3"
+    },
+    {
+      "name": "ecc-perl-testing",
+      "description": "Практики тестирования Perl с Test2::V0, Test::More, запуском через prove, моками, покрытием Devel::Cover и методологией TDD. Используйте при написании тестов или измерении покрытия.",
+      "file": "skills/perl-testing/SKILL.md",
+      "resourceDirectory": "skills/perl-testing",
+      "sourcePath": "skills/perl-testing/SKILL.md",
+      "sourceSha": "c170c19f9897838ab4d2fd17a974b6e27641e510"
+    },
+    {
+      "name": "ecc-plan-orchestrate",
+      "description": "Читает документ плана, разбивает его на шаги, классифицирует их и для каждого формирует готовую ECC slash-команду с идентификатором и областью шага в документированном формате аргументов. Только генерирует команды — не запускает их и не утверждает, что управляет их внутренним выполнением. Если команда не поддерживает область плана, шаг не включается. Используйте для подбора команд к многоэтапному плану.",
+      "file": "skills/plan-orchestrate/SKILL.md",
+      "resourceDirectory": "skills/plan-orchestrate",
+      "sourcePath": "skills/plan-orchestrate/SKILL.md",
+      "sourceSha": "0d4887d555236c1115a4ae2d20d205602138f10b"
+    },
+    {
+      "name": "ecc-postgres-patterns",
+      "description": "Практики PostgreSQL: оптимизация запросов, проектирование схем, индексация и безопасность на основе рекомендаций Supabase. Используйте при проектировании схем, индексов и политик RLS либо при медленных запросах.",
+      "file": "skills/postgres-patterns/SKILL.md",
+      "resourceDirectory": "skills/postgres-patterns",
+      "sourcePath": "skills/postgres-patterns/SKILL.md",
+      "sourceSha": "12a3a4a05c2278c7fe1316d9403b5ca037dadf69"
+    },
+    {
+      "name": "ecc-prediction-market-oracle-research",
+      "description": "Исследует рынки прогнозов как источники данных или сигналы оракулов для продуктов, агентов, панелей и корпоративной аналитики. Даёт анализ вероятностей, подразумеваемых рынком, оговорок и способов интеграции с опорой на источники, без инвестиционных рекомендаций. Используйте для оценки таких источников или сигналов.",
+      "file": "skills/prediction-market-oracle-research/SKILL.md",
+      "resourceDirectory": "skills/prediction-market-oracle-research",
+      "sourcePath": "skills/prediction-market-oracle-research/SKILL.md",
+      "sourceSha": "8cb9314ac76ca1c306e2c45e6d4a3feac09b79ed"
+    },
+    {
+      "name": "ecc-prediction-market-risk-review",
+      "description": "Проверяет сценарии работы с рынками прогнозов, корзинами, оракулами и торговыми агентами на риски соблюдения требований, безопасности, качества данных, приватности и исполнения. Используйте до того, как сценарий получит доступ к авторизации на площадке, данным портфеля, API-ключам или планированию сделок.",
+      "file": "skills/prediction-market-risk-review/SKILL.md",
+      "resourceDirectory": "skills/prediction-market-risk-review",
+      "sourcePath": "skills/prediction-market-risk-review/SKILL.md",
+      "sourceSha": "3b60d35ecf9101852388b8dddc2854f49c6e28e4"
+    },
+    {
+      "name": "ecc-prisma-patterns",
+      "description": "Практики Prisma ORM для бэкендов TypeScript: проектирование схем, оптимизация запросов, транзакции и пагинация; важные ловушки — `updateMany` возвращает количество, а не записи, тайм-ауты `$transaction`, сброс БД командой `migrate dev`, пропуск `@updatedAt` при массовой записи и исчерпание подключений в serverless. Используйте при работе со схемами и запросами Prisma, транзакциями, миграциями и лимитами подключений.",
+      "file": "skills/prisma-patterns/SKILL.md",
+      "resourceDirectory": "skills/prisma-patterns",
+      "sourcePath": "skills/prisma-patterns/SKILL.md",
+      "sourceSha": "9ea78b8eb5debae24782e372f21e4c30c58a4f55"
+    },
+    {
+      "name": "ecc-product-capability",
+      "description": "Преобразует намерения из PRD, запросы дорожной карты и обсуждения продукта в готовый к реализации план возможностей: фиксирует ограничения, инварианты, интерфейсы и нерешённые вопросы до начала межсервисной работы. Используйте для структурированного перехода от PRD к SRS в ECC вместо расплывчатого плана.",
+      "file": "skills/product-capability/SKILL.md",
+      "resourceDirectory": "skills/product-capability",
+      "sourcePath": "skills/product-capability/SKILL.md",
+      "sourceSha": "c004325504b8b444f07ec223c7fc05ec2cfc8eaf"
+    },
+    {
+      "name": "ecc-product-lens",
+      "description": "Проверяет обоснование продукта до начала разработки с помощью четырёх видов анализа: диагностики в стиле YC с итоговым `PRODUCT-BRIEF.md` и рекомендацией запускать или нет, оценки основателем сигналов соответствия продукта рынку, анализа пути пользователя и времени до ценности, а также приоритизации ICE. Используйте для проверки продуктового направления, выбора функций, оценки запуска или превращения идеи в бриф.",
+      "file": "skills/product-lens/SKILL.md",
+      "resourceDirectory": "skills/product-lens",
+      "sourcePath": "skills/product-lens/SKILL.md",
+      "sourceSha": "af5149d1c692b0919d4337160c6cde5cca43c836"
+    },
+    {
+      "name": "ecc-production-audit",
+      "description": "Оценивает готовность приложений к рабочей эксплуатации по локальным данным: перед запуском, после слияния и в ответ на вопрос «что сломается в рабочей среде?». Данные репозитория не отправляются во внешний сервис аудита.",
+      "file": "skills/production-audit/SKILL.md",
+      "resourceDirectory": "skills/production-audit",
+      "sourcePath": "skills/production-audit/SKILL.md",
+      "sourceSha": "a6d92fa5e91928f2da69c40228a684ce45e3b019"
+    },
+    {
+      "name": "ecc-production-scheduling",
+      "description": "Практики производственного планирования, последовательности работ, балансировки линий, оптимизации переналадок и устранения узких мест в дискретном и серийном производстве, основанные на опыте планировщиков с 15+ годами практики. Включает TOC/drum-buffer-rope, SMED, анализ OEE, реагирование на сбои и взаимодействие с ERP/MES. Используйте при планировании выпуска и решении производственных проблем.",
+      "file": "skills/production-scheduling/SKILL.md",
+      "resourceDirectory": "skills/production-scheduling",
+      "sourcePath": "skills/production-scheduling/SKILL.md",
+      "sourceSha": "3e0870b105f2e33b1e1546e71f39960d82887789"
+    },
+    {
+      "name": "ecc-project-flow-ops",
+      "description": "Управляет процессом работы в GitHub и Linear: сортирует issues и pull requests, связывает активные задачи, оставляет GitHub публичным интерфейсом, а Linear — внутренним инструментом исполнения. Используйте для управления бэклогом, сортировки PR и координации GitHub с Linear.",
+      "file": "skills/project-flow-ops/SKILL.md",
+      "resourceDirectory": "skills/project-flow-ops",
+      "sourcePath": "skills/project-flow-ops/SKILL.md",
+      "sourceSha": "6ab2e62d15f882208e7e43c7ec4866f53273f62f"
+    },
+    {
+      "name": "ecc-prompt-caching-strategy",
+      "description": "Повышает долю повторных попаданий в кэш промптов LLM, чтобы снизить расходы на API и задержки. Анализирует структуру промпта, определяет кэшируемые и некэшируемые части и рекомендует изменения для повторного использования кэша. Используйте при запросах о кэшировании промптов, доле попаданий, снижении затрат на LLM, экономии токенов и кэшировании у OpenAI, Anthropic и других поставщиков. Не используйте для улучшения качества одного промпта или общей инфраструктуры кэширования.",
+      "file": "skills/prompt-caching-strategy/SKILL.md",
+      "resourceDirectory": "skills/prompt-caching-strategy",
+      "sourcePath": "skills/prompt-caching-strategy/SKILL.md",
+      "sourceSha": "c6bd9f18b8da2329f69743250e4d0a258465ef4e"
+    },
+    {
+      "name": "ecc-prompt-optimizer",
+      "description": "Анализирует черновики промптов, выявляет цель и недостающий контекст, подбирает команды, навыки и агентов ECC и предлагает готовый к вставке улучшенный промпт с разбором и обоснованием. Только рекомендации — задачу не выполняет. Используйте для просьб «оптимизируй промпт», «улучши инструкцию», «перепиши запрос», «помоги составить промпт» или «как лучше сформулировать запрос». Не используйте для оптимизации кода или производительности.",
+      "file": "skills/prompt-optimizer/SKILL.md",
+      "resourceDirectory": "skills/prompt-optimizer",
+      "sourcePath": "skills/prompt-optimizer/SKILL.md",
+      "sourceSha": "16ae27d10c3015f456d38f4344643ff56e764f70"
+    },
+    {
+      "name": "ecc-python-patterns",
+      "description": "Идиомы Python, стандарты PEP 8, аннотации типов и практики разработки надёжных, эффективных приложений, удобных в сопровождении. Используйте при написании или проверке кода Python, если важны идиоматичная структура, типизация или PEP 8.",
+      "file": "skills/python-patterns/SKILL.md",
+      "resourceDirectory": "skills/python-patterns",
+      "sourcePath": "skills/python-patterns/SKILL.md",
+      "sourceSha": "ced3d588d816fb6880dfef4d67f30cab9d1b82df"
+    },
+    {
+      "name": "ecc-python-testing",
+      "description": "Практики тестирования Python с pytest и TDD: фикстуры, моки, параметризация и требования к покрытию. Используйте при написании тестов pytest, работе с фикстурами, моками, параметризацией или покрытием.",
+      "file": "skills/python-testing/SKILL.md",
+      "resourceDirectory": "skills/python-testing",
+      "sourcePath": "skills/python-testing/SKILL.md",
+      "sourceSha": "8e68a084ad890afb901c43741a733e6d076958b0"
+    },
+    {
+      "name": "ecc-pytorch-patterns",
+      "description": "Практики и рекомендации PyTorch для надёжных, эффективных и воспроизводимых конвейеров обучения, архитектур моделей и загрузки данных. Используйте при написании или проверке циклов обучения, архитектур и загрузчиков данных, а также для устранения невоспроизводимых запусков.",
+      "file": "skills/pytorch-patterns/SKILL.md",
+      "resourceDirectory": "skills/pytorch-patterns",
+      "sourcePath": "skills/pytorch-patterns/SKILL.md",
+      "sourceSha": "068225c16284e92130f46b1f411319a04f7188a0"
+    },
+    {
+      "name": "ecc-quality-nonconformance",
+      "description": "Контроль качества и управление несоответствиями в регулируемом производстве (FDA 21 CFR 820, IATF 16949, AS9100): цикл NCR и решения по нему, анализ причин 5 Why/Ishikawa/fault tree/8D, CAPA, интерпретация SPC, выборка AQL и аудит качества поставщиков. Используйте при расследовании несоответствий, анализе причин, работе с CAPA, SPC и проблемами качества поставщиков.",
+      "file": "skills/quality-nonconformance/SKILL.md",
+      "resourceDirectory": "skills/quality-nonconformance",
+      "sourcePath": "skills/quality-nonconformance/SKILL.md",
+      "sourceSha": "721073cd7ea5977a1a8647038e9ac41fb9ca1edd"
+    },
+    {
+      "name": "ecc-quarkus-patterns",
+      "description": "Архитектурные практики Quarkus 3.x LTS с Camel для обмена сообщениями, проектирования REST API, сервисов CDI, доступа к данным через Panache и асинхронной обработки. Используйте для бэкендов Java Quarkus с событийной архитектурой, особенно при работе с Camel или Panache.",
+      "file": "skills/quarkus-patterns/SKILL.md",
+      "resourceDirectory": "skills/quarkus-patterns",
+      "sourcePath": "skills/quarkus-patterns/SKILL.md",
+      "sourceSha": "467bd1ceb990df421300ee5a7abaf71deba7c256"
+    },
+    {
+      "name": "ecc-quarkus-security",
+      "description": "Практики безопасности Quarkus: аутентификация JWT и OIDC, RBAC через `@RolesAllowed` и проверки SecurityIdentity, Bean Validation и пользовательские валидаторы, параметризованные запросы Panache, хеширование BCrypt, CORS и заголовки безопасности, ограничение частоты запросов, аудит, секреты в Vault или переменных окружения и проверка CVE зависимостей. Используйте для настройки доступа, валидации ввода, управления секретами и укрепления Quarkus-приложений.",
+      "file": "skills/quarkus-security/SKILL.md",
+      "resourceDirectory": "skills/quarkus-security",
+      "sourcePath": "skills/quarkus-security/SKILL.md",
+      "sourceSha": "6c785751e96b150161179b98c050cc4e9decd3ba"
+    },
+    {
+      "name": "ecc-quarkus-tdd",
+      "description": "Разработка через тестирование для Quarkus 3.x LTS с JUnit 5, Mockito, REST Assured, тестированием Camel и JaCoCo. Используйте при добавлении функций, исправлении ошибок и рефакторинге событийных сервисов.",
+      "file": "skills/quarkus-tdd/SKILL.md",
+      "resourceDirectory": "skills/quarkus-tdd",
+      "sourcePath": "skills/quarkus-tdd/SKILL.md",
+      "sourceSha": "1c4d52441554f0470660e4c090f7533c236e2dc3"
+    },
+    {
+      "name": "ecc-quarkus-verification",
+      "description": "Цикл проверки проектов Quarkus: сборка, статический анализ (Checkstyle, PMD, SpotBugs), тесты и покрытие JaCoCo, проверки безопасности зависимостей и контейнеров по OWASP, нативная компиляция GraalVM, health checks и проверка конфигурации. Используйте перед PR, после крупного рефакторинга или обновления зависимостей и перед развёртыванием.",
+      "file": "skills/quarkus-verification/SKILL.md",
+      "resourceDirectory": "skills/quarkus-verification",
+      "sourcePath": "skills/quarkus-verification/SKILL.md",
+      "sourceSha": "2d620bd02a9727c068d90de0fa140938b89f8a1e"
+    },
+    {
+      "name": "ecc-rails-patterns",
+      "description": "Практики Ruby on Rails для приложений Rails 7.1+ и 8.x: структура каталогов, тонкие контроллеры с сервисными объектами, формы и запросы как отдельные объекты, идиоматичный ActiveRecord, фоновые задачи, ViewComponent, Hotwire и стек Solid в Rails 8. Используйте при разработке или проверке приложений, контроллеров, моделей, сервисов, задач и представлений Rails.",
+      "file": "skills/rails-patterns/SKILL.md",
+      "resourceDirectory": "skills/rails-patterns",
+      "sourcePath": "skills/rails-patterns/SKILL.md",
+      "sourceSha": "876df985a7c773870093f50f362626142bbb29ab"
+    },
+    {
+      "name": "ecc-rails-security",
+      "description": "Защитное ревью аутентификации, доступа и конфигурации Rails.",
+      "file": "skills/rails-security/SKILL.md",
+      "resourceDirectory": "skills/rails-security",
+      "sourcePath": "skills/rails-security/SKILL.md",
+      "sourceSha": "c9683b854dcb83f7f9a45a54d1ca586670a1761a",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-ralphinho-rfc-pipeline",
+      "description": "Разбивает RFC на граф выполнения для нескольких агентов: делит работу на единицы с зависимостями и тестами приёмки, организует исследование, планирование, реализацию, тестирование и проверку каждой единицы, затем объединяет изменения через очередь с перебазированием веток и итоговой проверкой системы. Используйте для крупных функций, выполнения RFC несколькими агентами и управления очередями слияния.",
+      "file": "skills/ralphinho-rfc-pipeline/SKILL.md",
+      "resourceDirectory": "skills/ralphinho-rfc-pipeline",
+      "sourcePath": "skills/ralphinho-rfc-pipeline/SKILL.md",
+      "sourceSha": "7ac2ba00e8a9327896e2a4447a6dbee9c9646ea3"
+    },
+    {
+      "name": "ecc-react-native-patterns",
+      "description": "Практики React Native и Expo: навигация Expo Router, разделение состояния (серверное, клиентское, маршрутное, состояние формы), загрузка данных TanStack Query с Zod, производительные списки, стилизация NativeWind/StyleSheet, нативные API и безопасное хранилище. Используйте при разработке или изменении экранов, компонентов, навигации и слоёв данных React Native / Expo.",
+      "file": "skills/react-native-patterns/SKILL.md",
+      "resourceDirectory": "skills/react-native-patterns",
+      "sourcePath": "skills/react-native-patterns/SKILL.md",
+      "sourceSha": "d0e6c3272c385891935eb837d966377a8665d07a"
+    },
+    {
+      "name": "ecc-react-patterns",
+      "description": "Проектирование компонентов React и управление состоянием.",
+      "file": "skills/react-patterns/SKILL.md",
+      "resourceDirectory": "skills/react-patterns",
+      "sourcePath": "skills/react-patterns/SKILL.md",
+      "sourceSha": "66acd2a6c84eb0bbcf72eaeb43ba4be37e8dddff"
+    },
+    {
+      "name": "ecc-react-performance",
+      "description": "Поиск и устранение проблем производительности React.",
+      "file": "skills/react-performance/SKILL.md",
+      "resourceDirectory": "skills/react-performance",
+      "sourcePath": "skills/react-performance/SKILL.md",
+      "sourceSha": "6952967cf4b894f900b5cf692e851ababaf854f5"
+    },
+    {
+      "name": "ecc-react-testing",
+      "description": "Проверка поведения компонентов React существующим тестовым набором.",
+      "file": "skills/react-testing/SKILL.md",
+      "resourceDirectory": "skills/react-testing",
+      "sourcePath": "skills/react-testing/SKILL.md",
+      "sourceSha": "babaf6ebef80f1e6ba66ef5242372dd175870a40"
+    },
+    {
+      "name": "ecc-recursive-decision-ledger",
+      "description": "Проводит повторные итерации (рекурсивные промпты в стиле «Prime Gauss») и ведёт неизменяемый журнал решений: попытки, оценки, проверки согласованности и условия продвижения. Рекурсивная уверенность не даёт автоматического разрешения на реальные сделки, развёртывание или разрушительные действия. Используйте для повторных итераций, процессов оценки решений, поиска в многомерном пространстве, стохастической оптимизации, сравнения ансамблей и рекурсивного рассуждения с фиксацией доказательств.",
+      "file": "skills/recursive-decision-ledger/SKILL.md",
+      "resourceDirectory": "skills/recursive-decision-ledger",
+      "sourcePath": "skills/recursive-decision-ledger/SKILL.md",
+      "sourceSha": "ebdb53fa5f0b6d1cb5f037424019595788340078"
+    },
+    {
+      "name": "ecc-redis-patterns",
+      "description": "Практики Redis: структуры данных, стратегии кэширования, распределённые блокировки, ограничение частоты запросов, обмен сообщениями pub/sub и управление подключениями для приложений в рабочей среде. Используйте при добавлении этих возможностей или проверке схемы ключей.",
+      "file": "skills/redis-patterns/SKILL.md",
+      "resourceDirectory": "skills/redis-patterns",
+      "sourcePath": "skills/redis-patterns/SKILL.md",
+      "sourceSha": "463e7dd4ff6babdeb25b603eed0dc754cf2f9554"
+    },
+    {
+      "name": "ecc-regex-vs-llm-structured-text",
+      "description": "Помогает выбрать способ разбора структурированного текста (викторины, формы, счета, чеки, таблицы) с гибридным конвейером, где сначала работают regex: они недорого извлекают более 95% данных, оценка уверенности отмечает сомнительные случаи, а LLM исправляет только исключения. Используйте при выборе между regex и LLM, создании недорогого парсера документов или оптимизации стоимости и точности извлечения.",
+      "file": "skills/regex-vs-llm-structured-text/SKILL.md",
+      "resourceDirectory": "skills/regex-vs-llm-structured-text",
+      "sourcePath": "skills/regex-vs-llm-structured-text/SKILL.md",
+      "sourceSha": "18d84e4a5265fee0a4fceaf441617e9b0823f206"
+    },
+    {
+      "name": "ecc-remotion-video-creation",
+      "description": "Подготовка композиции Remotion и локальный рендер видео в MP4.",
+      "file": "skills/remotion-video-creation/SKILL.md",
+      "resourceDirectory": "skills/remotion-video-creation",
+      "sourcePath": "skills/remotion-video-creation/SKILL.md",
+      "sourceSha": "b86102f825e6a6dbee8fcfc93255e180681555df"
+    },
+    {
+      "name": "ecc-research-ops",
+      "description": "Проводит исследование текущего состояния на основе доказательств для ECC. Используйте, когда нужны актуальные факты, сравнения, сбор сведений или рекомендации по свежим открытым источникам и предоставленному локальному контексту.",
+      "file": "skills/research-ops/SKILL.md",
+      "resourceDirectory": "skills/research-ops",
+      "sourcePath": "skills/research-ops/SKILL.md",
+      "sourceSha": "449ddc95ef7efeb01883955070d44ad2be83e817"
+    },
+    {
+      "name": "ecc-returns-reverse-logistics",
+      "description": "Практики обработки возвратов: авторизация, получение и проверка товара, решение о его дальнейшей судьбе, возвраты средств, выявление мошенничества и гарантийные претензии. Основано на опыте руководителей операций возврата с 15+ годами стажа; включает оценку состояния, экономику решений, распознавание мошеннических схем и возмещение от поставщиков. Используйте при работе с возвратами, обратной логистикой, возвратом средств, мошенничеством и гарантийными претензиями.",
+      "file": "skills/returns-reverse-logistics/SKILL.md",
+      "resourceDirectory": "skills/returns-reverse-logistics",
+      "sourcePath": "skills/returns-reverse-logistics/SKILL.md",
+      "sourceSha": "63b5e35b8cee31de84f469e8b28b0d34c3e3983a"
+    },
+    {
+      "name": "ecc-rust-patterns",
+      "description": "Идиоматичные практики Rust: владение, обработка ошибок, трейты, конкурентность и рекомендации для безопасных и производительных приложений. Используйте при написании или проверке кода Rust, если важны эти аспекты.",
+      "file": "skills/rust-patterns/SKILL.md",
+      "resourceDirectory": "skills/rust-patterns",
+      "sourcePath": "skills/rust-patterns/SKILL.md",
+      "sourceSha": "b87afe5eb81cff8c22e9c71cedc5f29688736c0d"
+    },
+    {
+      "name": "ecc-rust-testing",
+      "description": "Практики тестирования Rust: модульные и интеграционные тесты, асинхронное тестирование и проверка свойств, моки и измерение покрытия. Следует методологии TDD. Используйте при написании таких тестов и проверке покрытия.",
+      "file": "skills/rust-testing/SKILL.md",
+      "resourceDirectory": "skills/rust-testing",
+      "sourcePath": "skills/rust-testing/SKILL.md",
+      "sourceSha": "464555b45ce646ea9396f63277be08f40d2ce49b"
+    },
+    {
+      "name": "ecc-santa-method",
+      "description": "Состязательная проверка несколькими агентами: перед выпуском результата два независимых рецензента применяют одинаковые критерии и оба должны одобрить его; расхождения устраняются повторной проверкой до установленного предела передачи человеку. Используйте перед публикацией, развёртыванием в рабочей среде, выпуском материалов с требованиями к соответствию или бренду и публикацией утверждений, подверженных галлюцинациям.",
+      "file": "skills/santa-method/SKILL.md",
+      "resourceDirectory": "skills/santa-method",
+      "sourcePath": "skills/santa-method/SKILL.md",
+      "sourceSha": "add4a3f734dd62201a68504964155ea85e316f97"
+    },
+    {
+      "name": "ecc-scientific-db-openalex-database",
+      "description": "Поиск научных работ и проверка библиографических данных через OpenAlex.",
+      "file": "skills/scientific-db-openalex-database/SKILL.md",
+      "resourceDirectory": "skills/scientific-db-openalex-database",
+      "sourcePath": "skills/scientific-db-openalex-database/SKILL.md",
+      "sourceSha": "48d7e9da030dba1b712a973a3855fbb376406ce9",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-scientific-db-pubmed-database",
+      "description": "Поиск биомедицинской литературы через PubMed и NCBI E-utilities: запросы MeSH, поиск по PMID, получение цитат и мониторинг литературы через API. Используйте, когда нужны научные публикации PubMed, а не общий веб-поиск.",
+      "file": "skills/scientific-db-pubmed-database/SKILL.md",
+      "resourceDirectory": "skills/scientific-db-pubmed-database",
+      "sourcePath": "skills/scientific-db-pubmed-database/SKILL.md",
+      "sourceSha": "18b4c0cb39ec5a5d2ffd70e9c533e164d3ec4cd3"
+    },
+    {
+      "name": "ecc-scientific-db-uspto-database",
+      "description": "Работа с данными патентов и товарных знаков USPTO: поиск официальных записей через PatentSearch и TSDR, сведения о передаче прав и воспроизводимые журналы исследования интеллектуальной собственности. Используйте для поиска официальных записей США в системах USPTO.",
+      "file": "skills/scientific-db-uspto-database/SKILL.md",
+      "resourceDirectory": "skills/scientific-db-uspto-database",
+      "sourcePath": "skills/scientific-db-uspto-database/SKILL.md",
+      "sourceSha": "a577161ce83cf11d57f4adbc8c54db8f7d2f03e5"
+    },
+    {
+      "name": "ecc-scientific-pkg-gget",
+      "description": "Работа с gget CLI и Python для быстрых запросов к геномным базам, поиска последовательностей, BLAST-подобного поиска, проверки обогащения и ведения воспроизводимых журналов биоинформатических данных. Используйте для быстрых запросов к справочным геномным базам через gget CLI или пакет Python.",
+      "file": "skills/scientific-pkg-gget/SKILL.md",
+      "resourceDirectory": "skills/scientific-pkg-gget",
+      "sourcePath": "skills/scientific-pkg-gget/SKILL.md",
+      "sourceSha": "13b2ca46fbc377ade82299532760a11b57d5d12a"
+    },
+    {
+      "name": "ecc-scientific-thinking-literature-review",
+      "description": "Систематический обзор литературы по академическим, биомедицинским, техническим и научным темам: планирование поиска, отбор источников, синтез, проверка цитат и фиксация доказательств. Используйте для поиска, отбора, синтеза и цитирования академической или технической литературы.",
+      "file": "skills/scientific-thinking-literature-review/SKILL.md",
+      "resourceDirectory": "skills/scientific-thinking-literature-review",
+      "sourcePath": "skills/scientific-thinking-literature-review/SKILL.md",
+      "sourceSha": "dd240c89bcabf71bbe1d181fbb7ba3c0d7935729"
+    },
+    {
+      "name": "ecc-scientific-thinking-scholar-evaluation",
+      "description": "Структурированная оценка научных работ: статей, заявок, обзоров литературы, методик, качества доказательств, обоснованности цитат и исследовательских текстов. Используйте для оценки по единым критериям.",
+      "file": "skills/scientific-thinking-scholar-evaluation/SKILL.md",
+      "resourceDirectory": "skills/scientific-thinking-scholar-evaluation",
+      "sourcePath": "skills/scientific-thinking-scholar-evaluation/SKILL.md",
+      "sourceSha": "170c287ab81f0050f76d4bc44e7f6e3759d1a0df"
+    },
+    {
+      "name": "ecc-security-bounty-hunter",
+      "description": "Ищет в репозиториях уязвимости, пригодные для реального отчёта в bug bounty. Сосредоточен на удалённо достижимых проблемах, а не на шумных находках, доступных только локально. Используйте для поиска таких уязвимостей.",
+      "file": "skills/security-bounty-hunter/SKILL.md",
+      "resourceDirectory": "skills/security-bounty-hunter",
+      "sourcePath": "skills/security-bounty-hunter/SKILL.md",
+      "sourceSha": "ea62db8b0b58af0646c4ab3f5f147136122fd156"
+    },
+    {
+      "name": "ecc-security-review",
+      "description": "Используйте при добавлении аутентификации, обработке пользовательского ввода и секретов, создании API или реализации платёжных и чувствительных функций. Предоставляет комплексные практики и контрольный список безопасности.",
+      "file": "skills/security-review/SKILL.md",
+      "resourceDirectory": "skills/security-review",
+      "sourcePath": "skills/security-review/SKILL.md",
+      "sourceSha": "3f26b0df65661425de4e5c40c295e04edcad7a83"
+    },
+    {
+      "name": "ecc-seo",
+      "description": "Проверяет, планирует и внедряет улучшения SEO: техническая оптимизация и оптимизация страниц, структурированные данные, Core Web Vitals и контент-стратегия. Используйте для повышения видимости в поиске, устранения проблем SEO, разметки schema, работы с sitemap/robots и распределения ключевых слов.",
+      "file": "skills/seo/SKILL.md",
+      "resourceDirectory": "skills/seo",
+      "sourcePath": "skills/seo/SKILL.md",
+      "sourceSha": "a4032a5b5a98c4b09eabf4e4f8971ed664887496"
+    },
+    {
+      "name": "ecc-short-video-distribution",
+      "description": "Подготовка ролика, описания и субтитров для публикации.",
+      "file": "skills/short-video-distribution/SKILL.md",
+      "resourceDirectory": "skills/short-video-distribution",
+      "sourcePath": "skills/short-video-distribution/SKILL.md",
+      "sourceSha": "dd2a2ad4fa8cd78e5ff54d6dbdb416109ad3b7d4",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-social-graph-ranker",
+      "description": "Ранжирует социальные связи с весами для поиска тёплых знакомств, оценки связующих контактов и анализа пробелов сети в X и LinkedIn. Используйте для работы с самим механизмом ранжирования, а не с более широкими процессами общения или управления сетью.",
+      "file": "skills/social-graph-ranker/SKILL.md",
+      "resourceDirectory": "skills/social-graph-ranker",
+      "sourcePath": "skills/social-graph-ranker/SKILL.md",
+      "sourceSha": "c128380cd6a87bbf85fb1ef0b83eca93893bbd4d"
+    },
+    {
+      "name": "ecc-springboot-patterns",
+      "description": "Архитектурные практики Spring Boot: проектирование REST API, слоистые сервисы, доступ к данным, кэширование, асинхронная обработка и логирование. Используйте для разработки или проверке Java-серверных приложений Spring Boot, REST-слоя, сервисов, доступа к данным, кэширования и асинхронных задач.",
+      "file": "skills/springboot-patterns/SKILL.md",
+      "resourceDirectory": "skills/springboot-patterns",
+      "sourcePath": "skills/springboot-patterns/SKILL.md",
+      "sourceSha": "dc0b5f2a1f5e03ad66d774cd1bef3b92e3807cc2"
+    },
+    {
+      "name": "ecc-springboot-security",
+      "description": "Практики Spring Security для аутентификации и авторизации, валидации, CSRF, секретов, заголовков, ограничения частоты запросов и защиты зависимостей в сервисах Java Spring Boot. Используйте при проверке этих аспектов.",
+      "file": "skills/springboot-security/SKILL.md",
+      "resourceDirectory": "skills/springboot-security",
+      "sourcePath": "skills/springboot-security/SKILL.md",
+      "sourceSha": "37391ec7e1b2b16c7ee9b636efdd73a4a619a553"
+    },
+    {
+      "name": "ecc-springboot-tdd",
+      "description": "Разработка через тестирование для Spring Boot с JUnit 5, Mockito, MockMvc, Testcontainers и JaCoCo. Используйте при добавлении функций, исправлении ошибок и рефакторинге.",
+      "file": "skills/springboot-tdd/SKILL.md",
+      "resourceDirectory": "skills/springboot-tdd",
+      "sourcePath": "skills/springboot-tdd/SKILL.md",
+      "sourceSha": "fc07f24face95ac19568ae338760a8e73d18b01e"
+    },
+    {
+      "name": "ecc-springboot-verification",
+      "description": "Выполняет полный цикл проверки Spring Boot: сборка Maven или Gradle, статический анализ SpotBugs, PMD и Checkstyle, модульные и интеграционные тесты Testcontainers с покрытием JaCoCo, проверки OWASP на уязвимости зависимостей и секретов, а также анализ изменений. Формирует отчёт «ГОТОВО/НЕ ГОТОВО». Используйте перед запросом на слияние, для проверки порогов покрытия и перед развёртыванием.",
+      "file": "skills/springboot-verification/SKILL.md",
+      "resourceDirectory": "skills/springboot-verification",
+      "sourcePath": "skills/springboot-verification/SKILL.md",
+      "sourceSha": "4abd92b1c7a9b11fa02668843aba0dc7c4cda07e"
+    },
+    {
+      "name": "ecc-swift-actor-persistence",
+      "description": "Потокобезопасное хранение данных в Swift с помощью actors: кэш в памяти и хранилище на диске, предотвращающие гонки данных на уровне конструкции. Используйте при проектировании хранения Swift, если нужно устранить гонки или проблемы потокобезопасности.",
+      "file": "skills/swift-actor-persistence/SKILL.md",
+      "resourceDirectory": "skills/swift-actor-persistence",
+      "sourcePath": "skills/swift-actor-persistence/SKILL.md",
+      "sourceSha": "9cbf45df1487593cfffa25024d1cbeddcd0e7c7b"
+    },
+    {
+      "name": "ecc-swift-concurrency-6-2",
+      "description": "Упрощённая модель конкурентности Swift 6.2: по умолчанию один поток, явный перенос работы в фон через `@concurrent`, изолированные conformances для типов главного актора. Используйте при переходе на конкурентность Swift 6.2, фоновой обработке через `@concurrent` и устранении проблем изоляции главного актора.",
+      "file": "skills/swift-concurrency-6-2/SKILL.md",
+      "resourceDirectory": "skills/swift-concurrency-6-2",
+      "sourcePath": "skills/swift-concurrency-6-2/SKILL.md",
+      "sourceSha": "d88911687e9108f73473f307ece3a55ecd444593"
+    },
+    {
+      "name": "ecc-swift-protocol-di-testing",
+      "description": "Внедрение зависимостей через протоколы для тестируемого Swift-кода: подмена файловой системы, сети и внешних API узконаправленными протоколами и Swift Testing. Используйте, когда при тестировании Swift нужно подменить эти зависимости.",
+      "file": "skills/swift-protocol-di-testing/SKILL.md",
+      "resourceDirectory": "skills/swift-protocol-di-testing",
+      "sourcePath": "skills/swift-protocol-di-testing/SKILL.md",
+      "sourceSha": "5866cfd2683a6a1d29ef05d8cb1beb97008418a3"
+    },
+    {
+      "name": "ecc-swiftui-patterns",
+      "description": "Архитектурные практики SwiftUI: управление состоянием через `@Observable`, композиция представлений, навигация, производительность и современные рекомендации для интерфейсов iOS/macOS. Используйте при разработке или проверке представлений SwiftUI, состояния `@Observable`, навигации и скорости отрисовки.",
+      "file": "skills/swiftui-patterns/SKILL.md",
+      "resourceDirectory": "skills/swiftui-patterns",
+      "sourcePath": "skills/swiftui-patterns/SKILL.md",
+      "sourceSha": "4497ece6e75bfb30839dd5d7bb3bd1ee53431f75"
+    },
+    {
+      "name": "ecc-tdd-workflow",
+      "description": "Процесс разработки через тестирование: сначала написать падающий тест и убедиться в сбое, затем внести минимальное изменение до успешного прохождения и выполнить рефакторинг. Целевое покрытие — 80%+ для модульных, интеграционных и E2E-тестов. Используйте при разработке функций, исправлении ошибок, рефакторинге или требовании сначала написать падающие тесты.",
+      "file": "skills/tdd-workflow/SKILL.md",
+      "resourceDirectory": "skills/tdd-workflow",
+      "sourcePath": "skills/tdd-workflow/SKILL.md",
+      "sourceSha": "ad6517386574e623d954c5e9fec74a3f0e36803a"
+    },
+    {
+      "name": "ecc-team-agent-orchestration",
+      "description": "Оркестрирует работу групп агентов: задачи с владельцами и зонами ответственности, состояния Kanban, изоляция веток, просмотр панели управления и этапы слияния. Используйте для параллельной координации агентов в отдельных ветках или рабочих деревьях Git и объединения результатов в один продукт.",
+      "file": "skills/team-agent-orchestration/SKILL.md",
+      "resourceDirectory": "skills/team-agent-orchestration",
+      "sourcePath": "skills/team-agent-orchestration/SKILL.md",
+      "sourceSha": "7f4d75b6f521c946123fca98682a8f6be840014e"
+    },
+    {
+      "name": "ecc-terminal-ops",
+      "description": "Выполняет операции с репозиторием на основе проверяемых данных для ECC. Используйте, когда нужно выполнить команду, проверить репозиторий, отладить сбой CI или внести узкое исправление с точным подтверждением выполненных проверок.",
+      "file": "skills/terminal-ops/SKILL.md",
+      "resourceDirectory": "skills/terminal-ops",
+      "sourcePath": "skills/terminal-ops/SKILL.md",
+      "sourceSha": "22aecd4198c90476495d5449eb2e20d0b0605cfe"
+    },
+    {
+      "name": "ecc-terraform-patterns",
+      "description": "Ревью Terraform и OpenTofu с проверкой плана и состояния.",
+      "file": "skills/terraform-patterns/SKILL.md",
+      "resourceDirectory": "skills/terraform-patterns",
+      "sourcePath": "skills/terraform-patterns/SKILL.md",
+      "sourceSha": "53a0c972f814d9d678a87cb12f85b190eab3944d",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-test-collaboration",
+      "description": "Инвентаризирует и упорядочивает тестовые материалы проекта. Связывает требования, бизнес-правила, риски, ошибки и межсистемные контракты со стабильными TEST-ID и исполняемыми доказательствами в существующем реестре тестов или `TESTS.md`. Используйте для анализа покрытия и пробелов, классификации тестов, защиты от регрессий, проверки контрактов и анализа необходимости тестов перед поставкой.",
+      "file": "skills/test-collaboration/SKILL.md",
+      "resourceDirectory": "skills/test-collaboration",
+      "sourcePath": "skills/test-collaboration/SKILL.md",
+      "sourceSha": "f6623ee2e9c64af5eb749fa59911951ca79dc4fe"
+    },
+    {
+      "name": "ecc-token-budget-advisor",
+      "description": "Перед ответом предлагает выбрать глубину (25%/50%/75%/100%) и оценивает расход токенов, затем отвечает на выбранном уровне. Используйте, когда нужно управлять длиной ответа или бюджетом токенов: например, запросы «бюджет токенов», «короткая версия», «краткий ответ», «короткий или длинный ответ», «сколько токенов», «сэкономь токены», «ответь на 50%», «дай краткую версию», «хочу контролировать, сколько ты используешь». Не используйте, если глубина уже задана в этой сессии или «token» означает токен аутентификации или платежей.",
+      "file": "skills/token-budget-advisor/SKILL.md",
+      "resourceDirectory": "skills/token-budget-advisor",
+      "sourcePath": "skills/token-budget-advisor/SKILL.md",
+      "sourceSha": "49987758c37150718bca091e29ecfca6dfc6627d"
+    },
+    {
+      "name": "ecc-typescript-patterns",
+      "description": "Проектирование типов TypeScript и проверка данных на границах программы.",
+      "file": "skills/typescript-patterns/SKILL.md",
+      "resourceDirectory": "skills/typescript-patterns",
+      "sourcePath": "skills/typescript-patterns/SKILL.md",
+      "sourceSha": "e05cc05809fa0e8d74bf86b6295172539743f3a2",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    },
+    {
+      "name": "ecc-ui-demo",
+      "description": "Записывает качественные демонстрационные видео пользовательского интерфейса с помощью Playwright. Используйте для создания демонстрации, пошагового обзора, записи экрана или обучающего видео веб-приложения. Создаёт WebM с видимым курсором, естественным темпом и профессиональной подачей.",
+      "file": "skills/ui-demo/SKILL.md",
+      "resourceDirectory": "skills/ui-demo",
+      "sourcePath": "skills/ui-demo/SKILL.md",
+      "sourceSha": "b90b7fe6834de3fc7950c0bab28922e9d1534f2d"
+    },
+    {
+      "name": "ecc-uncloud",
+      "description": "Используйте для управления кластером Uncloud: развёртывания сервисов, настройки входящего трафика Caddy, статических маршрутов прокси к устройствам вне кластера, публикации портов, масштабирования, просмотра журналов и управления машинами и томами через командную строку `uc`.",
+      "file": "skills/uncloud/SKILL.md",
+      "resourceDirectory": "skills/uncloud",
+      "sourcePath": "skills/uncloud/SKILL.md",
+      "sourceSha": "e4e98126deb6348ac09e5756362a19274845363a"
+    },
+    {
+      "name": "ecc-unified-notifications-ops",
+      "description": "Управляет уведомлениями как единым рабочим процессом ECC в GitHub, Linear, уведомлениях рабочего стола, хуках и подключённых каналах связи. Используйте для диагностики маршрутизации уведомлений, устранения дубликатов, настройки эскалации или объединения перегруженных входящих сообщений.",
+      "file": "skills/unified-notifications-ops/SKILL.md",
+      "resourceDirectory": "skills/unified-notifications-ops",
+      "sourcePath": "skills/unified-notifications-ops/SKILL.md",
+      "sourceSha": "fe3839306cbab33a1543c69580e0f581246825ee"
+    },
+    {
+      "name": "ecc-verification-loop",
+      "description": "Проводит шестиступенчатую проверку работы в сессии Claude Code: сборка, проверка типов, статический анализ, тесты с покрытием, поиск проблем безопасности и анализ изменений. Формирует отчёт «ПРОЙДЕНО/НЕ ПРОЙДЕНО». Используйте после реализации функции или рефакторинга, перед созданием запроса на слияние (PR) и при обязательных контрольных проверках качества.",
+      "file": "skills/verification-loop/SKILL.md",
+      "resourceDirectory": "skills/verification-loop",
+      "sourcePath": "skills/verification-loop/SKILL.md",
+      "sourceSha": "35cb4b7737ed2389a808b968aa360b00807eaffe"
+    },
+    {
+      "name": "ecc-video-editing",
+      "description": "Локальный монтаж: склейки, обрезка, субтитры и проверка экспорта.",
+      "file": "skills/video-editing/SKILL.md",
+      "resourceDirectory": "skills/video-editing",
+      "sourcePath": "skills/video-editing/SKILL.md",
+      "sourceSha": "524f075989aff50a74ca3b3159b6a9200eee82fa"
+    },
+    {
+      "name": "ecc-videodb",
+      "description": "Поиск фрагментов, индексация и монтаж видео через подключённый VideoDB.",
+      "file": "skills/videodb/SKILL.md",
+      "resourceDirectory": "skills/videodb",
+      "sourcePath": "skills/videodb/SKILL.md",
+      "sourceSha": "e1290296ab5277274bc04ca6856544c0e6aca816"
+    },
+    {
+      "name": "ecc-visa-doc-translate",
+      "description": "Распознаёт и переводит изображения визовых документов на английский (банковские справки, справки о работе, доходах и пенсии; HEIC, PNG или JPG) и формирует двуязычный PDF с оригиналом и оформленным переводом в стиле официальной справки. Используйте для документов на визу, OCR официальных справок и переводов для иммиграционных документов.",
+      "file": "skills/visa-doc-translate/SKILL.md",
+      "resourceDirectory": "skills/visa-doc-translate",
+      "sourcePath": "skills/visa-doc-translate/SKILL.md",
+      "sourceSha": "0d48bb2da7b2414e80401bbfb9b3c9e4c0877a40"
+    },
+    {
+      "name": "ecc-vite-patterns",
+      "description": "Практики сборщика Vite: конфигурация, плагины, HMR, переменные окружения, прокси, SSR, режим библиотеки, предварительная сборка зависимостей и оптимизация сборки. Используйте при работе с `vite.config.ts`, плагинами Vite и проектами на Vite.",
+      "file": "skills/vite-patterns/SKILL.md",
+      "resourceDirectory": "skills/vite-patterns",
+      "sourcePath": "skills/vite-patterns/SKILL.md",
+      "sourceSha": "98db326bd2e4f1d38fa539b84c0c0ab059848ea4"
+    },
+    {
+      "name": "ecc-vue-patterns",
+      "description": "Практики Vue.js 3 Composition API: архитектура компонентов, реактивность, управление состоянием Pinia, навигация Vue Router и SSR в Nuxt. Применяется к проектам Vue, Nuxt, Vite и Pinia. Используйте при разработке или проверке кода и навигации этих технологий.",
+      "file": "skills/vue-patterns/SKILL.md",
+      "resourceDirectory": "skills/vue-patterns",
+      "sourcePath": "skills/vue-patterns/SKILL.md",
+      "sourceSha": "978381a60a4c76de4a6ff85c8affe4f48ab8f67d"
+    },
+    {
+      "name": "ecc-workspace-surface-audit",
+      "description": "Проверяет активный репозиторий, MCP-серверы, плагины, коннекторы, переменные окружения и настройки среды для агентов, затем рекомендует полезные навыки, хуки, агентов и рабочие процессы ECC. Используйте для настройки Claude Code или выяснения возможностей текущей среды.",
+      "file": "skills/workspace-surface-audit/SKILL.md",
+      "resourceDirectory": "skills/workspace-surface-audit",
+      "sourcePath": "skills/workspace-surface-audit/SKILL.md",
+      "sourceSha": "6e7e75376c8fd520240425ee5b6bea967da19277"
+    },
+    {
+      "name": "ecc-yoruba-localization-testing",
+      "description": "Проверка локализации на йоруба, диакритики и отображения интерфейса.",
+      "file": "skills/yoruba-localization-testing/SKILL.md",
+      "resourceDirectory": "skills/yoruba-localization-testing",
+      "sourcePath": "skills/yoruba-localization-testing/SKILL.md",
+      "sourceSha": "c3482111bf381134013de722e85cacd88e7fde52",
+      "sourceCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "agent-payment-x402",
+      "sourcePath": "skills/agent-payment-x402/SKILL.md",
+      "sourceSha": "41608571d94d9a935d6d808cf38f989a2b3c98ff",
+      "reason": "Нужны кошелёк, правила авторизации и проверенная среда для платных операций.",
+      "description": "Платежи агентов через x402"
+    },
+    {
+      "name": "agent-self-evaluation",
+      "sourcePath": "skills/agent-self-evaluation/SKILL.md",
+      "sourceSha": "4e241380aa8c9b26ea249d7208d78edea9e5f397",
+      "reason": "В пакете нет оценщика и интеграции с хуками Claude Code.",
+      "description": "Самооценка работы агента"
+    },
+    {
+      "name": "agentic-os",
+      "sourcePath": "skills/agentic-os/SKILL.md",
+      "sourceSha": "4ec8cfd914430a58dd68042fd68cba87f559e905",
+      "reason": "Пакет DSH не предоставляет фоновые службы, расписание и долговременную память этой схемы.",
+      "description": "Постоянная среда для агентов, задач и памяти"
+    },
+    {
+      "name": "angular-developer",
+      "sourcePath": "skills/angular-developer/SKILL.md",
+      "sourceSha": "f5b6eac3ca99f15c24239d1e3f013a60b99aa9c5",
+      "reason": "Исходные инструкции скачивают Angular CLI и создают файлы проекта при отсутствии локального инструмента.",
+      "description": "Разработка приложений на Angular"
+    },
+    {
+      "name": "autonomous-agent-harness",
+      "sourcePath": "skills/autonomous-agent-harness/SKILL.md",
+      "sourceSha": "2f92a5a17f2096b5752ff489600ac282110fc292",
+      "reason": "Сценарий опирается на память, расписание и средства запуска Claude Code.",
+      "description": "Автономное выполнение задач агентом"
+    },
+    {
+      "name": "autonomous-loops",
+      "sourcePath": "skills/autonomous-loops/SKILL.md",
+      "sourceSha": "b6c64c2af3d52d325a12181888c0dac4fec4fb5e",
+      "reason": "Устаревший сценарий для Claude CLI использует подпроцессы и удалённые операции с PR.",
+      "description": "Повторяющееся автономное выполнение задач"
+    },
+    {
+      "name": "blueprint",
+      "sourcePath": "skills/blueprint/SKILL.md",
+      "sourceSha": "4c27da2fa537afeeb7c7a452c73960508615f686",
+      "reason": "Требуются команды Claude Code и отдельная интеграция с агентами и GitHub.",
+      "description": "Планирование разработки с распределением работы"
+    },
+    {
+      "name": "canary-watch",
+      "sourcePath": "skills/canary-watch/SKILL.md",
+      "sourceSha": "8397ab540ccf7516fa7194622ea2909a1f98b8af",
+      "reason": "Фоновый мониторинг, уведомления и обработка журналов в DSH не настроены.",
+      "description": "Длительное наблюдение за доступностью сервисов"
+    },
+    {
+      "name": "ck",
+      "sourcePath": "skills/ck/SKILL.md",
+      "sourceSha": "12e191050d00516076cf5da23e43a6d828363868",
+      "reason": "Использует отсутствующие скрипты в пользовательском каталоге и сохраняет состояние вне проекта.",
+      "description": "Работа с постоянным состоянием Claude Code"
+    },
+    {
+      "name": "claude-devfleet",
+      "sourcePath": "skills/claude-devfleet/SKILL.md",
+      "sourceSha": "1e7358a61ba4466589c145956cd19ce85ae233e5",
+      "reason": "Требует отдельного сервиса, настройки MCP и проверки операций с рабочими деревьями.",
+      "description": "Координация работы агентов через Claude DevFleet"
+    },
+    {
+      "name": "codehealth-mcp",
+      "sourcePath": "skills/codehealth-mcp/SKILL.md",
+      "sourceSha": "6119608dcae1fafb83663f12feb52b3a42da731a",
+      "reason": "Нужны внешний MCP, отдельный пакет и токен.",
+      "description": "Анализ качества кода через CodeScene"
+    },
+    {
+      "name": "config-gc",
+      "sourcePath": "skills/config-gc/SKILL.md",
+      "sourceSha": "0583e2c8555e476d1d8d4484a35980dacf256cd6",
+      "reason": "Может менять или удалять пользовательскую конфигурацию вне проекта.",
+      "description": "Поиск и удаление устаревших настроек Claude Code"
+    },
+    {
+      "name": "configure-ecc",
+      "sourcePath": "skills/configure-ecc/SKILL.md",
+      "sourceSha": "532eedd8bc5203b6f193626768f8976e07b9375f",
+      "reason": "Сценарий меняет установки и конфигурацию других сред.",
+      "description": "Настройка ECC в разных средах исполнения"
+    },
+    {
+      "name": "continuous-agent-loop",
+      "sourcePath": "skills/continuous-agent-loop/SKILL.md",
+      "sourceSha": "6e4f12236e090fd7df5224dcf8061c3c9a5b92cc",
+      "reason": "Зависит от отсутствующих механизмов параллельной работы, хранения состояния и оценки результатов.",
+      "description": "Повторяющийся цикл работы агента"
+    },
+    {
+      "name": "continuous-learning",
+      "sourcePath": "skills/continuous-learning/SKILL.md",
+      "sourceSha": "9fe24a46efac8b17d3577f3684f8779e4bb5ed53",
+      "reason": "Первая версия помечена в источнике как устаревшая.",
+      "description": "Сохранение извлечённых уроков между сессиями"
+    },
+    {
+      "name": "continuous-learning-v2",
+      "sourcePath": "skills/continuous-learning-v2/SKILL.md",
+      "sourceSha": "397b3d334dd1fdf5d7648dd619b6a744cd4734a5",
+      "reason": "Нужны отдельные хуки и скрипты для записи данных сессий.",
+      "description": "Сохранение извлечённых уроков через хуки Claude Code"
+    },
+    {
+      "name": "cost-tracking",
+      "sourcePath": "skills/cost-tracking/SKILL.md",
+      "sourceSha": "d21a401b45442e7db6427da0bf8d8e2800d7909f",
+      "reason": "Сценарий читает метрики отсутствующего хука Claude Code.",
+      "description": "Учёт стоимости и расхода токенов"
+    },
+    {
+      "name": "council-multi-model",
+      "sourcePath": "skills/council-multi-model/SKILL.md",
+      "sourceSha": "7227afecf2ccead7e3790db71e4f044f6768590b",
+      "reason": "Требует отсутствующего адаптера и отправки материалов внешнему провайдеру.",
+      "description": "Сопоставление выводов нескольких моделей"
+    },
+    {
+      "name": "counterparty-channel-discipline",
+      "sourcePath": "skills/counterparty-channel-discipline/SKILL.md",
+      "sourceSha": "aa717a37738db7aed7a4a2f694a27f16b02f20dc",
+      "reason": "Требуются адаптер сообщений и файл политики, которых нет в пакете.",
+      "description": "Правила выбора канала общения с контрагентом"
+    },
+    {
+      "name": "crosspost",
+      "sourcePath": "skills/crosspost/SKILL.md",
+      "sourceSha": "b9bbafbd945f734c4dd779321ed2ca7b4ba18bab",
+      "reason": "Нужны подключённые учётные записи и подтверждение внешней публикации.",
+      "description": "Публикация одного материала на нескольких площадках"
+    },
+    {
+      "name": "data-scraper-agent",
+      "sourcePath": "skills/data-scraper-agent/SKILL.md",
+      "sourceSha": "e252ff998382cd488fdd8665bc74de1bb6417f7d",
+      "reason": "Нужно отдельно проверить источники, использование ключей, расписание и внешнее хранение.",
+      "description": "Автоматизированный сбор и обработка веб-данных"
+    },
+    {
+      "name": "deep-research",
+      "sourcePath": "skills/deep-research/SKILL.md",
+      "sourceSha": "75371ee0ec6e627b1246154f28587da19c81581f",
+      "reason": "Нужны внешние инструменты поиска и отдельная настройка среды.",
+      "description": "Многоэтапный поиск и проверка источников"
+    },
+    {
+      "name": "deepseek-harness-setup",
+      "sourcePath": "skills/deepseek-harness-setup/SKILL.md",
+      "sourceSha": "2904b95c89e200d94dbd4742fad6ff43739e937c",
+      "reason": "Вспомогательный скрипт отсутствует, а сценарий меняет пользовательские настройки.",
+      "description": "Настройка хуков DeepSeek Harness"
+    },
+    {
+      "name": "delivery-gate",
+      "sourcePath": "skills/delivery-gate/SKILL.md",
+      "sourceSha": "bfd4e254257bc39d486b36d0efd051fb2cc407e0",
+      "reason": "Устанавливает хук Claude Code, для которого нет реализации DSH в пакете.",
+      "description": "Проверка условий завершения работы"
+    },
+    {
+      "name": "dev-team",
+      "sourcePath": "skills/dev-team/SKILL.md",
+      "sourceSha": "a6a7340dbde4f58713811fe945ae86f6cca5f074",
+      "reason": "Требуется запуск четырёх подагентов и объединение результатов.",
+      "description": "Разделение разработки между несколькими агентами"
+    },
+    {
+      "name": "dmux-workflows",
+      "sourcePath": "skills/dmux-workflows/SKILL.md",
+      "sourceSha": "58f2c3e2b56d8fea50e894c0ff5356d00950076d",
+      "reason": "Нужен отсутствующий исполняемый помощник, управляющий процессами и рабочими деревьями.",
+      "description": "Координация агентских задач через терминальные сессии"
+    },
+    {
+      "name": "documentation-lookup",
+      "sourcePath": "skills/documentation-lookup/SKILL.md",
+      "sourceSha": "8bb9de6232d1693cd19a8e035712371e7c0e4769",
+      "reason": "Инструмент Context7 не включён и его подключение не проверено.",
+      "description": "Поиск документации библиотек через Context7"
+    },
+    {
+      "name": "e2e-testing",
+      "sourcePath": "skills/e2e-testing/SKILL.md",
+      "sourceSha": "f9ca797a1badc3a85352e14d31e6262dfde535bc",
+      "reason": "Исходный сценарий скачивает Playwright и может устанавливать браузерные и системные зависимости.",
+      "description": "Сквозное тестирование веб-приложений"
+    },
+    {
+      "name": "ecc-guide",
+      "sourcePath": "skills/ecc-guide/SKILL.md",
+      "sourceSha": "b794250fc7dd1c24f768961ffccd8d1684a219e4",
+      "reason": "Описывает установщики для других сред, которых нет в пакете.",
+      "description": "Руководство по установке и настройке ECC"
+    },
+    {
+      "name": "ecc-tools-cost-audit",
+      "sourcePath": "skills/ecc-tools-cost-audit/SKILL.md",
+      "sourceSha": "a4981c1c38e39c19ffb9cd8ea64e9d698caa59ec",
+      "reason": "Нужны отдельный репозиторий ECC-Tools и сведения о расходах.",
+      "description": "Аудит стоимости инструментов ECC"
+    },
+    {
+      "name": "eval-harness",
+      "sourcePath": "skills/eval-harness/SKILL.md",
+      "sourceSha": "133193446a3116e96648081aabcf4f2ea863b0e0",
+      "reason": "Нет скриптов оценки и связанных материалов.",
+      "description": "Набор проверок для оценки работы агента"
+    },
+    {
+      "name": "exa-search",
+      "sourcePath": "skills/exa-search/SKILL.md",
+      "sourceSha": "ec3428386cf362b59902370de2f049d0143e09cd",
+      "reason": "Нужны отдельно настроенный MCP и ключ API.",
+      "description": "Веб-поиск через Exa"
+    },
+    {
+      "name": "fal-ai-media",
+      "sourcePath": "skills/fal-ai-media/SKILL.md",
+      "sourceSha": "b1e837bbb771d94f37e5e47e396b6c7dc84f57ae",
+      "reason": "Нужны платная интеграция, ключ API и разрешение на отправку материалов.",
+      "description": "Генерация медиа через fal.ai"
+    },
+    {
+      "name": "flox-environments",
+      "sourcePath": "skills/flox-environments/SKILL.md",
+      "sourceSha": "0d16475b3f026778d6a4a49aaba50f3a432f93bb",
+      "reason": "Пакет не содержит Flox и не проверяет изменения манифеста и хуки активации.",
+      "description": "Создание воспроизводимых окружений Flox"
+    },
+    {
+      "name": "frontend-design-direction",
+      "sourcePath": "skills/frontend-design-direction/SKILL.md",
+      "sourceSha": "6139c73ec7de85b33d62f121cb263f95dfd69f8c",
+      "reason": "Нет локального проверяющего скрипта. Дополнительное исследование зависит от внешнего MCP.",
+      "description": "Выбор визуального направления для интерфейса"
+    },
+    {
+      "name": "gan-style-harness",
+      "sourcePath": "skills/gan-style-harness/SKILL.md",
+      "sourceSha": "a22db0388b7445f37382b341a1bf95c58088e98f",
+      "reason": "Нет вспомогательных сценариев и среды для их запуска.",
+      "description": "Организация процесса создания и оценки визуального стиля"
+    },
+    {
+      "name": "gateguard",
+      "sourcePath": "skills/gateguard/SKILL.md",
+      "sourceSha": "208174601bc8387f8efa55e8a8e4945526f7960b",
+      "reason": "Требуемый хук Claude Code в DSH не реализован.",
+      "description": "Ограничение действий агента через хук"
+    },
+    {
+      "name": "git-workflow",
+      "sourcePath": "skills/git-workflow/SKILL.md",
+      "sourceSha": "81a858d3a79344a6879fa60322b5a36cdf758206",
+      "reason": "Исходный сценарий включает рискованные операции с удалёнными ветками и релизами.",
+      "description": "Работа с ветками, версиями и публикацией через Git"
+    },
+    {
+      "name": "github-ops",
+      "sourcePath": "skills/github-ops/SKILL.md",
+      "sourceSha": "dbbe7b129d9d722e8f0e622c3d8f045fc97bd855",
+      "reason": "Операции записи требуют отдельной интеграции и подтверждения.",
+      "description": "Управление задачами, PR и релизами GitHub"
+    },
+    {
+      "name": "homelab-pihole-dns",
+      "sourcePath": "skills/homelab-pihole-dns/SKILL.md",
+      "sourceSha": "3dfa5b1b2ce6940f27f98df244f6d978d2aca0f9",
+      "reason": "Требуются изменения DNS, DHCP и системных служб с повышенными правами.",
+      "description": "Настройка DNS в домашней сети через Pi-hole"
+    },
+    {
+      "name": "homelab-wireguard-vpn",
+      "sourcePath": "skills/homelab-wireguard-vpn/SKILL.md",
+      "sourceSha": "abddf8acab9e6d96ddd738d452777c748940c81b",
+      "reason": "Сценарий меняет системные настройки сети, ключи и правила межсетевого экрана.",
+      "description": "Настройка WireGuard для домашней сети"
+    },
+    {
+      "name": "hookify-rules",
+      "sourcePath": "skills/hookify-rules/SKILL.md",
+      "sourceSha": "b0e5d70e60944a15a4b163abc67685c3c7f11183",
+      "reason": "Эти правила и хуки не поддерживаются данным пакетом DSH.",
+      "description": "Создание правил для хуков Claude Code"
+    },
+    {
+      "name": "i18n-sync",
+      "sourcePath": "skills/i18n-sync/SKILL.md",
+      "sourceSha": "91e0436803310f58e6929c7a53ae85c7d4ed9802",
+      "reason": "Часть руководств и инструмент перевода отсутствуют.",
+      "description": "Синхронизация переводов интерфейса"
+    },
+    {
+      "name": "inherit-legacy-style",
+      "sourcePath": "skills/inherit-legacy-style/SKILL.md",
+      "sourceSha": "b43189023a965f2a51e028d4bd098ee3e6d0f135",
+      "reason": "Исходник пишет настройки Claude Code и рассчитывает на отсутствующий хук.",
+      "description": "Перенос правил стиля из существующего проекта"
+    },
+    {
+      "name": "ios-icon-gen",
+      "sourcePath": "skills/ios-icon-gen/SKILL.md",
+      "sourceSha": "a2f25322986a59341a3817f577847af47bf03894",
+      "reason": "Требуется отсутствующий скрипт с обращением к Iconify.",
+      "description": "Создание иконок для iOS"
+    },
+    {
+      "name": "ito-baskets",
+      "sourcePath": "skills/ito-baskets/SKILL.md",
+      "sourceSha": "74313290283a9fedfdf7bf6a0047ec7f06845b92",
+      "reason": "Требуются внешний API и отсутствующий клиент.",
+      "description": "Работа с корзинами ресурсов Itô"
+    },
+    {
+      "name": "ito-compute",
+      "sourcePath": "skills/ito-compute/SKILL.md",
+      "sourceSha": "4970a757b6075d1ce12043ba3c73e0bdea52f1ed",
+      "reason": "Нужны внешний CLI и авторизация. Сценарий может создавать заявки на закупку.",
+      "description": "Подбор вычислительных ресурсов Itô"
+    },
+    {
+      "name": "ito-inference",
+      "sourcePath": "skills/ito-inference/SKILL.md",
+      "sourceSha": "4a95b6c36bc3cc8228985a4aab8acdeec7b5189a",
+      "reason": "Нет клиентской среды и доступов для развёртывания.",
+      "description": "Управление размещением моделей в Itô"
+    },
+    {
+      "name": "ito-training",
+      "sourcePath": "skills/ito-training/SKILL.md",
+      "sourceSha": "f28e2e6b0064205a9b6a8e22431496adc48eb5c4",
+      "reason": "Требуется внешняя среда обучения и отдельная проверка данных и расходов.",
+      "description": "Подготовка и запуск обучения в Itô"
+    },
+    {
+      "name": "jira-integration",
+      "sourcePath": "skills/jira-integration/SKILL.md",
+      "sourceSha": "22fb65ea891304ca2ef8e23dfff593e4b74f2a52",
+      "reason": "Нужны учётные данные и интеграция для чтения и изменения задач.",
+      "description": "Работа с задачами Jira"
+    },
+    {
+      "name": "knowledge-ops",
+      "sourcePath": "skills/knowledge-ops/SKILL.md",
+      "sourceSha": "298449d70858abe1c44a667bc182d52a1a13916e",
+      "reason": "Исходник пишет в глобальную память и внешние сервисы.",
+      "description": "Сохранение и распространение проектных знаний"
+    },
+    {
+      "name": "laravel-plugin-discovery",
+      "sourcePath": "skills/laravel-plugin-discovery/SKILL.md",
+      "sourceSha": "f5d2f212e60b23611c541e223eb906ab01da5ab7",
+      "reason": "Нужен сторонний MCP и настройка другой среды исполнения.",
+      "description": "Поиск расширений Laravel"
+    },
+    {
+      "name": "mailtrap-email-integration",
+      "sourcePath": "skills/mailtrap-email-integration/SKILL.md",
+      "sourceSha": "f70c7bc0ff8713a1042c45f9138979691d704fc6",
+      "reason": "Нужны ключ и отдельная интеграция, которая обрабатывает данные получателей.",
+      "description": "Отправка писем через Mailtrap"
+    },
+    {
+      "name": "master-agreement-generator",
+      "sourcePath": "skills/master-agreement-generator/SKILL.md",
+      "sourceSha": "d0c933755c3a24a5ddfde5fe615d66114a577b67",
+      "reason": "Отсутствуют спецификация JSON и генератор документа.",
+      "description": "Подготовка основного договора по шаблону"
+    },
+    {
+      "name": "mcp-server-patterns",
+      "sourcePath": "skills/mcp-server-patterns/SKILL.md",
+      "sourceSha": "503c31bad5ef287368e3badf23226314fad68dbe",
+      "reason": "Связанные руководства и среда MCP отсутствуют.",
+      "description": "Проектирование MCP-серверов"
+    },
+    {
+      "name": "nanoclaw-repl",
+      "sourcePath": "skills/nanoclaw-repl/SKILL.md",
+      "sourceSha": "f7d91a6902df66d24470756d9765897e3605ffdc",
+      "reason": "Нужен отсутствующий JavaScript-помощник и среда NanoClaw.",
+      "description": "Интерактивная работа с NanoClaw"
+    },
+    {
+      "name": "nutrient-document-processing",
+      "sourcePath": "skills/nutrient-document-processing/SKILL.md",
+      "sourceSha": "e1bf3dfa96c02f27cb5ae5b2ae80c7b1b4fe443c",
+      "reason": "Требуется коммерческий API с внешней передачей файлов.",
+      "description": "Обработка документов через Nutrient"
+    },
+    {
+      "name": "opensource-pipeline",
+      "sourcePath": "skills/opensource-pipeline/SKILL.md",
+      "sourceSha": "3be84b1f4ee2a76361921260a91dc02e1cdda13e",
+      "reason": "Исходный сценарий включает внешние действия по созданию копии и отправке кода.",
+      "description": "Подготовка проекта к открытой публикации"
+    },
+    {
+      "name": "operator-approval-loop",
+      "sourcePath": "skills/operator-approval-loop/SKILL.md",
+      "sourceSha": "5c97fa8381df307236f989afc1c1498bcf622de3",
+      "reason": "Без отсутствующих компонентов журнала и отправки нельзя гарантировать подтверждение.",
+      "description": "Согласование внешних действий с оператором"
+    },
+    {
+      "name": "osint-investigation",
+      "sourcePath": "skills/osint-investigation/SKILL.md",
+      "sourceSha": "de93126d73d1d615eae98a5e2cdd5cc92d5b00d0",
+      "reason": "Требуется отдельно сверить лицензию и зависимости от внешних сервисов поиска.",
+      "description": "Исследование по открытым источникам"
+    },
+    {
+      "name": "plan-canvas",
+      "sourcePath": "skills/plan-canvas/SKILL.md",
+      "sourceSha": "7c87e18752df8d6788353fbf51d8bc793b9eda6f",
+      "reason": "Нет скриптов и окружения Claude Code, где хранится состояние плана.",
+      "description": "Ведение плана на рабочем полотне"
+    },
+    {
+      "name": "plankton-code-quality",
+      "sourcePath": "skills/plankton-code-quality/SKILL.md",
+      "sourceSha": "c056a5b200037795766ece6643b28c297344f1f1",
+      "reason": "Сценарий устанавливает сторонние инструменты и хуки, которые запускают подпроцессы.",
+      "description": "Автоматизация lint и форматирования"
+    },
+    {
+      "name": "recsys-pipeline-architect",
+      "sourcePath": "skills/recsys-pipeline-architect/SKILL.md",
+      "sourceSha": "2964a85f81bd73d60943c95b1cf72dae907324d6",
+      "reason": "Исходник предлагает устанавливать сторонний навык, который не проверялся для этой сборки.",
+      "description": "Проектирование рекомендательных систем"
+    },
+    {
+      "name": "repo-scan",
+      "sourcePath": "skills/repo-scan/SKILL.md",
+      "sourceSha": "c2f40eee7ae20da55f5b9e60b658d0574e5cf18d",
+      "reason": "Инструкция запускает установку отдельного навыка, которого нет в снимке.",
+      "description": "Поиск и обзор репозиториев через внешнее расширение"
+    },
+    {
+      "name": "rules-distill",
+      "sourcePath": "skills/rules-distill/SKILL.md",
+      "sourceSha": "9f76d3fe0c36af92c15607a006ba9b99d18559ef",
+      "reason": "Нужны отсутствующие скрипты для чтения пользовательских каталогов Claude Code.",
+      "description": "Выделение общих правил из существующих инструкций"
+    },
+    {
+      "name": "safety-guard",
+      "sourcePath": "skills/safety-guard/SKILL.md",
+      "sourceSha": "935bb69f6546920ca102fd1b372eea20110ef382",
+      "reason": "Заявленные хуки Claude Code и журнал не реализованы в этой сборке.",
+      "description": "Ограничение действий и ведение журнала через хуки"
+    },
+    {
+      "name": "search-first",
+      "sourcePath": "skills/search-first/SKILL.md",
+      "sourceSha": "3d2669e71ba54afba95defb05080253058190600",
+      "reason": "Исходник читает глобальные настройки и предлагает менять пакеты или MCP.",
+      "description": "Поиск готовых решений перед разработкой"
+    },
+    {
+      "name": "security-scan",
+      "sourcePath": "skills/security-scan/SKILL.md",
+      "sourceSha": "9026c08e024ce2a9ffcb1db0b999b9957cee6bf0",
+      "reason": "Исходный запуск скачивает AgentShield и может менять глобальные настройки Claude Code.",
+      "description": "Проверка настроек на проблемы безопасности"
+    },
+    {
+      "name": "skill-comply",
+      "sourcePath": "skills/skill-comply/SKILL.md",
+      "sourceSha": "303863e302fe9ff340197fc7442a86bacbb7f425",
+      "reason": "Нужны Claude CLI и отсутствующие проверочные скрипты.",
+      "description": "Проверка навыков на соответствие требованиям"
+    },
+    {
+      "name": "skill-host-compat",
+      "sourcePath": "skills/skill-host-compat/SKILL.md",
+      "sourceSha": "220e8b3117056b3924ed1c9c11e28b5de09f9293",
+      "reason": "Нет скриптов настройки и проверки хоста, на которые ссылается инструкция.",
+      "description": "Проверка совместимости навыка с хостом"
+    },
+    {
+      "name": "skill-scout",
+      "sourcePath": "skills/skill-scout/SKILL.md",
+      "sourceSha": "8a55c548ccd47e4f5adf738cf5becf0b8b9ad9e7",
+      "reason": "Исходник сканирует пользовательские каталоги и предлагает сторонние пакеты.",
+      "description": "Поиск сторонних навыков"
+    },
+    {
+      "name": "skill-stocktake",
+      "sourcePath": "skills/skill-stocktake/SKILL.md",
+      "sourceSha": "aa4d16bfd22c297a538cc696ecc4e3e2ee3342d8",
+      "reason": "Скрипты записи результатов и пользовательские пути Claude Code вне этой сборки.",
+      "description": "Инвентаризация установленных навыков"
+    },
+    {
+      "name": "social-publisher",
+      "sourcePath": "skills/social-publisher/SKILL.md",
+      "sourceSha": "b745b504c8f7375e091f3d2e3653fde1b4c07b07",
+      "reason": "Нужны внешние клиенты и подключённые аккаунты.",
+      "description": "Планирование и публикация постов в соцсетях"
+    },
+    {
+      "name": "story-lifecycle",
+      "sourcePath": "skills/story-lifecycle/SKILL.md",
+      "sourceSha": "4965a136f8629cf3151e0cb31e1327df11e9bfd9",
+      "reason": "Нет утилиты журнала и блокировок для изменения состояния.",
+      "description": "Ведение стадий выполнения задачи"
+    },
+    {
+      "name": "strategic-compact",
+      "sourcePath": "skills/strategic-compact/SKILL.md",
+      "sourceSha": "134e767151c4b7f039833bf496cdf4f145875c12",
+      "reason": "Исходник зависит от хуков Claude Code и путей к журналам сессий.",
+      "description": "Управление объёмом контекста между этапами"
+    },
+    {
+      "name": "taste",
+      "sourcePath": "skills/taste/SKILL.md",
+      "sourceSha": "1b307d33af748841382842a6e79b80f7972507fd",
+      "reason": "Связанные навыки и инструменты медиапроизводства включены не полностью.",
+      "description": "Создание визуального направления для проекта"
+    },
+    {
+      "name": "taste-application",
+      "sourcePath": "skills/taste-application/SKILL.md",
+      "sourceSha": "2e080c2fb7bba8d592c1c915bb1f5c4fea3a83ab",
+      "reason": "Нет вспомогательных скриптов и файлов. Некоторые этапы требуют платных внешних сервисов.",
+      "description": "Применение визуальных правил к медиапроекту"
+    },
+    {
+      "name": "taste-distillation",
+      "sourcePath": "skills/taste-distillation/SKILL.md",
+      "sourceSha": "e844b6b2902cf15e9e2a2bd7d34b84d8775cc5bc",
+      "reason": "Нужны отсутствующие Python-скрипты и инструменты обработки медиа.",
+      "description": "Извлечение визуальных правил из референсов"
+    },
+    {
+      "name": "tasteforge-video",
+      "sourcePath": "skills/tasteforge-video/SKILL.md",
+      "sourceSha": "51a416bf1c960ef20ba7482a9a8673fc902466e2",
+      "reason": "Нет пакета Python и связанных компонентов. Часть операций требует внешнего провайдера.",
+      "description": "Создание роликов по пайплайну TasteForge"
+    },
+    {
+      "name": "team-builder",
+      "sourcePath": "skills/team-builder/SKILL.md",
+      "sourceSha": "2de7d028b6af3e67fb88ab54b631b10fb3e779a8",
+      "reason": "Зависит от Claude CLI и пользовательских файлов агентов.",
+      "description": "Формирование команды подагентов"
+    },
+    {
+      "name": "terminal-opener",
+      "sourcePath": "skills/terminal-opener/SKILL.md",
+      "sourceSha": "a78e0a95d95687364ca67e82c31a3476882e616c",
+      "reason": "Нет средства запуска процессов. Передача переменных окружения требует отдельной проверки.",
+      "description": "Открытие терминала для выполнения задания"
+    },
+    {
+      "name": "tinystruct-patterns",
+      "sourcePath": "skills/tinystruct-patterns/SKILL.md",
+      "sourceSha": "f354debc06cf243f3b6469f55ed714b0a7bb0756",
+      "reason": "Исходник зависит от внешних Maven-артефактов и меняет скрипты и версии проекта.",
+      "description": "Организация Java-проекта на TinyStruct"
+    },
+    {
+      "name": "token-card",
+      "sourcePath": "skills/token-card/SKILL.md",
+      "sourceSha": "978fb57d3017ba28906bc986da058b340a23f7b0",
+      "reason": "Нужна сторонняя CLI, которая читает приватные журналы сессий.",
+      "description": "Отчёт о потреблении токенов"
+    },
+    {
+      "name": "ui-to-vue",
+      "sourcePath": "skills/ui-to-vue/SKILL.md",
+      "sourceSha": "83bf5e912be65860c79c18cf1f8be7a77a5cf6da",
+      "reason": "Внешний конвертер может отправлять скриншоты стороннему API.",
+      "description": "Преобразование интерфейса в компоненты Vue"
+    },
+    {
+      "name": "unified-memory",
+      "sourcePath": "skills/unified-memory/SKILL.md",
+      "sourceSha": "2eb70c775d90ed081530f9eeb419cc5ba81be147",
+      "reason": "Требуется отдельная глобальная установка ecc-universal.",
+      "description": "Общая память между разными агентскими средами"
+    },
+    {
+      "name": "windows-desktop-e2e",
+      "sourcePath": "skills/windows-desktop-e2e/SKILL.md",
+      "sourceSha": "f965b043cee51ed1c464088c08b91cf05710d65f",
+      "reason": "Нужна отдельная среда автоматизации рабочего стола и её зависимости.",
+      "description": "Сквозное тестирование интерфейса Windows"
+    },
+    {
+      "name": "x-api",
+      "sourcePath": "skills/x-api/SKILL.md",
+      "sourceSha": "70fa8396e7d3ef3a3c09f537d5a662f4d96e5775",
+      "reason": "Нужна отдельная авторизация для чтения, публикации и загрузки медиа.",
+      "description": "Работа с API платформы X"
+    }
+  ],
+  "assets": [
+    "skills/accessibility/SKILL.md",
+    "skills/agent-architecture-audit/SKILL.md",
+    "skills/agent-eval/SKILL.md",
+    "skills/agent-harness-construction/SKILL.md",
+    "skills/agent-introspection-debugging/SKILL.md",
+    "skills/agent-runtime-gateway-smoke-test/SKILL.md",
+    "skills/agent-security-hardening/SKILL.md",
+    "skills/agent-sort/SKILL.md",
+    "skills/agentic-engineering/SKILL.md",
+    "skills/ai-first-engineering/SKILL.md",
+    "skills/ai-regression-testing/SKILL.md",
+    "skills/android-clean-architecture/SKILL.md",
+    "skills/api-connector-builder/SKILL.md",
+    "skills/api-design/SKILL.md",
+    "skills/architecture-decision-records/SKILL.md",
+    "skills/article-writing/SKILL.md",
+    "skills/automation-audit-ops/SKILL.md",
+    "skills/backend-patterns/SKILL.md",
+    "skills/benchmark-methodology/SKILL.md",
+    "skills/benchmark-optimization-loop/SKILL.md",
+    "skills/benchmark/SKILL.md",
+    "skills/bengali-nlp/SKILL.md",
+    "skills/blender-motion-state-inspection/SKILL.md",
+    "skills/brand-discovery/SKILL.md",
+    "skills/brand-discovery/references/10_purpose-why.md",
+    "skills/brand-discovery/references/20_positioning.md",
+    "skills/brand-discovery/references/30_audience-niche.md",
+    "skills/brand-discovery/references/40_personality-archetype.md",
+    "skills/brand-discovery/references/50_voice-tone.md",
+    "skills/brand-discovery/references/60_narrative-story.md",
+    "skills/brand-discovery/references/70_founder-tension.md",
+    "skills/brand-discovery/references/90_SYNTHESIS.md",
+    "skills/brand-voice/SKILL.md",
+    "skills/brand-voice/references/voice-profile-schema.md",
+    "skills/brownfield-retrospective/SKILL.md",
+    "skills/browser-qa/SKILL.md",
+    "skills/bun-runtime/SKILL.md",
+    "skills/carrier-relationship-management/SKILL.md",
+    "skills/change-impact/SKILL.md",
+    "skills/cisco-ios-patterns/SKILL.md",
+    "skills/click-path-audit/SKILL.md",
+    "skills/clickhouse-io/SKILL.md",
+    "skills/code-tour/SKILL.md",
+    "skills/codebase-onboarding/SKILL.md",
+    "skills/coding-standards/SKILL.md",
+    "skills/competitive-platform-analysis/SKILL.md",
+    "skills/competitive-report-structure/SKILL.md",
+    "skills/compose-multiplatform-patterns/SKILL.md",
+    "skills/config-health/SKILL.md",
+    "skills/connections-optimizer/SKILL.md",
+    "skills/content-engine/SKILL.md",
+    "skills/content-hash-cache-pattern/SKILL.md",
+    "skills/context-and-decisions/SKILL.md",
+    "skills/context-and-decisions/templates/context.example.md",
+    "skills/context-budget/SKILL.md",
+    "skills/contract-first/SKILL.md",
+    "skills/conventional-commit-review/SKILL.md",
+    "skills/cost-aware-llm-pipeline/SKILL.md",
+    "skills/council/SKILL.md",
+    "skills/cpp-coding-standards/SKILL.md",
+    "skills/cpp-testing/SKILL.md",
+    "skills/csharp-testing/SKILL.md",
+    "skills/customer-billing-ops/SKILL.md",
+    "skills/customs-trade-compliance/SKILL.md",
+    "skills/dart-flutter-patterns/SKILL.md",
+    "skills/dashboard-builder/SKILL.md",
+    "skills/data-throughput-accelerator/SKILL.md",
+    "skills/database-migrations/SKILL.md",
+    "skills/defi-amm-security/SKILL.md",
+    "skills/deployment-patterns/SKILL.md",
+    "skills/design-system/SKILL.md",
+    "skills/django-celery/SKILL.md",
+    "skills/django-patterns/SKILL.md",
+    "skills/django-security/SKILL.md",
+    "skills/django-tdd/SKILL.md",
+    "skills/django-verification/SKILL.md",
+    "skills/docker-patterns/SKILL.md",
+    "skills/docs-governance/SKILL.md",
+    "skills/dotnet-patterns/SKILL.md",
+    "skills/dynamic-workflow-mode/SKILL.md",
+    "skills/ecc-contribution-review/SKILL.md",
+    "skills/ecc-recipes/SKILL.md",
+    "skills/email-ops/SKILL.md",
+    "skills/energy-procurement/SKILL.md",
+    "skills/enterprise-agent-ops/SKILL.md",
+    "skills/error-handling/SKILL.md",
+    "skills/esign-field-placement/SKILL.md",
+    "skills/esign-field-placement/references/placement-checklist.md",
+    "skills/evm-token-decimals/SKILL.md",
+    "skills/fastapi-patterns/SKILL.md",
+    "skills/finance-billing-ops/SKILL.md",
+    "skills/flutter-dart-code-review/SKILL.md",
+    "skills/foundation-models-on-device/SKILL.md",
+    "skills/frontend-a11y/SKILL.md",
+    "skills/frontend-patterns/SKILL.md",
+    "skills/frontend-slides/SKILL.md",
+    "skills/frontend-slides/STYLE_PRESETS.md",
+    "skills/frontend-slides/animation-patterns.md",
+    "skills/frontend-slides/html-template.md",
+    "skills/fsharp-testing/SKILL.md",
+    "skills/generating-python-installer/SKILL.md",
+    "skills/godot-patterns/SKILL.md",
+    "skills/godot-testing/SKILL.md",
+    "skills/golang-patterns/SKILL.md",
+    "skills/golang-testing/SKILL.md",
+    "skills/google-workspace-ops/SKILL.md",
+    "skills/growth-log/SKILL.md",
+    "skills/healthcare-cdss-patterns/SKILL.md",
+    "skills/healthcare-emr-patterns/SKILL.md",
+    "skills/healthcare-eval-harness/SKILL.md",
+    "skills/healthcare-phi-compliance/SKILL.md",
+    "skills/hermes-imports/SKILL.md",
+    "skills/hexagonal-architecture/SKILL.md",
+    "skills/hipaa-compliance/SKILL.md",
+    "skills/homelab-network-readiness/SKILL.md",
+    "skills/homelab-network-setup/SKILL.md",
+    "skills/homelab-vlan-segmentation/SKILL.md",
+    "skills/intent-driven-development/SKILL.md",
+    "skills/inventory-demand-planning/SKILL.md",
+    "skills/investor-materials/SKILL.md",
+    "skills/investor-outreach/SKILL.md",
+    "skills/issue-review/SKILL.md",
+    "skills/iterative-retrieval/SKILL.md",
+    "skills/java-coding-standards/SKILL.md",
+    "skills/jpa-patterns/SKILL.md",
+    "skills/kotlin-coroutines-flows/SKILL.md",
+    "skills/kotlin-exposed-patterns/SKILL.md",
+    "skills/kotlin-ktor-patterns/SKILL.md",
+    "skills/kotlin-patterns/SKILL.md",
+    "skills/kotlin-testing/SKILL.md",
+    "skills/kubernetes-patterns/SKILL.md",
+    "skills/laravel-patterns/SKILL.md",
+    "skills/laravel-security/SKILL.md",
+    "skills/laravel-tdd/SKILL.md",
+    "skills/laravel-verification/SKILL.md",
+    "skills/latency-critical-systems/SKILL.md",
+    "skills/lead-intelligence/SKILL.md",
+    "skills/lead-intelligence/agents/enrichment-agent.md",
+    "skills/lead-intelligence/agents/mutual-mapper.md",
+    "skills/lead-intelligence/agents/outreach-drafter.md",
+    "skills/lead-intelligence/agents/signal-scorer.md",
+    "skills/liquid-glass-design/SKILL.md",
+    "skills/living-docs-governance/SKILL.md",
+    "skills/llm-trading-agent-security/SKILL.md",
+    "skills/logistics-exception-management/SKILL.md",
+    "skills/loop-design-check/SKILL.md",
+    "skills/make-interfaces-feel-better/SKILL.md",
+    "skills/manim-video/SKILL.md",
+    "skills/market-research/SKILL.md",
+    "skills/marketing-campaign/SKILL.md",
+    "skills/mcp-dependency-review/SKILL.md",
+    "skills/messages-ops/SKILL.md",
+    "skills/ml-adoption-playbook/SKILL.md",
+    "skills/mle-workflow/SKILL.md",
+    "skills/module-governance/SKILL.md",
+    "skills/module-regression/SKILL.md",
+    "skills/module-regression/templates/REGRESSION.example.md",
+    "skills/motion-advanced/SKILL.md",
+    "skills/motion-foundations/SKILL.md",
+    "skills/motion-patterns/SKILL.md",
+    "skills/mybatis-patterns/SKILL.md",
+    "skills/mysql-patterns/SKILL.md",
+    "skills/nasiko-control-plane/SKILL.md",
+    "skills/nestjs-patterns/SKILL.md",
+    "skills/netmiko-ssh-automation/SKILL.md",
+    "skills/network-bgp-diagnostics/SKILL.md",
+    "skills/network-config-validation/SKILL.md",
+    "skills/network-interface-health/SKILL.md",
+    "skills/nextjs-turbopack/SKILL.md",
+    "skills/nodejs-keccak256/SKILL.md",
+    "skills/nuxt4-patterns/SKILL.md",
+    "skills/openclaw-persona-forge/SKILL.md",
+    "skills/openclaw-persona-forge/references/avatar-style.md",
+    "skills/openclaw-persona-forge/references/boundary-rules.md",
+    "skills/openclaw-persona-forge/references/error-handling.md",
+    "skills/openclaw-persona-forge/references/identity-tension.md",
+    "skills/openclaw-persona-forge/references/naming-system.md",
+    "skills/openclaw-persona-forge/references/output-template.md",
+    "skills/orch-add-feature/SKILL.md",
+    "skills/orch-build-mvp/SKILL.md",
+    "skills/orch-change-feature/SKILL.md",
+    "skills/orch-fix-defect/SKILL.md",
+    "skills/orch-pipeline/SKILL.md",
+    "skills/orch-refine-code/SKILL.md",
+    "skills/parallel-execution-optimizer/SKILL.md",
+    "skills/perl-patterns/SKILL.md",
+    "skills/perl-security/SKILL.md",
+    "skills/perl-testing/SKILL.md",
+    "skills/plan-orchestrate/SKILL.md",
+    "skills/postgres-patterns/SKILL.md",
+    "skills/prediction-market-oracle-research/SKILL.md",
+    "skills/prediction-market-risk-review/SKILL.md",
+    "skills/prisma-patterns/SKILL.md",
+    "skills/product-capability/SKILL.md",
+    "skills/product-lens/SKILL.md",
+    "skills/production-audit/SKILL.md",
+    "skills/production-scheduling/SKILL.md",
+    "skills/project-flow-ops/SKILL.md",
+    "skills/prompt-caching-strategy/SKILL.md",
+    "skills/prompt-optimizer/SKILL.md",
+    "skills/python-patterns/SKILL.md",
+    "skills/python-testing/SKILL.md",
+    "skills/pytorch-patterns/SKILL.md",
+    "skills/quality-nonconformance/SKILL.md",
+    "skills/quarkus-patterns/SKILL.md",
+    "skills/quarkus-security/SKILL.md",
+    "skills/quarkus-tdd/SKILL.md",
+    "skills/quarkus-verification/SKILL.md",
+    "skills/rails-patterns/SKILL.md",
+    "skills/rails-security/SKILL.md",
+    "skills/ralphinho-rfc-pipeline/SKILL.md",
+    "skills/react-native-patterns/SKILL.md",
+    "skills/react-patterns/SKILL.md",
+    "skills/react-performance/SKILL.md",
+    "skills/react-testing/SKILL.md",
+    "skills/recursive-decision-ledger/SKILL.md",
+    "skills/redis-patterns/SKILL.md",
+    "skills/regex-vs-llm-structured-text/SKILL.md",
+    "skills/remotion-video-creation/SKILL.md",
+    "skills/research-ops/SKILL.md",
+    "skills/returns-reverse-logistics/SKILL.md",
+    "skills/rust-patterns/SKILL.md",
+    "skills/rust-testing/SKILL.md",
+    "skills/santa-method/SKILL.md",
+    "skills/scientific-db-openalex-database/SKILL.md",
+    "skills/scientific-db-pubmed-database/SKILL.md",
+    "skills/scientific-db-uspto-database/SKILL.md",
+    "skills/scientific-pkg-gget/SKILL.md",
+    "skills/scientific-thinking-literature-review/SKILL.md",
+    "skills/scientific-thinking-scholar-evaluation/SKILL.md",
+    "skills/security-bounty-hunter/SKILL.md",
+    "skills/security-review/SKILL.md",
+    "skills/security-review/cloud-infrastructure-security.md",
+    "skills/seo/SKILL.md",
+    "skills/short-video-distribution/SKILL.md",
+    "skills/social-graph-ranker/SKILL.md",
+    "skills/springboot-patterns/SKILL.md",
+    "skills/springboot-security/SKILL.md",
+    "skills/springboot-tdd/SKILL.md",
+    "skills/springboot-verification/SKILL.md",
+    "skills/swift-actor-persistence/SKILL.md",
+    "skills/swift-concurrency-6-2/SKILL.md",
+    "skills/swift-protocol-di-testing/SKILL.md",
+    "skills/swiftui-patterns/SKILL.md",
+    "skills/tdd-workflow/SKILL.md",
+    "skills/team-agent-orchestration/SKILL.md",
+    "skills/terminal-ops/SKILL.md",
+    "skills/terraform-patterns/SKILL.md",
+    "skills/test-collaboration/SKILL.md",
+    "skills/test-collaboration/templates/TESTS.example.md",
+    "skills/token-budget-advisor/SKILL.md",
+    "skills/typescript-patterns/SKILL.md",
+    "skills/ui-demo/SKILL.md",
+    "skills/uncloud/SKILL.md",
+    "skills/unified-notifications-ops/SKILL.md",
+    "skills/verification-loop/SKILL.md",
+    "skills/video-editing/SKILL.md",
+    "skills/videodb/SKILL.md",
+    "skills/visa-doc-translate/README.md",
+    "skills/visa-doc-translate/SKILL.md",
+    "skills/vite-patterns/SKILL.md",
+    "skills/vue-patterns/SKILL.md",
+    "skills/workspace-surface-audit/SKILL.md",
+    "skills/yoruba-localization-testing/SKILL.md"
+  ]
+}

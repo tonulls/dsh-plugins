@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/msitarzewski/agency-agents",
+  "commit": "8ae6164602c95ca78828b148b9052460ee426885",
+  "commitDate": "2026-11-09T00:27:04Z",
+  "license": "MIT",
+  "agentCount": 283,
+  "categories": {
+    "academic": 6,
+    "design": 10,
+    "engineering": 66,
+    "finance": 5,
+    "game-development": 21,
+    "gis": 13,
+    "healthcare": 3,
+    "marketing": 37,
+    "paid-media": 7,
+    "product": 6,
+    "project-management": 7,
+    "research": 1,
+    "sales": 9,
+    "security": 12,
+    "spatial-computing": 6,
+    "specialized": 59,
+    "support": 6,
+    "testing": 9
+  },
+  "adaptation": {
+    "skillPrefix": "agency-",
+    "promptText": "Upstream agent instructions are retained and wrapped with DSH-specific capability, authorization, and security boundaries.",
+    "defaultInvocation": {
+      "userInvocable": false,
+      "modelInvocable": false
+    }
+  }
+}

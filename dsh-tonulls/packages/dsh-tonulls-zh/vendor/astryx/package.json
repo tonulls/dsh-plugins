@@ -1,0 +1,33 @@
+{
+  "name": "dsh-astryx-tonulls-zh",
+  "description": "面向 DSH 的 Astryx 技能包，提供简体中文元数据和说明",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./provider": "./src/provider.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
+    "src/*.js",
+    "assets/skills/**/*.md",
+    "assets/skills/catalog.json",
+    "UPSTREAM.json",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

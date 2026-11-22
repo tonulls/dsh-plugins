@@ -1,0 +1,54 @@
+{
+  "name": "dsh-last30days-tonulls",
+  "version": "0.1.0",
+  "description": "User-invoked, public-web-only research Skill for DeepSeek Harness",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
+    "UPSTREAM.json",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-skill",
+    "research",
+    "read-only"
+  ],
+  "engines": {
+    "node": ">=24.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonulls/dsh-plugins.git",
+    "directory": "dsh-last30days-tonulls/packages/dsh-last30days-tonulls"
+  },
+  "homepage": "https://github.com/tonulls/dsh-plugins/tree/tonulls/dsh-%5Bname%5D-tonulls/dsh-last30days-tonulls/packages/dsh-last30days-tonulls",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-agent": "*",
+    "@deepseek-ai/dsh-commands": "*",
+    "@deepseek-ai/dsh-skill": "*"
+  }
+}

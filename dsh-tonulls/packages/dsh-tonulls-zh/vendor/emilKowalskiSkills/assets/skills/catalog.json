@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "animation-performance",
+      "description": "诊断并改善动画性能与掉帧问题。",
+      "file": "animation-performance/SKILL.md",
+      "resourceDir": "animation-performance/"
+    },
+    {
+      "name": "animation-vocabulary",
+      "description": "为动效描述查找准确术语。",
+      "file": "animation-vocabulary/SKILL.md",
+      "resourceDir": "animation-vocabulary/"
+    },
+    {
+      "name": "animate-expo",
+      "description": "设计兼顾 UI 线程的 React Native 与 Expo 动画。",
+      "file": "animate-expo/SKILL.md",
+      "resourceDir": "animate-expo/"
+    },
+    {
+      "name": "animate",
+      "description": "设计具有合适缓动、时长和属性的动画。",
+      "file": "animate/SKILL.md",
+      "resourceDir": "animate/"
+    },
+    {
+      "name": "apple-design",
+      "description": "将 Apple 风格的界面设计与流畅动效应用于 Web。",
+      "file": "apple-design/SKILL.md",
+      "resourceDir": "apple-design/"
+    },
+    {
+      "name": "mobile-native",
+      "description": "改善移动 Web 的触控、视口、安全区域和滚动行为。",
+      "file": "mobile-native/SKILL.md",
+      "resourceDir": "mobile-native/"
+    },
+    {
+      "name": "improve-animations",
+      "description": "审查动画并制定优先级明确、可独立执行的改进计划。",
+      "file": "improve-animations/SKILL.md",
+      "resourceDir": "improve-animations/"
+    },
+    {
+      "name": "ask-sonner",
+      "description": "提供 Sonner React toast、样式和 API 指南。",
+      "file": "ask-sonner/SKILL.md",
+      "resourceDir": "ask-sonner/"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "description": "寻找合理的动效机会并提出具体方案。",
+      "file": "find-animation-opportunities/SKILL.md",
+      "resourceDir": "find-animation-opportunities/"
+    },
+    {
+      "name": "emil-design-eng",
+      "description": "全面的界面与动画设计实践指南。",
+      "file": "emil-design-eng/SKILL.md",
+      "resourceDir": "emil-design-eng/"
+    },
+    {
+      "name": "review-animations",
+      "description": "按严格质量标准审查动画代码。",
+      "file": "review-animations/SKILL.md",
+      "resourceDir": "review-animations/"
+    },
+    {
+      "name": "remove-animations",
+      "description": "识别无必要的动画并规划安全精简方案。",
+      "file": "remove-animations/SKILL.md",
+      "resourceDir": "remove-animations/"
+    },
+    {
+      "name": "ask-emil",
+      "description": "为界面和动效任务选择可用技能。",
+      "file": "ask-emil/SKILL.md",
+      "resourceDir": "ask-emil/"
+    },
+    {
+      "name": "choreograph",
+      "description": "协调成组动画的顺序、延迟与重叠。",
+      "file": "choreograph/SKILL.md",
+      "resourceDir": "choreograph/"
+    },
+    {
+      "name": "gestures",
+      "description": "设计拖动、滑动与关闭手势。",
+      "file": "gestures/SKILL.md",
+      "resourceDir": "gestures/"
+    },
+    {
+      "name": "learn-taste",
+      "description": "将用户确认的反馈整理为设计规则。",
+      "file": "learn-taste/SKILL.md",
+      "resourceDir": "learn-taste/"
+    }
+  ]
+}

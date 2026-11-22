@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/bergside/awesome-design-skills",
+  "ref": "main",
+  "commit": "f631a09b4fcc0166f2e2c1a8c81906ef680c57e8",
+  "snapshotDate": "2026-11-17",
+  "latestCommitEvidence": "https://github.com/bergside/awesome-design-skills/commits/main.atom",
+  "latestCommitAt": "2026-06-28T10:05:21Z",
+  "license": "MIT (root LICENSE; repository metadata checked)",
+  "licenseEvidence": "https://github.com/bergside/awesome-design-skills/blob/f631a09b4fcc0166f2e2c1a8c81906ef680c57e8/LICENSE",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original selection and safety guidance only; no upstream catalog entries, skills, design files, images, or code are copied."
+}

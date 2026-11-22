@@ -1,0 +1,41 @@
+{
+  "name": "dsh-youtube-agent-skill-tonulls-zh",
+  "description": "7 项技能，用于起草脚本、内容计划、评论回复和 YouTube 元数据。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./provider": "./src/provider.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "src/*.js",
+    "assets/skills/*.md",
+    "assets/skills/*.json",
+    "cordis.patch.yml",
+    "UPSTREAM.json",
+    "UPSTREAM.LICENSE",
+    "LICENSES.md",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-agent": "*",
+    "@deepseek-ai/dsh-commands": "*",
+    "@deepseek-ai/dsh-skill": "*"
+  }
+}

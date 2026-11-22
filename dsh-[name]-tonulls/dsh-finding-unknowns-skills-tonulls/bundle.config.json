@@ -1,0 +1,18 @@
+{
+  "pluginName": "finding-unknowns-skills-tonulls",
+  "upstreamName": "Finding Unknowns Skills",
+  "upstreamUrl": "https://github.com/Neeeophytee/finding-unknowns-skills",
+  "upstreamCommit": "ca5696a0f08d2de6b2997fff1d6cc05c3ed587cc",
+  "sourceLicense": "MIT",
+  "sourceCopyright": "Copyright (c) 2026 Neeeophytee",
+  "titles": {
+    "ru": "Finding Unknowns Skills для DSH",
+    "en": "Finding Unknowns Skills for DSH",
+    "zh-CN": "DSH 未知问题探索技能集"
+  },
+  "descriptions": {
+    "ru": "14 навыков для выявления неизвестных требований, допущений и пробелов проверки.",
+    "en": "Fourteen skills for surfacing unknown requirements, assumptions, and verification gaps.",
+    "zh-CN": "包含 14 项技能，用于发现未知需求、假设和验证盲点。"
+  }
+}

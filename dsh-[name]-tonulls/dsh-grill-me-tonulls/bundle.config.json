@@ -1,0 +1,35 @@
+{
+  "pluginName": "grill-me-tonulls",
+  "upstreamName": "Matt Pocock skills",
+  "upstreamUrl": "https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me",
+  "upstreamCommit": "abeeaf95660ba9e8b7c753eb38f441ca707a8823",
+  "sourceLicense": "MIT",
+  "sourceCopyright": "Copyright (c) 2026 Matt Pocock",
+  "skills": [
+    {
+      "name": "grill-me",
+      "file": "grill-me.md",
+      "source": "upstream/skills/productivity/grill-me/SKILL.md",
+      "descriptions": {
+        "ru": "Пользовательский запуск структурированного интервью для проверки плана или решения.",
+        "en": "User-invoked structured interview to stress-test a plan or decision.",
+        "zh-CN": "由用户主动调用的结构化访谈，用于检验计划或决策。"
+      }
+    },
+    {
+      "name": "grilling",
+      "file": "grilling.md",
+      "source": "upstream/skills/productivity/grilling/SKILL.md",
+      "descriptions": {
+        "ru": "Последовательно выявляет и проверяет решения, которые зависят от ещё не выясненных фактов.",
+        "en": "Progressively surfaces and tests decisions whose prerequisites are settled.",
+        "zh-CN": "逐步提出前置条件已明确的决策问题并进行检验。"
+      }
+    }
+  ],
+  "titles": {
+    "ru": "Grill Me для DSH",
+    "en": "Grill Me for DSH",
+    "zh-CN": "DSH 决策追问技能"
+  }
+}

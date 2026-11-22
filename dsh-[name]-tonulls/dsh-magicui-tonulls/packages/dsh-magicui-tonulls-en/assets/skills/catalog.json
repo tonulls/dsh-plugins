@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "b0b2e4974b1b68cd5278277c6837a27736e20c3a",
+  "entries": [
+    {
+      "name": "magic-ui-review",
+      "description": "Assesses a specific Magic UI component without copying its registry or code.",
+      "file": "magic-ui-review.md"
+    }
+  ]
+}

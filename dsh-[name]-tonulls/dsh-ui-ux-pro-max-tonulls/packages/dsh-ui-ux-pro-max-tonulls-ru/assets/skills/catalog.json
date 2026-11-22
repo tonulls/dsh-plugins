@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "f76d1653d7467fc11fb9d9d79295a421c92ab958",
+  "entries": [
+    {
+      "name": "ui-ux-pro-max-review",
+      "description": "Помогает оценить UI UX Pro Max без переноса CLI, промптов, стилей или данных.",
+      "file": "ui-ux-pro-max-review.md"
+    }
+  ]
+}

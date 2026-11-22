@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "防御性日志初步分析",
+    "description": "两项防御性 Web 和 API 日志分析技能，可通过 Agent 命令切换自动选择。"
+  }
+}

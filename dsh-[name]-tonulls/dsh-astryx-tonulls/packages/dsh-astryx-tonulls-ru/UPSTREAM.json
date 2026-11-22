@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/meta/astryx",
+  "cliPackage": "@astryxdesign/cli",
+  "cliVersion": "0.7.17",
+  "skillCount": 1,
+  "checkedAt": "2026-11-21",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/meta/astryx/blob/0b48882df9c0bf8e49c8f7306737b6972c8dcd15/LICENSE",
+  "references": [
+    "https://astryx.atmeta.com/docs/cli",
+    "https://astryx.atmeta.com/docs/cli-component-lookups"
+  ],
+  "npmIntegrity": "sha512-zb4mzQVIUfFdkbYM93sEofEY5VQtlxoz73r3p5TOq1RF/A9QJfPXzjzrdDjsEZazC8DG9v8aTwlAxu8dMvLT8A==",
+  "sourceTag": "v0.7.17",
+  "sourceTagCommit": "0b48882df9c0bf8e49c8f7306737b6972c8dcd15",
+  "observedHead": "b89ee6ed9f398f6a6795d206552390f09684a230",
+  "npmProvenance": {
+    "attestationUrl": "https://registry.npmjs.org/-/npm/v1/attestations/@astryxdesign%2fcli@0.7.17",
+    "buildCommit": "0b48882df9c0bf8e49c8f7306737b6972c8dcd15",
+    "workflowRun": "https://github.com/meta/astryx/actions/runs/44819024701/attempts/1"
+  }
+}

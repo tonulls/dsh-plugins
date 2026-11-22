@@ -1,0 +1,55 @@
+{
+  "pluginName": "youtube-agent-skill-tonulls",
+  "upstreamName": "The YouTube agent skill",
+  "upstreamUrl": "https://github.com/Jakeschincariol/youtube-agent-skill",
+  "upstreamCommit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+  "sourceLicense": "MIT",
+  "sourceCopyright": "Copyright (c) 2026 Jake Schincariol",
+  "titles": {
+    "ru": "YouTube Agent Skills для DSH",
+    "en": "YouTube agent skills for DSH",
+    "zh-CN": "DSH YouTube 内容创作技能"
+  },
+  "descriptions": {
+    "ru": "7 навыков для черновиков сценариев, контент-плана, комментариев и метаданных YouTube.",
+    "en": "Seven skills for drafting scripts, content plans, comment replies, and YouTube metadata.",
+    "zh-CN": "7 项技能，用于起草脚本、内容计划、评论回复和 YouTube 元数据。"
+  },
+  "skills": [
+    {
+      "name": "yt-plan",
+      "source": "upstream/skills/yt-plan/SKILL.md",
+      "descriptions": { "ru": "Планирует реалистичную неделю или месяц публикаций по доступному времени и готовым материалам.", "en": "Plans a realistic upload week or month around available time and existing material.", "zh-CN": "根据可用时间和现有素材制定可执行的周或月发布计划。" }
+    },
+    {
+      "name": "yt-comment",
+      "source": "upstream/skills/yt-comment/SKILL.md",
+      "descriptions": { "ru": "Сортирует переданные пользователем комментарии и готовит черновики ответов.", "en": "Triage user-provided comments and draft replies.", "zh-CN": "整理用户提供的评论并起草回复。" }
+    },
+    {
+      "name": "yt-shorts",
+      "source": "upstream/skills/yt-shorts/SKILL.md",
+      "descriptions": { "ru": "Находит самостоятельные фрагменты в переданной расшифровке для Shorts.", "en": "Finds self-contained Shorts candidates in a user-provided transcript.", "zh-CN": "从用户提供的文字稿中寻找适合 Shorts 的独立片段。" }
+    },
+    {
+      "name": "yt-seo",
+      "source": "upstream/skills/yt-seo/SKILL.md",
+      "descriptions": { "ru": "Готовит черновики описания и тегов по теме и запросам, предоставленным пользователем.", "en": "Drafts descriptions and tags from user-provided topics and queries.", "zh-CN": "根据用户提供的主题和搜索词起草视频描述和标签。" }
+    },
+    {
+      "name": "yt-audit",
+      "source": "upstream/skills/yt-audit/SKILL.md",
+      "descriptions": { "ru": "Выбирает главный приоритет улучшения по данным канала, предоставленным пользователем.", "en": "Identify one priority improvement from channel data supplied by the user.", "zh-CN": "根据用户提供的频道数据确定一个最优先的改进方向。" }
+    },
+    {
+      "name": "yt-script",
+      "source": "upstream/skills/yt-script/SKILL.md",
+      "descriptions": { "ru": "Создаёт черновик сценария YouTube с несколькими вариантами начала без автоматических оценок.", "en": "Drafts a YouTube script with multiple opening options, without automated scoring.", "zh-CN": "起草 YouTube 脚本并提供多个开场方案，不进行自动评分。" }
+    },
+    {
+      "name": "yt-package",
+      "source": "upstream/skills/yt-package/SKILL.md",
+      "descriptions": { "ru": "Согласует варианты заголовка и миниатюры без автоматической оценки.", "en": "Pair title and thumbnail options using qualitative review, without automated scores.", "zh-CN": "定性审查标题与缩略图方案，不提供自动评分。" }
+    }
+  ]
+}

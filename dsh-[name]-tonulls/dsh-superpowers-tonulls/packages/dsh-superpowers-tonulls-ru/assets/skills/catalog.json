@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "22f0b463e7a5e579904dd6211a520321035526f7",
+  "entries": [
+    {
+      "name": "superpowers-reference",
+      "description": "Помогает по явному запросу оценить применимость Superpowers без копирования его инструкций.",
+      "file": "superpowers-reference.md"
+    }
+  ]
+}

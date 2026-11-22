@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "skillCount": 2,
+  "upstreamCommit": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+  "entries": [
+    {
+      "name": "anthropic-cybersecurity-api-gateway-log-triage",
+      "description": "Analyze user-provided API Gateway access logs for defensive indicators such as unusual object access, authentication failures, and method anomalies; do not use this skill to test live endpoints.",
+      "file": "api-gateway-access-log-triage.md"
+    },
+    {
+      "name": "anthropic-cybersecurity-web-access-log-triage",
+      "description": "Analyze user-provided Apache or Nginx access logs for possible intrusion indicators; do not use this skill to scan or test a live web server.",
+      "file": "web-server-access-log-triage.md"
+    }
+  ]
+}

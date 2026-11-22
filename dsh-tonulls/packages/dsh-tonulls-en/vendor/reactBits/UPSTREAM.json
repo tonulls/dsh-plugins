@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/DavidHDev/react-bits",
+  "ref": "main",
+  "commit": "701a8acc34f718b305d1ff0cc7d4700df0e1f1c9",
+  "snapshotDate": "2026-11-21",
+  "latestCommitEvidence": "https://github.com/DavidHDev/react-bits/commits/main.atom",
+  "latestCommitAt": "2026-11-19T23:05:02Z",
+  "licenseAssessment": "GitHub API reports Other/NOASSERTION; LICENSE.md contains MIT plus Commons Clause, including a restriction on redistributing components. No components or assets are copied.",
+  "licenseEvidence": "https://github.com/DavidHDev/react-bits/blob/701a8acc34f718b305d1ff0cc7d4700df0e1f1c9/LICENSE.md",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/DavidHDev/react-bits",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

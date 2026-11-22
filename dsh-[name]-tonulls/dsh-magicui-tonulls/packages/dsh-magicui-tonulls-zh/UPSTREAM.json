@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/magicuidesign/magicui",
+  "ref": "main",
+  "commit": "b0b2e4974b1b68cd5278277c6837a27736e20c3a",
+  "snapshotDate": "2026-11-20",
+  "latestCommitEvidence": "https://github.com/magicuidesign/magicui/commits/main.atom",
+  "latestCommitAt": "2026-11-17T12:47:26Z",
+  "licenseAssessment": "MIT",
+  "licenseEvidence": "https://github.com/magicuidesign/magicui/blob/b0b2e4974b1b68cd5278277c6837a27736e20c3a/LICENSE.md",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/magicuidesign/magicui",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Anthropic Cybersecurity Skills (curated defensive subset)",
+  "repository": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+  "branch": "main",
+  "commit": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+  "latestRelease": {
+    "tag": "v1.3.0",
+    "publishedAt": "2026-06-22T17:11:11Z",
+    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.3.0"
+  },
+  "tree": "d110e8cfb2bc042ffc8e5bf06ce160844a167257",
+  "commitSignature": "unsigned (GitHub API verification result)",
+  "sourceLicense": "Apache-2.0",
+  "sourceCopyright": "Copyright 2026 mukul975",
+  "notAffiliatedWith": "Anthropic PBC",
+  "selectedSkills": [
+    {
+      "upstreamName": "analyzing-api-gateway-access-logs",
+      "sourcePath": "skills/analyzing-api-gateway-access-logs/SKILL.md",
+      "sourceBlob": "f234db705e0901ee463972b33ca2886dd54706be",
+      "author": "mahipal",
+      "adaptedFile": "assets/skills/api-gateway-access-log-triage.md"
+    },
+    {
+      "upstreamName": "analyzing-web-server-logs-for-intrusion",
+      "sourcePath": "skills/analyzing-web-server-logs-for-intrusion/SKILL.md",
+      "sourceBlob": "7627989e5dc4a2327f1fc110ceeee8e50def4ea0",
+      "author": "mahipal",
+      "adaptedFile": "assets/skills/web-server-access-log-triage.md"
+    }
+  ],
+  "excluded": [
+    "All other upstream skills, including offensive and dual-use procedures",
+    "All upstream scripts, automation, installers, and executable assets",
+    "Upstream reference files not needed by the adapted read-only procedures"
+  ],
+  "adaptation": "The two selected procedures were rewritten for user-provided or explicitly authorized logs, read-only triage, privacy redaction, uncertainty reporting, and human confirmation. Original dependency-install and script-execution instructions were not carried into this bundle. No upstream code is included."
+}

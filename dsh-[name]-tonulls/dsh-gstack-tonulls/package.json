@@ -1,0 +1,10 @@
+{
+  "name": "dsh-gstack-tonulls-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build:variants": "node scripts/build-variants.mjs",
+    "test": "node --test test/*.test.js"
+  }
+}

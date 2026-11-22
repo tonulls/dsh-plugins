@@ -1,0 +1,21 @@
+{
+  "name": "dsh-aks-tonulls-en",
+  "description": "Karpathy Guidelines for DSH with English instructions",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./provider": "./src/provider.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": ["README.md", "src/*.js", "assets/skills/**/*.md", "UPSTREAM.json", "cordis.patch.yml", "LICENSE"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-skill": "*"
+  }
+}

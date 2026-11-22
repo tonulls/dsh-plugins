@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "94e4be4102452119008fe47199f3cb915abe0c50",
+  "entries": [
+    {
+      "name": "build-your-own-x",
+      "description": "По явному вызову пользователя подбирает актуальный GitHub-туториал для учебной реализации проекта с нуля и проверяет его ограничения.",
+      "file": "build-your-own-x.md"
+    }
+  ]
+}

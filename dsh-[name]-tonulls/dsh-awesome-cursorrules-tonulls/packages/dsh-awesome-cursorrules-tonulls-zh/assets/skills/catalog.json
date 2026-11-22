@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "b044f956f021b6e8877f16781bcfc466a6a120e9",
+  "entries": [
+    {
+      "name": "cursor-rules-selector",
+      "description": "仅在明确请求时筛选规则，并核实每项的原始来源和许可证。",
+      "file": "cursor-rules-selector.md"
+    }
+  ]
+}

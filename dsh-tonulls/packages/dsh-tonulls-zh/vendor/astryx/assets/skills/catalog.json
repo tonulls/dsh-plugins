@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "upstreamCliVersion": "0.7.17",
+  "skillCount": 1,
+  "entries": [
+    {
+      "name": "astryx",
+      "title": "Astryx",
+      "description": "为已选择 Astryx 的 React 项目提供文档查询说明的 DSH Agent 技能。",
+      "file": "astryx.md"
+    }
+  ]
+}

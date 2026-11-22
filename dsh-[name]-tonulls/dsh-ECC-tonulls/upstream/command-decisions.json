@@ -1,0 +1,29 @@
+{
+  "include": [
+    {
+      "name": "build-fix",
+      "notes": "Run only tools already installed in the target project; never install missing dependencies or fetch packages. Keep fixes minimal and stop for architectural changes."
+    },
+    {
+      "name": "test-coverage",
+      "notes": "Use only locally available test/coverage tools; never let npx download packages. Generate tests only within the explicitly requested project scope."
+    },
+    {
+      "name": "update-docs",
+      "notes": "Limit documentation edits to the user-requested scope; do not run generated project scripts or create unrequested files."
+    }
+  ],
+  "explicitExclusions": {
+    "auto-update": "Pulls upstream ECC and reinstalls managed targets; not a DSH component update path.",
+    "epic-publish": "Publishes updates to remote issue trackers and local caches.",
+    "hookify": "Creates Claude-specific hook rules and depends on a non-DSH hook runtime.",
+    "jira": "Uses remote credentials and can change issue state or post comments.",
+    "multi-execute": "Requires an external multi-model runtime, vendor-specific tool calls, and scripts not packaged here.",
+    "model-route": "Selects Claude-specific model tiers; model routing is not portable to this DSH provider.",
+    "pr": "Pushes commits and opens remote GitHub pull requests.",
+    "project-init": "Runs the ECC installer and modifies other harness configuration files.",
+    "security-scan": "Requires an external AgentShield runtime and may run npx-backed code.",
+    "setup-pm": "Changes project or user package-manager configuration and requires an upstream script."
+  },
+  "defaultExclusionReason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review."
+}

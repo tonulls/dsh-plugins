@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Проверка Vanta-интеграции",
+    "description": "Помогает проверить возраст Vanta, WebGL, fallback, motion и производительность."
+  }
+}

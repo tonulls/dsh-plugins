@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/affaan-m/ECC.git",
+  "ref": "refs/heads/main",
+  "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+  "tree": "794b1fe2343e67aab32e751ded09abf1a4d06dd0",
+  "commitDate": "2026-10-26T04:03:57Z",
+  "commitSignatureVerifiedByGitHub": true,
+  "license": "MIT",
+  "checkedAt": "2026-10-27",
+  "releaseStatus": "inventory-only-not-approved"
+}

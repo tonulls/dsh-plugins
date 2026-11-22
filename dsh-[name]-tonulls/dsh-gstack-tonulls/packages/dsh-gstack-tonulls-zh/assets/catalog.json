@@ -1,0 +1,12 @@
+{
+  "upstream": "https://github.com/garrytan/gstack",
+  "revision": "a8decce8acc2d63a1a2897a4522d1b1eaac8f8ec",
+  "reviewedHead": "6263e0ef33fc5827a7642fc5c8b2757affed7fbc",
+  "entries": [
+    {
+      "name": "gstack",
+      "description": "GStack: product thinking, engineering planning, code review, investigation, QA, and shipping methodology adapted for DeepSeek Harness.",
+      "file": "skills/gstack/SKILL.md"
+    }
+  ]
+}

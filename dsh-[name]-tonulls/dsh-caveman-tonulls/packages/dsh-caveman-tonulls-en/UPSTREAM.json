@@ -1,0 +1,13 @@
+{
+  "name": "Caveman",
+  "url": "https://github.com/JuliusBrussee/caveman",
+  "commit": "a192894723a8f47e7f504c7b5041967ff1f18e55",
+  "skill": "caveman",
+  "sourceLicense": "Apache-2.0",
+  "sourceCopyright": "Copyright 2026 Julius Brussee; historical contributions credited in upstream NOTICE and LICENSE-MIT.",
+  "adaptations": [
+    "Removed upstream session-persistence and host-hook status behavior.",
+    "Restricted style to an explicit user-invoked task in the current turn.",
+    "Removed the host-specific caveman-compress command."
+  ]
+}

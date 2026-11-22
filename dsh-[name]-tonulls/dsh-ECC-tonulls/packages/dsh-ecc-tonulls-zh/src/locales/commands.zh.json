@@ -1,0 +1,5 @@
+{
+  "ecc-command-build-fix": "检测项目的构建系统，并以最小且安全的改动逐步修复构建和类型错误。",
+  "ecc-command-test-coverage": "分析测试覆盖率，找出覆盖缺口，并生成缺失的测试，以达到目标阈值。",
+  "ecc-command-update-docs": "根据脚本、架构、路由和导出等权威来源同步文档。"
+}

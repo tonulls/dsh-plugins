@@ -1,0 +1,40 @@
+{
+  "description": "Reviewed, non-executable ECC content eligible for a local snapshot. Runtime code and vendor-specific adapters stay excluded until their safety review.",
+  "extraFiles": [
+    { "path": "LICENSE", "category": "license" }
+  ],
+  "categories": {
+    "agents": {
+      "prefix": "agents/",
+      "extensions": [".md"]
+    },
+    "skills": {
+      "prefix": "skills/",
+      "extensions": [".md"]
+    },
+    "commands": {
+      "prefix": "commands/",
+      "extensions": [".md"]
+    },
+    "rules": {
+      "prefix": "rules/",
+      "extensions": [".md"]
+    },
+    "contexts": {
+      "prefix": "contexts/",
+      "extensions": [".md"]
+    },
+    "hooks-config": {
+      "prefix": "hooks/",
+      "extensions": [".json", ".md"]
+    },
+    "mcp-config": {
+      "prefix": "mcp-configs/",
+      "extensions": [".json", ".md"]
+    },
+    "workflows": {
+      "prefix": "workflows/",
+      "extensions": [".md", ".json", ".yaml", ".yml"]
+    }
+  }
+}

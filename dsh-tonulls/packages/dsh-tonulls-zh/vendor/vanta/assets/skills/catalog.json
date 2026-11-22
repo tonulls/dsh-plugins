@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "f8b351906688b56f0fc744e53bde81fc3c56f150",
+  "entries": [
+    {
+      "name": "vanta-integration-review",
+      "description": "检查 Vanta 时效、WebGL、回退方案、动画和性能。",
+      "file": "vanta-integration-review.md"
+    }
+  ]
+}

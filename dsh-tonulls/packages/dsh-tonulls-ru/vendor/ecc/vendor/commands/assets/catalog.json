@@ -1,0 +1,699 @@
+{
+  "upstreamCommit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+  "upstreamTree": "794b1fe2343e67aab32e751ded09abf1a4d06dd0",
+  "releaseStatus": "inventory-only-not-approved",
+  "entries": [
+    {
+      "name": "ecc-command-build-fix",
+      "command": "build-fix",
+      "description": "ECC command adaptation: Detect the project build system and incrementally fix build/type errors with minimal safe changes.",
+      "file": "commands/build-fix.md",
+      "sourcePath": "commands/build-fix.md",
+      "sourceSha": "568351bbc710009acba3e4c32282c436291a34c8",
+      "notes": "Run only tools already installed in the target project; never install missing dependencies or fetch packages. Keep fixes minimal and stop for architectural changes."
+    },
+    {
+      "name": "ecc-command-test-coverage",
+      "command": "test-coverage",
+      "description": "ECC command adaptation: Analyze coverage, identify gaps, and generate missing tests toward the target threshold.",
+      "file": "commands/test-coverage.md",
+      "sourcePath": "commands/test-coverage.md",
+      "sourceSha": "0af60e88b6a8627ad7d5fc45f900296f9b35a88d",
+      "notes": "Use only locally available test/coverage tools; never let npx download packages. Generate tests only within the explicitly requested project scope."
+    },
+    {
+      "name": "ecc-command-update-docs",
+      "command": "update-docs",
+      "description": "ECC command adaptation: Sync documentation from source-of-truth files such as scripts, schemas, routes, and exports.",
+      "file": "commands/update-docs.md",
+      "sourcePath": "commands/update-docs.md",
+      "sourceSha": "a75f2332c38767f9339caa8ff93810949fbd41f8",
+      "notes": "Limit documentation edits to the user-requested scope; do not run generated project scripts or create unrequested files."
+    }
+  ],
+  "excluded": [
+    {
+      "name": "aside",
+      "sourcePath": "commands/aside.md",
+      "sourceSha": "9fa0881d1101859da5d5c8bb772dcfca91282c72",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "astra-review",
+      "sourcePath": "commands/astra-review.md",
+      "sourceSha": "4490c2a9f6249ea727f9f89e459c581c54d3dd2c",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "auto-update",
+      "sourcePath": "commands/auto-update.md",
+      "sourceSha": "41e0d43e13502dc9d520a6ac2e3ff5b91614e485",
+      "reason": "Pulls upstream ECC and reinstalls managed targets; not a DSH component update path.",
+      "explicit": true
+    },
+    {
+      "name": "checkpoint",
+      "sourcePath": "commands/checkpoint.md",
+      "sourceSha": "68166cba10afa94d4c62efa97da939fd18dbf738",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "code-review",
+      "sourcePath": "commands/code-review.md",
+      "sourceSha": "9ec5c6dab062b0fc344fa843a946c6dd3ee7b03d",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "cost-report",
+      "sourcePath": "commands/cost-report.md",
+      "sourceSha": "7c0b9dd927c2d8f4527b55b4cc86c5bc5fabff02",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "cpp-build",
+      "sourcePath": "commands/cpp-build.md",
+      "sourceSha": "0e413de8149ccab98fc83ffb0406a6bff5d88a2d",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "cpp-review",
+      "sourcePath": "commands/cpp-review.md",
+      "sourceSha": "2809095d5e5977553e9a15c3616e64cf213b28c8",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "cpp-test",
+      "sourcePath": "commands/cpp-test.md",
+      "sourceSha": "0a4b0ab019d84a11003ae97e9689e0333dc86d67",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "ecc-guide",
+      "sourcePath": "commands/ecc-guide.md",
+      "sourceSha": "a5eb1df9e7b7696c827e420682e0c1cf720e0a86",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "epic-claim",
+      "sourcePath": "commands/epic-claim.md",
+      "sourceSha": "85c64b167a655dfb263079493fd2c0b4b824a4c1",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "epic-decompose",
+      "sourcePath": "commands/epic-decompose.md",
+      "sourceSha": "5a1af14a62e8abda48129d08b09d02ea463cff05",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "epic-publish",
+      "sourcePath": "commands/epic-publish.md",
+      "sourceSha": "675ac3d9c3eb21d875dbed5f703196d8228e45b0",
+      "reason": "Publishes updates to remote issue trackers and local caches.",
+      "explicit": true
+    },
+    {
+      "name": "epic-review",
+      "sourcePath": "commands/epic-review.md",
+      "sourceSha": "378b6ab6303a33963cc38afe9df13d3a931c0646",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "epic-sync",
+      "sourcePath": "commands/epic-sync.md",
+      "sourceSha": "8ea55da76b3a16be673da0af36925fa79d0f5a63",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "epic-unblock",
+      "sourcePath": "commands/epic-unblock.md",
+      "sourceSha": "7895c661267e0510f1fd568e307f702bdd003e4e",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "epic-validate",
+      "sourcePath": "commands/epic-validate.md",
+      "sourceSha": "73192e8f3ffd18b7af5e721a3c0551bea5bbf1fa",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "evolve",
+      "sourcePath": "commands/evolve.md",
+      "sourceSha": "467458e76b392a2b46747e926465ab781da64aca",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "fastapi-review",
+      "sourcePath": "commands/fastapi-review.md",
+      "sourceSha": "9d730c6e93a4380e25afb7fbe7588c9669b2f1e6",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "feature-dev",
+      "sourcePath": "commands/feature-dev.md",
+      "sourceSha": "808c1e73726f2dbe1ff9f7b667dce6e5ea1336e7",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "flutter-build",
+      "sourcePath": "commands/flutter-build.md",
+      "sourceSha": "0fe7d6b667e771c52f1bdb8e59820ded54f78e74",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "flutter-review",
+      "sourcePath": "commands/flutter-review.md",
+      "sourceSha": "39ad44be19d7fa5f969dd140a415708029c0c6ea",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "flutter-test",
+      "sourcePath": "commands/flutter-test.md",
+      "sourceSha": "db0724f2b7576b847230a32f4928eba87b6a9b62",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "gan-build",
+      "sourcePath": "commands/gan-build.md",
+      "sourceSha": "476b04b9d095f92dd77dcaa4cb561e0481d42a61",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "gan-design",
+      "sourcePath": "commands/gan-design.md",
+      "sourceSha": "5826271cb5b4ef0f00467b01e4fefe557323cd44",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "go-build",
+      "sourcePath": "commands/go-build.md",
+      "sourceSha": "189b3d9ac2973a5e02087444cd7001a27909c75c",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "go-review",
+      "sourcePath": "commands/go-review.md",
+      "sourceSha": "4dde854af1ca512310fcd95ceba019541a07aa21",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "go-test",
+      "sourcePath": "commands/go-test.md",
+      "sourceSha": "8f592fb20cdff53f0732eeebad3a3532a2c7477d",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "gradle-build",
+      "sourcePath": "commands/gradle-build.md",
+      "sourceSha": "541ca1b68422a32ea16d5d003de6bc3e3e882031",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "harness-audit",
+      "sourcePath": "commands/harness-audit.md",
+      "sourceSha": "7e57c5057973b2b09fead3fe0ea2398752ebc448",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "hookify",
+      "sourcePath": "commands/hookify.md",
+      "sourceSha": "8fa3b3816ee0ff313df1e30915e2aea0f87ddec1",
+      "reason": "Creates Claude-specific hook rules and depends on a non-DSH hook runtime.",
+      "explicit": true
+    },
+    {
+      "name": "hookify-configure",
+      "sourcePath": "commands/hookify-configure.md",
+      "sourceSha": "929a8579497ccd0d8624b56b042378ddae21d9ee",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "hookify-help",
+      "sourcePath": "commands/hookify-help.md",
+      "sourceSha": "29322f7a4bf188680cfceacb1079566feefc7a9f",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "hookify-list",
+      "sourcePath": "commands/hookify-list.md",
+      "sourceSha": "b912ce1da7c9c6b7b75f65faee21cc455d7d6fb7",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "instinct-export",
+      "sourcePath": "commands/instinct-export.md",
+      "sourceSha": "6a47fa44cd31eba8768d0036816bc657b8016518",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "instinct-import",
+      "sourcePath": "commands/instinct-import.md",
+      "sourceSha": "e1a5684f019117af43f5f2c228cd3b88ae96d2eb",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "instinct-status",
+      "sourcePath": "commands/instinct-status.md",
+      "sourceSha": "040e2edfbb4d5096f546f008864c61d9d7de1757",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "jira",
+      "sourcePath": "commands/jira.md",
+      "sourceSha": "7838ec24309eafc02ae2de81ef1ffe96a5c7cd26",
+      "reason": "Uses remote credentials and can change issue state or post comments.",
+      "explicit": true
+    },
+    {
+      "name": "kotlin-build",
+      "sourcePath": "commands/kotlin-build.md",
+      "sourceSha": "ceb1ba97becda454a941b35fff2d468e3da84830",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "kotlin-review",
+      "sourcePath": "commands/kotlin-review.md",
+      "sourceSha": "a97b311753047c39fc2515c6daf9b91ea6f0450b",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "kotlin-test",
+      "sourcePath": "commands/kotlin-test.md",
+      "sourceSha": "bfbc822419bfc4c2756c0428b437d7a492748dfe",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "learn",
+      "sourcePath": "commands/learn.md",
+      "sourceSha": "3ab6990c22ffb4fdb11c149d5b37ebf28bc30cd9",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "learn-eval",
+      "sourcePath": "commands/learn-eval.md",
+      "sourceSha": "c936efdbbcbe8ebc61859f6e605232304505e0e4",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "loop-start",
+      "sourcePath": "commands/loop-start.md",
+      "sourceSha": "d91f6b4bad0fce7c1e76b0e176705f533b14a5e2",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "loop-status",
+      "sourcePath": "commands/loop-status.md",
+      "sourceSha": "7a05020c193b3350bb061032a0ecbf440bc8bb75",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "marketing-campaign",
+      "sourcePath": "commands/marketing-campaign.md",
+      "sourceSha": "904fd13339f0d12bedb795accbb421559bac0cfc",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "model-route",
+      "sourcePath": "commands/model-route.md",
+      "sourceSha": "ef03b90c846793656ef18761386ce4564f244a90",
+      "reason": "Selects Claude-specific model tiers; model routing is not portable to this DSH provider.",
+      "explicit": true
+    },
+    {
+      "name": "multi-backend",
+      "sourcePath": "commands/multi-backend.md",
+      "sourceSha": "1faa1c883ef52a87712d85a9517ad03cd199c1d8",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "multi-execute",
+      "sourcePath": "commands/multi-execute.md",
+      "sourceSha": "c70349d2d83a7546e78a6fdd2e4edcbf84606cb4",
+      "reason": "Requires an external multi-model runtime, vendor-specific tool calls, and scripts not packaged here.",
+      "explicit": true
+    },
+    {
+      "name": "multi-frontend",
+      "sourcePath": "commands/multi-frontend.md",
+      "sourceSha": "5807823bf5c1d413f236527243bdfddc5a8de0e7",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "multi-plan",
+      "sourcePath": "commands/multi-plan.md",
+      "sourceSha": "ac9e5c2599d72a11abdeae8cd7bc866514123675",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "multi-workflow",
+      "sourcePath": "commands/multi-workflow.md",
+      "sourceSha": "b5595e9436b4c78c1f70c005e146d3c4f7918c3f",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "orch-add-feature",
+      "sourcePath": "commands/orch-add-feature.md",
+      "sourceSha": "57db622c5a26ce6241cc42ff4cf013458e7f7281",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "orch-build-mvp",
+      "sourcePath": "commands/orch-build-mvp.md",
+      "sourceSha": "b2063bef96c96c55d6aca283c140fb2ccb0477f8",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "orch-change-feature",
+      "sourcePath": "commands/orch-change-feature.md",
+      "sourceSha": "fe5ee0a5f3f6cddaf5cd2c2ba79ba2dfa5c0c086",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "orch-fix-defect",
+      "sourcePath": "commands/orch-fix-defect.md",
+      "sourceSha": "e86b07a8d70084373ee4065bc49fe2dd7d4d1d6b",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "orch-refine-code",
+      "sourcePath": "commands/orch-refine-code.md",
+      "sourceSha": "522e93e9176abee0963aa6f6c7cd8f880f019261",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "orch-review",
+      "sourcePath": "commands/orch-review.md",
+      "sourceSha": "cb31173dc92cfe1ee52f0dcf3a7e2c75f61954fa",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "plan",
+      "sourcePath": "commands/plan.md",
+      "sourceSha": "f9ac7db6ecbb573d4e56fbd6cc7c7ef2e9ba7fa7",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "plan-canvas",
+      "sourcePath": "commands/plan-canvas.md",
+      "sourceSha": "0db7053d906d2449a46da9d706eb13311ecf7e1f",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "plan-prd",
+      "sourcePath": "commands/plan-prd.md",
+      "sourceSha": "192295785c8fe05f9524c61158872661d587b728",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "pm2",
+      "sourcePath": "commands/pm2.md",
+      "sourceSha": "5a9c35d7e2f223b3dca36a26f13f2fa035fdb34d",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "pr",
+      "sourcePath": "commands/pr.md",
+      "sourceSha": "264ec3fff0147be0254166ba42c3df0a74ff8fb2",
+      "reason": "Pushes commits and opens remote GitHub pull requests.",
+      "explicit": true
+    },
+    {
+      "name": "project-init",
+      "sourcePath": "commands/project-init.md",
+      "sourceSha": "183536d08b5f3ab3e6b7a2f660b93f4ebec87ef3",
+      "reason": "Runs the ECC installer and modifies other harness configuration files.",
+      "explicit": true
+    },
+    {
+      "name": "projects",
+      "sourcePath": "commands/projects.md",
+      "sourceSha": "5009a7b12b6f19d49d886fb5a6bf1e53688257d7",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "promote",
+      "sourcePath": "commands/promote.md",
+      "sourceSha": "c2d13da6e6b92b47f1ef4b89d4753526dfbaf1d8",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "prp-commit",
+      "sourcePath": "commands/prp-commit.md",
+      "sourceSha": "85935b8c54c9a22ae87612d8edbfeda21ef1411d",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "prp-implement",
+      "sourcePath": "commands/prp-implement.md",
+      "sourceSha": "9a729cf21f1ac699adbc3cbe36e0fb3cacdf8e19",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "prp-plan",
+      "sourcePath": "commands/prp-plan.md",
+      "sourceSha": "7d7e06c4aeed21cc9c81c289440451a15ba4c0fa",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "prp-pr",
+      "sourcePath": "commands/prp-pr.md",
+      "sourceSha": "2016ec90bf8ba6565708aa58573bba899fa32827",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "prp-prd",
+      "sourcePath": "commands/prp-prd.md",
+      "sourceSha": "5292c38c49bbb08d3d524793aea2ef0b8f662b9d",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "prune",
+      "sourcePath": "commands/prune.md",
+      "sourceSha": "efa9a1fe8c4b81745f3439740dc9c4d423f4b1ff",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "python-review",
+      "sourcePath": "commands/python-review.md",
+      "sourceSha": "b0d8b2a3c7e742502b86431f5a5a1c1263134382",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "quality-gate",
+      "sourcePath": "commands/quality-gate.md",
+      "sourceSha": "a749bff04b7fec120b57e398803a8bf4412da7eb",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "react-build",
+      "sourcePath": "commands/react-build.md",
+      "sourceSha": "6c21cc4e36fa2e2b37df5236dfa66f8615e0f9af",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "react-review",
+      "sourcePath": "commands/react-review.md",
+      "sourceSha": "1dedb3d1f9d194222af257447035b59c3290cc9c",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "react-test",
+      "sourcePath": "commands/react-test.md",
+      "sourceSha": "5cff7207788aff5894000fb584973a76bd605d3c",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "refactor-clean",
+      "sourcePath": "commands/refactor-clean.md",
+      "sourceSha": "781a57853df2a12d0bb627e0948de7d802d94ea0",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "resume-session",
+      "sourcePath": "commands/resume-session.md",
+      "sourceSha": "dcc54d06cb3ac4c6228560614a5abe3f07e0e813",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "review-pr",
+      "sourcePath": "commands/review-pr.md",
+      "sourceSha": "35d53413230fc706f0d55d7cc6b0014839947228",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "rust-build",
+      "sourcePath": "commands/rust-build.md",
+      "sourceSha": "b099be5f310f78344d1d534a84d09fac515e442d",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "rust-review",
+      "sourcePath": "commands/rust-review.md",
+      "sourceSha": "5d91d7d9e966e7bd3f5d265653c46a4b3b248df3",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "rust-test",
+      "sourcePath": "commands/rust-test.md",
+      "sourceSha": "ce671be5f3a543cf3e105ea8c5c2947905c3d0f2",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "santa-loop",
+      "sourcePath": "commands/santa-loop.md",
+      "sourceSha": "e5813993c33a01238342ecd4aa1deabffc34e310",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "save-session",
+      "sourcePath": "commands/save-session.md",
+      "sourceSha": "122598a95b0ad5b603d6cdf6fd878b1f2995dfbe",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "security-scan",
+      "sourcePath": "commands/security-scan.md",
+      "sourceSha": "52c11577894a8c2b5198a6094ac7374943c5801e",
+      "reason": "Requires an external AgentShield runtime and may run npx-backed code.",
+      "explicit": true
+    },
+    {
+      "name": "sessions",
+      "sourcePath": "commands/sessions.md",
+      "sourceSha": "22c04ea99c5a55af5b999e29953ad2bdc7eb8cb9",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "setup-pm",
+      "sourcePath": "commands/setup-pm.md",
+      "sourceSha": "87224b9cd12ef626398ff99d5aa624c122e4a686",
+      "reason": "Changes project or user package-manager configuration and requires an upstream script.",
+      "explicit": true
+    },
+    {
+      "name": "skill-create",
+      "sourcePath": "commands/skill-create.md",
+      "sourceSha": "8ef6846e44614aceb2ebb68ea8d9cb1d860ff6a2",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "skill-health",
+      "sourcePath": "commands/skill-health.md",
+      "sourceSha": "0f31929ef036aa1998094fa46eecf17afc2797ad",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "skill-host-compat",
+      "sourcePath": "commands/skill-host-compat.md",
+      "sourceSha": "c192c738eb0df17aa9a778dbca3c42f50bbdd4bf",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "token-card",
+      "sourcePath": "commands/token-card.md",
+      "sourceSha": "ea7a1b4a89e3579dc744e2f78e9986bd33f273d7",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "update-codemaps",
+      "sourcePath": "commands/update-codemaps.md",
+      "sourceSha": "a0670aed03e0c6dc4539052b9d9ac8f0f28bf3ae",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    },
+    {
+      "name": "vue-review",
+      "sourcePath": "commands/vue-review.md",
+      "sourceSha": "0e60610d89b508cebfbb2de6355b77222e4bbf26",
+      "reason": "Not in the explicit reviewed allowlist. Omitted under deny-by-default pending a command-specific portability and side-effect review.",
+      "explicit": false
+    }
+  ],
+  "assets": [
+    "commands/build-fix.md",
+    "commands/test-coverage.md",
+    "commands/update-docs.md"
+  ]
+}

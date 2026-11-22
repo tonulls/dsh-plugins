@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/motiondivision/motion",
+  "ref": "main",
+  "commit": "f95ab9418d9524b906c8681994b95d15cb03d5fc",
+  "snapshotDate": "2026-11-17",
+  "latestCommitEvidence": "https://github.com/motiondivision/motion/commits/main.atom",
+  "latestCommitAt": "2026-11-13T14:40:04Z",
+  "licenseAssessment": "GitHub API repository metadata reports MIT; no source code is included.",
+  "licenseEvidence": "https://api.github.com/repos/motiondivision/motion",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/motiondivision/motion",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied.",
+  "observedHead": "1b374802de947700ad7d2bb52a0ccec8339cf2f1"
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "789c5da5f34c9bc6b5fc13c592a6cbe29fb329f8",
+  "entries": [
+    {
+      "name": "web-search-setup",
+      "description": "Помогает оценить DSH web-search plugin без сетевых запросов и настройки backend.",
+      "file": "web-search-setup.md"
+    }
+  ]
+}

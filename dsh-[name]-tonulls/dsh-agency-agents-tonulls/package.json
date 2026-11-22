@@ -1,0 +1,13 @@
+{
+  "name": "dsh-agency-agents-tonulls-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "build:catalog": "node scripts/build-agents-catalog.mjs",
+    "check:catalog": "node scripts/build-agents-catalog.mjs --check"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "b044f956f021b6e8877f16781bcfc466a6a120e9",
+  "entries": [
+    {
+      "name": "cursor-rules-selector",
+      "description": "По явному запросу помогает отбирать правила, проверяя их первоисточник и отдельную лицензию.",
+      "file": "cursor-rules-selector.md"
+    }
+  ]
+}

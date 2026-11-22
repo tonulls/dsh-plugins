@@ -1,0 +1,19 @@
+{
+  "name": "dsh-fancy-tonulls-ru",
+  "description": "User-invocable DSH reference Skill with optional per-Agent automatic selection for evaluating Fancy React components",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": { ".": "./src/index.js", "./provider": "./src/provider.js", "./cordis.patch.yml": "./cordis.patch.yml", "./package.json": "./package.json", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg" },
+  "files": ["README.md", "LICENSE", "NOTICE.md", "src/*.js", "assets/skills/**/*.md", "assets/skills/catalog.json", "UPSTREAM.json", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-agent": "*",
+    "@deepseek-ai/dsh-commands": "*",
+    "@deepseek-ai/dsh-skill": "*"
+  }
+}

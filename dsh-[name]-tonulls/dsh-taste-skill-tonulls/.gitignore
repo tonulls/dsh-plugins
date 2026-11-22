@@ -1,0 +1,27 @@
+# Local dependencies and environments
+**/node_modules/
+**/.pnpm-store/
+**/.dsh-home/
+**/.env
+**/.env.*
+!**/.env.example
+**/.venv/
+**/venv/
+
+# Generated test and coverage output
+**/coverage/
+**/.nyc_output/
+**/test-results/
+**/playwright-report/
+**/blob-report/
+
+# Temporary files and logs
+**/tmp/
+**/temp/
+**/*.log
+**/*.tgz
+
+# Local agent instructions and OS metadata
+AGENTS.md
+**/.DS_Store
+**/Thumbs.db

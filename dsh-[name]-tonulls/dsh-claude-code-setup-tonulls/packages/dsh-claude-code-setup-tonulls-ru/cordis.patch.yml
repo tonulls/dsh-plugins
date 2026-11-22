@@ -1,0 +1,3 @@
+- insert:
+    - id: claude-code-setup-tonulls
+      name: dsh-claude-code-setup-tonulls-ru

@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/mrgoonie/claude-code-setup",
+  "ref": "main",
+  "commit": "c0d07b6b16cd5b1520f9d38b3ae2b50df1337a37",
+  "snapshotDate": "2026-11-17",
+  "latestCommitEvidence": "https://github.com/mrgoonie/claude-code-setup/commits/main.atom",
+  "latestCommitAt": "2025-08-21",
+  "catalogCardCommit": "c0d07b6b16cd5b1520f9d38b3ae2b50df1337a37",
+  "catalogPinStatus": "matches the observed main Atom feed",
+  "licenseAssessment": "No file-level license was confirmed from the catalog card or checked GitHub metadata; no upstream material is included.",
+  "licenseEvidence": "No confirmed license file; repository metadata was not treated as a distribution grant.",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/mrgoonie/claude-code-setup",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

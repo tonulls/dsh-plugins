@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/X-C1811/dsh-web-search-plugin",
+  "ref": "main",
+  "commit": "789c5da5f34c9bc6b5fc13c592a6cbe29fb329f8",
+  "snapshotDate": "2026-11-20",
+  "latestCommitEvidence": "https://github.com/X-C1811/dsh-web-search-plugin/commits/main.atom",
+  "latestCommitAt": "2026-11-18",
+  "catalogCardCommit": "d223f5e7f4aa46cd102ebf1d3f49e6aa6c995192",
+  "catalogPinStatus": "earlier catalog card commit; commit records the verified upstream HEAD",
+  "licenseAssessment": "MIT",
+  "licenseEvidence": "https://github.com/X-C1811/dsh-web-search-plugin/blob/789c5da5f34c9bc6b5fc13c592a6cbe29fb329f8/LICENSE",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/X-C1811/dsh-web-search-plugin",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

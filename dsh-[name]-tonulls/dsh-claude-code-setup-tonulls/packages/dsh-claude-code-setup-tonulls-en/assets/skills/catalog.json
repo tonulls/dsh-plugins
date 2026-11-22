@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "c0d07b6b16cd5b1520f9d38b3ae2b50df1337a37",
+  "entries": [
+    {
+      "name": "claude-setup-review",
+      "description": "On explicit request, helps assess third-party Claude Code configuration safely.",
+      "file": "claude-setup-review.md"
+    }
+  ]
+}

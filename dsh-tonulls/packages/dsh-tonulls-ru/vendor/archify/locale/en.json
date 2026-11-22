@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Archify diagrams",
+    "description": "User-invoked Skill for diagrams and HTML explainers; uses existing tools and writes artifacts in the workspace."
+  }
+}

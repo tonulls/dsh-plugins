@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "humanizer",
+      "description": "在保留原意和事实的前提下，润色文字并减少常见的机器写作痕迹。",
+      "file": "humanizer.md"
+    }
+  ]
+}

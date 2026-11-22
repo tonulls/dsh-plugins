@@ -1,0 +1,46 @@
+{
+  "name": "Emil Kowalski’s Skills",
+  "url": "https://github.com/emilkowalski/skills",
+  "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+  "includedSkills": [
+    "animation-performance",
+    "animation-vocabulary",
+    "animate-expo",
+    "animate",
+    "apple-design",
+    "mobile-native",
+    "improve-animations",
+    "ask-sonner",
+    "find-animation-opportunities",
+    "emil-design-eng",
+    "review-animations",
+    "remove-animations",
+    "ask-emil",
+    "choreograph",
+    "gestures",
+    "learn-taste"
+  ],
+  "adaptedFrom": {
+    "gestures": "https://github.com/emilkowalski/skills/tree/64eb3deb/skills/gestures",
+    "learn-taste": "https://github.com/emilkowalski/skills/tree/64eb3deb/skills/learn-taste",
+    "ask-emil": "https://github.com/emilkowalski/skills/tree/64eb3deb/skills/ask-emil"
+  },
+  "omittedSkills": [
+    "prototype",
+    "break-ui",
+    "pick-ui-library",
+    "write-swift"
+  ],
+  "sourceLicense": "MIT",
+  "sourceCopyright": "Copyright (c) 2026 Emil Kowalski",
+  "includedReferences": [
+    "animate-expo/RECIPES.md",
+    "animate/RECIPES.md",
+    "improve-animations/AUDIT.md",
+    "improve-animations/PLAN-TEMPLATE.md",
+    "ask-sonner/API.md",
+    "review-animations/STANDARDS.md",
+    "choreograph/RECIPES.md"
+  ],
+  "adaptation": "User-invoked instructions with DSH confirmation and verification boundaries; no runtime tools or integrations."
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "yt-plan",
+      "description": "根据可用时间和现有素材制定可执行的周或月发布计划。",
+      "file": "yt-plan.md"
+    },
+    {
+      "name": "yt-comment",
+      "description": "整理用户提供的评论并起草回复。",
+      "file": "yt-comment.md"
+    },
+    {
+      "name": "yt-shorts",
+      "description": "从用户提供的文字稿中寻找适合 Shorts 的独立片段。",
+      "file": "yt-shorts.md"
+    },
+    {
+      "name": "yt-seo",
+      "description": "根据用户提供的主题和搜索词起草视频描述和标签。",
+      "file": "yt-seo.md"
+    },
+    {
+      "name": "yt-audit",
+      "description": "根据用户提供的频道数据确定一个最优先的改进方向。",
+      "file": "yt-audit.md"
+    },
+    {
+      "name": "yt-script",
+      "description": "起草 YouTube 脚本并提供多个开场方案，不进行自动评分。",
+      "file": "yt-script.md"
+    },
+    {
+      "name": "yt-package",
+      "description": "定性审查标题与缩略图方案，不提供自动评分。",
+      "file": "yt-package.md"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "upstreamCommit": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+  "decision": "omit",
+  "sourcePath": "workflows/README.md",
+  "sourceSha": "db58b5a398f1f4ef651baa360af6d46034568ad4",
+  "reason": "The pinned allowlist contains only the documentation README for the Workflow pilot; its executable JavaScript workflow is excluded by the reviewed sync-map. The pilot requires multi-agent orchestration and a verified DSH runtime contract, neither of which is established here. Do not package or recreate it from documentation alone."
+}

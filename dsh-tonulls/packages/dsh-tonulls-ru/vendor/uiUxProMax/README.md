@@ -1,0 +1,11 @@
+# UI UX Pro Max DSH reference package
+
+Language: Russian.
+
+Registers the `ui-ux-pro-max-review` reference Skill. It grants no tools and includes no upstream code, documentation, data, examples, or assets. See the project’s [.docs/ru/guide/setup.md](https://github.com/tonulls/dsh-plugins/blob/tonulls/dsh-%5Bname%5D-tonulls/dsh-ui-ux-pro-max-tonulls/.docs/ru/guide/setup.md) for installation and use; read the [lifecycle guide](https://github.com/tonulls/dsh-plugins/blob/tonulls/dsh-%5Bname%5D-tonulls/dsh-ui-ux-pro-max-tonulls/.docs/ru/guide/lifecycle.md) for startup, verification, update/restart, disable/stop limits, and removal. See [UPSTREAM.json](UPSTREAM.json) for source evidence.
+
+## Автоподбор
+
+Автоподбор выключен по умолчанию для каждого Agent. Используйте `/dsh-ui-ux-pro-max-tonulls on` и `/dsh-ui-ux-pro-max-tonulls off`; прямой вызов Skill остаётся доступен.
+
+🛠️ Модифицировано с помощью Codex

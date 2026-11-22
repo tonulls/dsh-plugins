@@ -1,0 +1,103 @@
+# Karpathy Guidelines for DeepSeek Harness（DSH）
+
+[Русский](../../README.md) | [English](../en/project-readme.md) | **简体中文**
+
+## 说明
+
+Karpathy Guidelines 为 DSH 提供一项技能，围绕四条原则展开：实现前明确任务、优先选择简单方案、仅做必要修改，并验证结果。
+
+## 安装
+
+安装到 `web` 配置。可按需替换为自己的配置名称。
+
+```sh
+dsh plugin --profile web add 'git+https://github.com/tonulls/dsh-plugins.git#tonulls&path:/dsh-[name]-tonulls/dsh-AKS-tonulls/packages/dsh-aks-tonulls-zh'
+```
+
+## 启动
+
+启动已安装此包的 DSH 配置。
+
+```sh
+dsh web
+```
+
+## 验证
+
+检查 DSH 配置。
+
+```sh
+dsh --version
+```
+
+```sh
+dsh plugin --profile web list
+```
+
+```sh
+dsh --profile web --dump-config
+```
+
+## 使用
+
+使用以下命令控制当前 Agent 的技能自动选择。
+
+```text
+/dsh-aks-tonulls on
+```
+
+直接调用技能 — `/karpathy-guidelines`.
+
+## 更新
+
+```sh
+dsh plugin --profile web update dsh-aks-tonulls-zh
+```
+
+## 重启
+
+更新后重启 DSH 配置。
+
+## 停止
+
+```text
+/dsh-aks-tonulls off
+```
+
+使用上面的命令关闭当前 Agent 的技能自动选择。在终端按 `Ctrl+C` 停止 DSH Web。
+
+## 卸载
+
+```sh
+dsh plugin --profile web remove dsh-aks-tonulls-zh
+```
+
+## 文档
+
+- [原始项目](https://github.com/multica-ai/andrej-karpathy-skills)
+- [组件来源及核对记录（俄语）](../ru/upstream.md)
+- [文档索引](README.md)
+- [上游来源记录](../../packages/dsh-aks-tonulls-zh/UPSTREAM.json)
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)
+
+## 捐赠
+
+🔹EVM:      ``0x6Ad56B8C723140ACb43F6070Af2102A98F28A72C``
+
+🔹BTC:      ``bc1qvp9mx5w6m0gv022p0xdde5qqmzfyd4yuys6c93``
+
+🔹TRON:     ``TLLUSBZBLb7x994TH1eYrDZhmLFPBLZSrv``
+
+🔹SOLANA:   ``8p5FjXzNYraUvckfzNt37ZRCzx36pd2SWdVvRErTkMyH``
+
+🔹GRAM-TON: ``UQD1gNMVhlJewKXMUY1E3_bedZsc-ktzt8ZxZCUhzrcEcPyg``
+
+🔹USDT-TON: ``UQD1gNMVhlJewKXMUY1E3_bedZsc-ktzt8ZxZCUhzrcEcPyg``
+
+## 致谢与许可证
+
+感谢原始项目作者和 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的开发者。
+
+许可证及署名 — [LICENSE](../../packages/dsh-aks-tonulls-zh/LICENSE).
+
+🛠️ 使用 Codex 修改

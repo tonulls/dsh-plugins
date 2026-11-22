@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "f95ab9418d9524b906c8681994b95d15cb03d5fc",
+  "entries": [
+    {
+      "name": "motion-react-review",
+      "description": "Checks Motion APIs, compatibility, reduced motion, and SSR.",
+      "file": "motion-react-review.md"
+    }
+  ]
+}

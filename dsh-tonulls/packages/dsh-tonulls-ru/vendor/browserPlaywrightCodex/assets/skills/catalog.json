@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "82a57bba982f3526a3277bb5168ef09bd309e85f",
+  "entries": [
+    {
+      "name": "browser-automation-review",
+      "description": "Помогает оценить browser/Playwright интеграцию без доступа к браузеру или профилю.",
+      "file": "browser-automation-review.md"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/obra/superpowers",
+  "ref": "main",
+  "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+  "snapshotDate": "2026-11-17",
+  "latestCommitEvidence": "https://github.com/obra/superpowers/commits/main.atom",
+  "latestCommitAt": "2026-11-03T22:17:07Z",
+  "catalogCardCommit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+  "catalogPinStatus": "catalog pin is older than observed main Atom feed",
+  "licenseAssessment": "No file-level license was confirmed from the catalog card or checked GitHub metadata; no upstream material is included.",
+  "licenseEvidence": "No confirmed license file; repository metadata was not treated as a distribution grant.",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/obra/superpowers",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

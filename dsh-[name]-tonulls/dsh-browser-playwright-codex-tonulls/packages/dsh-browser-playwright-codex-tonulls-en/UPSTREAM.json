@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/miqian-nomad/dsh-browser-playwright-codex",
+  "ref": "main",
+  "commit": "82a57bba982f3526a3277bb5168ef09bd309e85f",
+  "snapshotDate": "2026-11-17",
+  "latestCommitEvidence": "https://github.com/miqian-nomad/dsh-browser-playwright-codex/commits/main.atom",
+  "latestCommitAt": "2026-11-14",
+  "catalogCardCommit": "82a57bba982f3526a3277bb5168ef09bd309e85f",
+  "catalogPinStatus": "matches observed main Atom feed",
+  "licenseAssessment": "The catalog card does not establish a license; no upstream code, browser access, or profile data is included.",
+  "licenseEvidence": "No confirmed source license in the catalog card; source was not redistributed.",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/miqian-nomad/dsh-browser-playwright-codex",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}

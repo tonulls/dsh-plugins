@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "5fb385c3c56a004eacad6a21cb446205c787926b",
+  "entries": [
+    {
+      "name": "mcp-server-selection",
+      "description": "评估 MCP 候选项，并检查来源、许可证和权限。",
+      "file": "mcp-server-selection.md"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "name": "caveman",
+      "description": "Сокращает лишние слова, сохраняя технические факты и точность.",
+      "file": "caveman.md"
+    }
+  ]
+}

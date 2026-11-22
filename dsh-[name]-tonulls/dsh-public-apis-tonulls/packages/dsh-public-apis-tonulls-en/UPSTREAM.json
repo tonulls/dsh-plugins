@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/public-apis/public-apis",
+  "ref": "main",
+  "commit": "867085ccdf4adb7166bdac207b82f117bb418eb0",
+  "snapshotDate": "2026-11-20",
+  "latestCommitEvidence": "https://github.com/public-apis/public-apis/commits/main.atom",
+  "latestCommitAt": "2026-11-20T19:42:29Z",
+  "licenseAssessment": "MIT",
+  "licenseEvidence": "https://github.com/public-apis/public-apis/blob/867085ccdf4adb7166bdac207b82f117bb418eb0/LICENSE",
+  "licenseMetadataEndpoint": "https://api.github.com/repos/public-apis/public-apis",
+  "adaptedSkillCount": 1,
+  "contentPolicy": "Original reference guidance only; no upstream code, documentation, prompts, data, registry entries, components, examples, or assets are copied."
+}
